@@ -1,0 +1,35 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find the closest Restaurant Name",
+    "SEARCH_DELIVERY_LABEL": "Where is your food going?"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Please let us know which location you’d like to pick up your order from and if you have any additional notes for the team.",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Please let us know if you have any additional notes for your delivery order you'd like our team to know."
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP",
+    "INPUT_PLACEHOLDER": "Enter Your Password",
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": ""
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter Your Email",
+    "INPUT_PLACEHOLDER": " Email",
+    "BUTTON_TEXT": "Login"
+  },
+  "FORGOT_PASSWORD_STATIC": {
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Enter Your Password"
+  },
+  "SIGN_UP_STATIC": {
+    "EMAIL_PLACEHOLDER": "Enter Your Email",
+    "PASSWORD_PLACEHOLDER": "Enter Your Password"
+  },
+  "UPDATE_PHONE_STATIC" : {
+    "VERIFY_CODE_RESEND_PIN_BUTTON_TEXT":"RESEND CODE"
+  }
+}

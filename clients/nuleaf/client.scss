@@ -1,0 +1,129 @@
+@import "styles/config";
+
+$baseBlue: #7D99DE;
+$baseWhite: #ffffff;
+$lightGray: #f5f5f5;
+$baseBlack: #222222;
+
+.tabContent-container {
+    border-top: 2px solid $baseBlue;
+}
+
+.rc-tabs-tab {
+    text-align: center;
+    margin: 0 4.375rem;
+    right: 2.813rem;
+}
+
+.nav-item[active="1"] {
+  span {
+    color: white !important;
+  }
+}
+
+input:disabled {
+  color: rgba(00, 00, 00, 0.7) !important;
+}
+
+%locationCard {
+    box-shadow: 0px 0px 4px rgba(95, 95, 95, 0.4);
+    margin: 1rem 0rem 2rem 0.5rem!important;
+    width: 95%!important;
+}
+
+%footerButton {
+    box-shadow: 0px -4px 4px rgba(95, 95, 95, 0.1);
+}
+
+%menuItem {
+    box-shadow: 0px 0px 7.06667px 2.01905px #ECECEC;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 0px 0px 20px #E2DADA !important;
+    }
+}
+
+%footerContainer {
+    box-shadow: 0px -2px 5px #E4E3E3;
+}
+
+.cateringHome {
+  background-size: 100% 100%!important;
+}
+
+%modifierItem{
+  .modifierItem {
+    &-quantity-btn{ 
+      &-plus, &-minus {
+        border: 2px solid $baseBlue;
+        color: $baseBlue!important;
+        background-color: transparent!important;
+        height: 2rem;
+        width: 2rem;
+        padding-top: 3px;
+      }
+    }
+  }
+  border-bottom: 1.5px solid #808080!important;
+}
+
+
+%section-content {
+  border-top: 1.5px solid $baseBlack;
+}
+
+%header {
+  :first-child {
+    padding-bottom: 10px;
+  }
+}
+
+%page-content {
+  background-color: $lightGray !important;
+}
+
+.tip {
+  & > span {
+    display: flex !important;
+    align-items: center !important;
+
+    .tip-label {
+      margin-bottom: 0 !important;
+    }
+
+    .tip-group {
+      
+      flex-grow: 1 !important;
+      display: flex !important;
+      justify-content: center !important;
+      & > label {
+        padding: 3px 30px!important;
+      }
+    }
+  }
+}
+
+.orderItem {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+@media screen and (max-width: 48em) {
+  .rc-tabs-tab {
+    padding: 8px 10px!important;
+    & > div {
+      width: 7rem;
+    }
+  }
+  .tip {
+    & > span {
+      .tip-group {
+        & > label {
+          padding: 3px 10px !important;
+        }
+      }
+    }
+  }
+  .remove-confirmation {
+    height: 100%;
+  }
+}

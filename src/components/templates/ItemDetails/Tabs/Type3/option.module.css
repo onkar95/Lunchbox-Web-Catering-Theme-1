@@ -1,0 +1,16 @@
+.option {
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+  border-bottom-width: 0px !important;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 25px;
+}
+
+.name {
+  white-space: pre-wrap;
+}
+
+.items > div {
+  padding: 0.5rem;
+}

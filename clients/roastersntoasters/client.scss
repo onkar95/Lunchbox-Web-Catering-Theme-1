@@ -1,0 +1,263 @@
+@import "styles/config";
+
+$header-misc-art: true;
+$show-delivery-image: true;
+
+$accentLight: #f4f4f4;
+$accentDark: #2c2c2c;
+$backgroundGray: #939393;
+$baseRed: #ff1101;
+$baseWhite: #ffffff;
+$baseGray: #f2f2f2;
+
+$custom-qmark: true !default;
+
+@mixin customQmark {
+  background-color: $baseWhite;
+  color: $baseRed !important;
+  border-radius: 50%;
+  border: 1px solid $baseRed;
+}
+
+// HOME PAGE
+.header {
+  > div {
+    line-height: 2;
+  }
+  .logo {
+    max-width: 193px;
+    margin-left: 12px;
+  }
+}
+
+html {
+  background-color: $baseGray;
+}
+
+.loginHeader {
+  margin: 30px 60px;
+}
+
+.loginHeader-description span:first-child {
+  margin-bottom: 13px;
+}
+
+.loginHeader-description span:last-child {
+  text-transform: capitalize !important;
+}
+
+.header-image {
+  height: 275px !important;
+}
+
+.rc-tabs {
+  &-bar {
+    background-color: $accentDark;
+  }
+
+  &-tab {
+    padding: 14px 40px;
+  }
+}
+
+%locationCard {
+  padding: 20px !important;
+}
+
+.cateringHome {
+  &-misc-image {
+    display: none !important;
+  }
+
+  &-content {
+    padding-top: 0rem !important;
+
+    &-title {
+      padding: 25px !important;
+    }
+  }
+
+  &-tab-container {
+    margin-top: 0rem !important;
+  }
+
+  &-footer {
+    color: $baseRed !important;
+    &-button {
+      box-shadow: 0px 4px 7px 0px #d8d8d8;
+    }
+  }
+}
+
+.input-suffix > img {
+  display: none;
+}
+
+.nav-container {
+  ul.nav-list {
+    li {
+      &[active="1"],
+      &:active {
+        border: solid 2px $accentDark !important;
+      }
+    }
+  }
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 2px solid black !important;
+    margin-bottom: 2rem !important;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.location-info-card {
+  height: fit-content !important;
+  box-shadow: 0px 4px 7px 2px #d8d8d8;
+}
+
+// This align the back icon with the text
+.location-nav > div:first-child {
+  margin-top: 0.6rem;
+}
+
+// ITEM DETAILS
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0px;
+      box-shadow: 0px 5px 5px 0px #cfcfcfcc !important;
+
+      .nav {
+        background-color: $accentDark;
+        padding: 15px;
+        align-items: center;
+        .nav-item {
+          padding: 0px;
+          button {
+            padding: 0.4rem 1rem;
+            &:active {
+              background: none !important;
+            }
+          }
+          &[data-active="1"] {
+            button {
+              background-color: $baseRed;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.back {
+  width: 35px !important;
+  height: 35px !important;
+}
+#itemDetails {
+  > div:first-child {
+    > div:first-child {
+      img {
+        top: 4px;
+        left: 3px;
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}
+
+%option {
+  .option {
+    &-lineText {
+      padding: 0px;
+    }
+  }
+}
+
+%modifierItem {
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: #ffffff;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+
+// CART
+%orderItem {
+  padding-bottom: 15px !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.complete {
+  &-content {
+    margin-bottom: 0rem !important;
+  }
+}
+
+%footerButton {
+  & > button {
+    @include elevation(2, 6, "hover");
+    min-height: 58px !important;
+    max-height: 58px !important;
+  }
+}
+
+%priceContainer {
+  padding-top: 20px !important;
+  padding-bottom: 25px !important;
+}
+
+.cart-catering-logo {
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 25px;
+}
+
+.orderItem-info-actions {
+  .cart-btn:last-child {
+    padding-right: 0px !important;
+  }
+}
+
+input:disabled {
+  color: #1a1a1a !important;
+}
+
+a {
+  color: inherit;
+}
+
+.select-container::after {
+  color: $accentDark !important;
+}
+
+@media screen and (max-width: 48em) {
+  .group-info .group-description {
+    visibility: visible;
+  }
+
+  .remove-confirmation {
+    height: 100%;
+  }
+}

@@ -1,0 +1,126 @@
+@import "styles/config";
+
+$baseBackground: #f4f5f6;
+$accentDark: #097969;
+$baseWhite: #ffffff;
+$baseBlack: #212121;
+
+.tabContent-container {
+  background-color: $baseBackground;
+}
+
+.locationCard {
+  box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.12);
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 0.0625rem solid #88919a !important;
+    margin-bottom: 2rem !important;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-info {
+    margin-bottom: 1rem !important;
+  }
+}
+
+.back {
+  width: 2.1875rem !important;
+  height: 2.1875rem !important;
+}
+#itemDetails {
+  > div:first-child {
+    > div:first-child {
+      img {
+        width: 2.1875rem;
+        height: 2.1875rem;
+      }
+    }
+  }
+}
+
+%option {
+  display: none;
+  .option {
+    background-color: $baseBackground;
+  }
+}
+
+.tab-container {
+  background-color: $baseBackground;
+  .container {
+    .option {
+      background-color: $baseBackground !important;
+      padding-top: 30px !important;
+    }
+  }
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+
+    &-qty {
+      &--btn span {
+        width: 0.75rem;
+        height: 1.375rem;
+      }
+    }
+  }
+}
+
+%footerContainer {
+  %quantitySelector {
+    font-size: 1.25rem;
+    padding: 0.62rem 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    &::before {
+      content: "Quantity";
+    }
+  }
+}
+
+.cart-catering-logo {
+  display: none;
+}
+
+.cart-catering-logo-bottom {
+  display: none;
+}
+
+.orderItem-info-actions {
+  .cart-btn:last-child {
+    padding: 0.5rem 0rem !important;
+  }
+}
+
+.profileHeader {
+  line-height: 2.5;
+}
+
+.section-title {
+  border-color: $baseBlack !important;
+}
+
+.loginHeader-image {
+  width: auto !important;
+}
+
+a {
+  color: inherit !important;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold !important;
+}

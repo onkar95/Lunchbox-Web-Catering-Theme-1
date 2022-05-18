@@ -1,0 +1,44 @@
+.footer {
+  width: inherit;
+  padding: 0.4rem;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  left: 0%;
+  z-index: 99;
+}
+
+.footer svg {
+  height: 1.1rem;
+}
+.footer-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link > span {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0.3rem;
+    font-size: 0.875rem;
+  }
+  .footer svg {
+    height: 0.9rem;
+  }
+}
+
+@keyframes stickySlide {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

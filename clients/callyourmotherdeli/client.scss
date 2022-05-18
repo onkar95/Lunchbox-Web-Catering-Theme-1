@@ -1,0 +1,145 @@
+@import "styles/config";
+
+$baseBlue: #7d99de;
+$baseWhite: #ffffff;
+$lightGray: #f5f5f5;
+$baseBlack: #222222;
+$accentLight: #17b2be;
+
+.rc-tabs-tab {
+  text-align: center;
+  margin: 0 4.375rem;
+  right: 2.813rem;
+}
+
+.rc-tabs-top .rc-tabs-bar {
+  background-color: $accentLight;
+}
+
+%footerButton {
+  box-shadow: 0px -4px 4px rgba(95, 95, 95, 0.1);
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7.06667px 2.01905px #ececec;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 20px #e2dada !important;
+  }
+}
+
+%footerContainer {
+  box-shadow: 0px -2px 5px #e4e3e3;
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentLight;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--number {
+        background-color: $accentLight !important;
+      }
+      &--btn {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+
+%section-content {
+  border-top: 1.5px solid $baseBlack;
+}
+
+%header {
+  :first-child {
+    padding-bottom: 10px;
+  }
+}
+
+%page-content {
+  background-color: $lightGray !important;
+}
+
+.tip {
+  & > span {
+    display: flex !important;
+    align-items: center !important;
+
+    .tip-label {
+      margin-bottom: 0 !important;
+    }
+
+    .tip-group {
+      flex-grow: 1 !important;
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+}
+
+.orderItem {
+  &-info {
+    &-actions {
+      button:nth-of-type(2) {
+        padding-right: 0px !important;
+      }
+    }
+  }
+}
+
+.nav-left {
+  padding-left: 30px !important;
+}
+
+.logo {
+  img {
+    width: auto !important;
+  }
+}
+
+.cateringHome {
+  &-footer {
+    &-container {
+      span {
+        color: $accentLight !important;
+      }
+    }
+  }
+}
+
+.header {
+  border-bottom: 2.5px solid $accentLight !important;
+}
+
+.group-info {
+  border-bottom: 2px solid $baseBlack !important;
+  width: 98% !important;
+  margin-left: 1% !important;
+  padding-bottom: 2rem;
+}
+
+.loginHeader {
+  margin: 30px 60px;
+}
+
+.loginHeader-description span:first-child {
+  margin-bottom: 13px;
+}
+
+a {
+  color: $accentLight;
+}
+
+.tab-container {
+  background-color: $lightGray !important;
+}

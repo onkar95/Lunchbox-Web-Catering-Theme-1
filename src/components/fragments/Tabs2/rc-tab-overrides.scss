@@ -1,0 +1,36 @@
+@import 'client';
+.rc-tabs {
+  &-bar {
+    display: flex;
+
+    & > div:first-child {
+      display: flex;
+      flex-grow: 1;
+    }
+  }
+
+  &-top {
+    border-bottom: none;
+
+    .rc-tabs-ink-bar {
+      height: 2px;
+    }
+
+    .rc-tabs-tab {
+      flex-grow: 1;
+      margin-right: 0px;
+      flex-basis: 0;
+    }
+  }
+
+  .rc-tabs-tab {
+    text-align: center;
+
+    &-active {
+      &.rc-tabs-tab:only-child {
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+      }
+    }
+  }
+}

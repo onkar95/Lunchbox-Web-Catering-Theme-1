@@ -1,0 +1,22 @@
+@import "styles/config";
+@import "client";
+
+
+.page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex-grow: 1;
+  @extend %page-content !optional
+}
+
+/* Styles added to compensate for fixed header*/
+
+.header-filler {
+  min-height: 75px;
+  max-height: 75px;
+  visibility: hidden;
+}

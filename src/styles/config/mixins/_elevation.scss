@@ -1,0 +1,96 @@
+/*
+ * Material Design Elevations
+ * @prestopasto/scss-material-shadows
+ *
+ * Modified by Lunchbox.
+ *
+ * Box Shadow values from Material Shadow Interpolator found here:
+ * http://codepen.io/shyndman/pen/ojxmdY?editors=001
+ *
+ * Found from Angular Material 2 notes here:
+ * https://docs.google.com/document/d/1W3NGSLqDZzjbBBLW2C6y_6NUxtvdZAVaJvg58LY3Q0E/preview#
+ *
+ * start/finish = dp from 0 to 24
+ *
+ * .example {
+ *    @include elevation(start);
+ *    @include elevationTransition(finish-start); - optional for animations, use difference in dp
+ *    &:hover {
+ *        @include elevation(finish);
+ *    }
+ * }
+ *
+ * .example {
+ *    @include elevation(start, finish, 'hover'); - same as above with transition and hover
+ * }
+ *
+ * .example {
+ *    @include elevationElement(element); - refer to variables for available options
+ * }
+ *
+ */
+
+@mixin elevation(
+  $elevation1,
+  $elevation2: null,
+  $state: null,
+  $shadowColor: null
+) {
+  @if $elevation1==0 {
+    box-shadow: none !important;
+  } @else {
+    box-shadow: calculateShadowSetAtDepth($elevation1);
+  }
+
+  @if $elevation2 != null {
+    @include elevationTransition($elevation2 -$elevation2);
+    &:#{$state} {
+      @if $elevation1==0 {
+        box-shadow: none !important;
+      } @else {
+        box-shadow: calculateShadowSetAtDepth($elevation2);
+      }
+    }
+  }
+}
+
+@mixin elevationTransition(
+  $elevationChange: 6,
+  $easing: cubic-bezier(0.4, 0, 0.2, 1)
+) {
+  $duration: lerp(
+    $elevationChange/24,
+    $min_animation_length,
+    $max_animation_length
+  );
+  transition: box-shadow $duration $easing;
+}
+
+@mixin elevationElement($elementName) {
+  $attr: map-get($elevatedElements, $elementName);
+  @if length($attr) == 1 {
+    @include elevation(nth($attr, 1));
+  } @else {
+    @include elevation(nth($attr, 1), nth($attr, 2), nth($attr, 3));
+  }
+}
+
+// @for $zValue from 0 through 24 {
+//   .elevation-z#{$zValue} {
+//     @include elevation($zValue);
+//   }
+// }
+
+// elevation-transition {
+//   transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// @each $element, $attr in $elevatedElements {
+//   .elevation-#{$element} {
+//     @if length($attr) == 1 {
+//       @include elevation(nth($attr, 1));
+//     } @else {
+//       @include elevation(nth($attr, 1), nth($attr, 2), nth($attr, 3));
+//     }
+//   }
+// }

@@ -1,0 +1,29 @@
+
+:root {
+  --font-1: "Gotham-Black";
+  --font-2: "Gotham-Bold";
+  --font-3: "Gotham-Book";
+  --font-4: "Gotham-Medium";
+  --font-5: "Knockout-49";
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/Gotham-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../fonts/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("../fonts/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/Gotham-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Knockout-49";
+  src: url("../fonts/Knockout-49.otf") format("opentype");
+}

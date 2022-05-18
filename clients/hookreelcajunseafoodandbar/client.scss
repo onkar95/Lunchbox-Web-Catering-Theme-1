@@ -1,0 +1,162 @@
+@import "styles/config";
+$baseBlack: #88919a;
+$baseRed:#E81E25;
+$accentDark:#187D7A;
+$baseWhite: #ffffff;
+$header-misc-art: true !default;
+$show-delivery-image: true !default;
+
+a {
+  color:inherit;
+}
+
+.header {
+  .logo {
+    padding-right: 40px;
+    padding-left: 15px;
+  }
+}
+
+.quantity-btn {
+  span {
+    font-size: 24px !important;
+  }
+}
+
+.cateringHome {
+  &-footer {
+    &-container span {
+      text-transform: none !important;
+      font-family: "Goudy Old Style Bold" !important;
+      color: #d89232 !important;
+    }
+
+    &-button {
+      box-shadow: 0px 4px 7px #d8d8d8;
+    }
+  }
+}
+
+.loginHeader {
+  padding: 10px;
+  flex-direction: column;
+}
+
+.footerButton {
+  box-shadow: 0px -4px 4px rgba(95, 95, 95, 0.1);
+
+  button {
+    padding: 10px;
+    max-height: unset !important;
+  }
+}
+
+.orderItem {
+  box-shadow: 0px 2px 7px 3px #d8d8d8;
+
+  padding-bottom: 0px !important;
+
+  &-image {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  &-info-actions {
+    border-top: 0.25px solid #1a1a1a !important;
+
+    button:first-child:not(:only-child) {
+      border-right: none !important;
+      border-left: 0.25px solid #1a1a1a !important;
+      order: 2;
+    }
+  }
+}
+
+.tip-group {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 48em) {
+  .cateringHome {
+    &-content {
+      padding-top: 3rem !important;
+    }
+  }
+}
+
+// Order Item Hr Styling
+.group-info-hr {
+  display: block !important;
+  width: 95%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $baseBlack;
+  margin-bottom: 30px;
+}
+
+.base {
+  align-items: initial !important;
+}
+
+// Location Card Ink hr
+.rc-tabs-ink-bar {
+  background-color: $baseRed !important;
+  height: 4px !important;
+}
+
+.tabContent-card-content {
+  > div:first-child {
+    border: 3px solid $accentDark; // Selected location has border
+  }
+}
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      .nav {
+        .nav-item {
+          &[data-active="1"] {
+            button {
+              border-bottom:3px solid $baseRed  !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Modifier Item Type 3 styling
+%modifierItem {
+  flex-direction: row;
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--number {
+        background-color: $baseWhite !important;
+      }
+      &--btn {
+        border: 1px solid #88919a;
+        border-radius: 100% !important;
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+      }
+    }
+  }
+}
+
+%loginHeader {
+  width:100%;
+  padding:1rem;
+}

@@ -1,0 +1,88 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  min-height: 175px;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  background-position: bottom;
+}
+
+.image {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom;
+}
+
+.name {
+  flex-grow: 1;
+}
+.desc {
+  flex-grow: 3;
+}
+
+.price {
+  flex-grow: 0;
+}
+
+.selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+}
+
+.quantity-btn {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+/* Tablet 768px */
+@media screen and (min-width: 48em) {
+  .item {
+    background-size: 80% auto;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .quantity {
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (min-width: 72em) {
+  .quantity {
+    margin: 0px 2px;
+  }
+}
+
+@media screen and (min-width: 84em) {
+  .quantity {
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (min-width: 96em) {
+}

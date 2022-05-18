@@ -1,0 +1,138 @@
+{
+  "id": "mulberryandvine",
+  "restaurant": "Mulberry and Vine",
+  "directory": "mulberryandvine",
+  "local_storage_key": "access",
+  "default_tab": "delivery",
+  "pickup": {
+    "tip": true,
+    "tip_default": 0,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": true,
+    "tip_default": 0.15,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": false,
+      "client_id": null
+    },
+    "google": {
+      "enabled": false,
+      "client_id": null
+    }
+  },
+  "login_signup": {
+    "version": "Type1",
+    "header": "",
+    "nav_item": "Type1"
+  },
+  "payment_processor": "stripe",
+  "tax_tooltip": 0,
+  "website": {
+    "name": "Mulberry & Vine Online Ordering",
+    "description": "",
+    "url": "https://mulberryandvine.com",
+    "favicons": [
+      {
+        "rel": "shortcut icon",
+        "src": "//s3.amazonaws.com/betterboh/u/img/prod/21/1456980860_MV_favicon.jpg",
+        "sizes": "",
+        "type": "image/x-icon"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "src": "//s3.amazonaws.com/betterboh/u/img/prod/21/1456981047_MV_ATI.jpg",
+        "sizes": "",
+        "type": "image/x-icon"
+      }
+    ]
+  },
+  "diet_order": ["vegan", "glutenFree", "nut", "dairyFree"],
+  "hardcodes": {
+    "groupOrder": [],
+    "optionsTabs": []
+  },
+  "theme": {
+    "color": "#FFCF06",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "Type1",
+      "card": "Type2",
+      "map_geo": {
+        "lat": 40.7831,
+        "long": -73.9712
+      }
+    },
+    "menu": {
+      "layout": "Type2",
+      "nav": "Type5",
+      "group_container": "",
+      "item_card": "Type1",
+      "catering_info_time": 1,
+      "info": "Type3",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "cart_item": "Type3",
+      "confirmation": "Type5"
+    },
+    "item_details": {
+      "group": "Type4",
+      "header": "Type1",
+      "tabs": "Type4",
+      "modifier_items": "Type1",
+      "cart_item": "Type3",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type1",
+    "empty": "",
+    "cart_item": "",
+    "footer": "",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": false,
+    "required_contact_name": true,
+    "required_contact_phone": true,
+    "required_number_of_guests": true,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": false
+  },
+  "lang": {
+    "phone": "",
+    "email": "mark@mulberryandvine.com",
+    "info": "",
+    "home_title": "FIND YOUR MULBERRY & VINE",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Service Fees",
+    "service_delivery_information": "",
+    "service_pickup_information": "",
+    "tax_tooltip": true
+  }
+}

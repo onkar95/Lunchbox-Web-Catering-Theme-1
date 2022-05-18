@@ -1,0 +1,41 @@
+@import "styles/config";
+@import "client";
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.btn-xs {
+  padding: 2px 5px;
+}
+.btn-sm {
+  padding: 5px 8px;
+}
+.btn-md {
+  padding: 8px 13px;
+}
+.btn-lg {
+  padding: 15px 18px;
+}
+
+.block {
+  width: 100%;
+}
+.round {
+  border-radius: 100%;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  cursor: auto;
+  opacity: 0.6;
+}

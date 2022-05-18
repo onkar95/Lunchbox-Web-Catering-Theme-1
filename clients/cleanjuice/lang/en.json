@@ -1,0 +1,33 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find your closest Clean Juice Catering"
+  },
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu"
+  },
+  "HEADER_STATIC": {
+    "EDIT_ORDER_TEXT": "BACK TO MENU",
+    "START_A_NEW_ORDER_TEXT": "BACK TO MENU",
+    "GO_BACK_TO_MENU_TEXT": "BACK TO MENU"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN OR SIGN UP",
+    "INPUT_PLACEHOLDER": "Password",
+    "EMAIL_INPUT_PLACEHOLDER": "Email",
+    "EMAIL_INPUT_LABEL": "Enter Your Email",
+    "INPUT_LABEL": "Enter Your Password",
+    "FORGOT_PASSWORD_BUTTON_TEXT": "forgot password?"
+  },
+  "PROFILE_STATIC": {
+    "DELETE_CARD_BUTTON_TEXT": "delete",
+    "USER_WELCOME_TEXT": "Welcome, {firstName}"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen and delivery team to be aware of",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of"
+  },
+  "CHECKOUT_STATIC": {
+    "CONFIRM_GO_TO_CART_BUTTON_TEXT": "NO",
+    "CONFIRM_REMOVE_ITEM_APPROVAL_MESSAGE": "\nAre you sure you want to remove \n\u201C{itemName}\u201D \nfrom your cart?"
+  }
+}

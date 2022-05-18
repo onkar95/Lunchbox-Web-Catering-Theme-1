@@ -1,0 +1,15 @@
+@import "styles/config";
+@import "client";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  will-change: transform;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  transform: translate3d(-80px, 62px, 0px);
+  @include elevation(8);
+  @extend %dropdown-container !optional;
+}

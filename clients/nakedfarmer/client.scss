@@ -1,0 +1,73 @@
+@import "styles/config";
+
+.header {
+    .logo {
+        padding-right: 40px;
+        padding-left: 15px;
+    }
+}
+
+.quantity-btn {
+    span {
+        font-size: 24px !important;
+    }
+}
+
+.cateringHome {
+    &-footer {
+
+        &-container span {
+            text-transform: none !important;
+            font-family: 'Goudy Old Style Bold' !important;
+            color: #D89232 !important;
+        }
+
+        &-button {
+            box-shadow: 0px 4px 7px #D8D8D8;
+        }
+    }
+}
+
+.footerButton {
+    box-shadow: 0px -4px 4px rgba(95,95,95,0.1);
+
+    button {
+        padding: 10px;
+        max-height: unset !important;
+    }
+}
+
+.orderItem {
+    box-shadow: 0px 2px 7px 3px #D8D8D8;
+
+    padding-bottom: 0px !important;
+
+    &-image {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    &-info-actions {
+
+        border-top: 0.25px solid #1A1A1A !important;
+
+
+        button:first-child:not(:only-child) {
+            border-right: none !important;
+            border-left: 0.25px solid #1A1A1A !important;
+            order: 2;
+        }
+    }
+}
+
+.tip-group {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 48em) {
+    .cateringHome {
+        &-content {
+            padding-top: 3rem !important;
+        }
+    }
+}

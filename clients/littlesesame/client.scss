@@ -1,0 +1,314 @@
+$unique-input-border-color: #d36855 !default;
+$show-delivery-image: true !default;
+$custom-qmark: true !default;
+
+@import "styles/config";
+$accentLight: #eae0d7;
+$accentLightAlt: #eae0d7;
+$accentDark: #2d5e6c;
+$baseWhite: #ffffff;
+$baseRed: #d36855;
+$box-shadow: 0px 0px 20px $accentLightAlt;
+$background-gray: #f4f4f4;
+
+$background: #eae0d7 !default;
+
+@mixin customQmark {
+  background-color: $accentDark;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.nothing-image {
+  height: 300px !important;
+}
+
+.group-info {
+  .group-description {
+    margin-top: 1rem;
+  }
+}
+
+html {
+  background-color: $accentLight;
+}
+
+%location {
+  .location {
+    &-container {
+      &--header {
+        padding: 0;
+        background-color: $accentLight;
+        & .body {
+          padding: 2rem 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: $accentLight;
+          &-art {
+            position: relative !important;
+            height: 60px !important;
+            top: 0 !important;
+            right: 2rem !important;
+          }
+        }
+        & .tabs {
+          background-color: $accentLight;
+          &-container {
+            padding: 1rem 2rem 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  border-bottom: 2.5px solid $accentDark !important;
+}
+
+.cateringHome {
+  &-content {
+    background-color: $accentLight;
+    &-title {
+      background-color: $accentLight !important;
+    }
+  }
+
+  &-misc {
+    &-image {
+      display: block !important;
+    }
+  }
+}
+
+%card {
+  box-shadow: none !important;
+  background-color: $accentLight !important;
+}
+
+.card-module {
+  background-color: $accentLight !important;
+}
+
+%header {
+  padding: 40px 0px 10px;
+}
+
+%locationCard {
+  @include elevation(2);
+  border-bottom: 3px solid $accentDark;
+  border-top: 3px solid $accentDark;
+  flex-shrink: 0;
+}
+
+.rc-tabs-bar {
+  background-color: $accentLight;
+  padding: 1rem;
+  border-bottom: 2.5px solid $accentDark !important;
+}
+
+.field input,
+select {
+  border-color: $accentDark !important;
+  border-bottom-width: 1.5px !important;
+}
+
+.rc-tabs-tab {
+  text-align: center;
+  margin: 0 3.75rem;
+  right: 2.813rem;
+
+  &-active {
+    color: transparent;
+    padding: 0 10px;
+  }
+}
+
+// Menu
+.nav-container {
+  border-bottom: 2.5px solid $accentDark;
+}
+
+.group-info {
+  border-bottom: 2px solid $accentDark !important;
+  width: 98% !important;
+  margin-left: 1% !important;
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7px 2px #ececec !important;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    box-shadow: $box-shadow !important;
+  }
+}
+
+// special styling for navbar in itemDetails
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      .nav {
+        background-color: $accentLight !important;
+        .nav-item {
+          .item-button {
+            padding: 0.5rem 1rem;
+          }
+          &[data-active="1"] {
+            .item-button {
+              background-color: $accentDark !important;
+              span {
+                color: white !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+%itemDetails {
+  .itemDetails-back {
+    & img {
+      width: 2rem;
+      height: 2rem;
+      position: relative;
+      right: 0.5rem;
+    }
+  }
+}
+
+/// sets a max width to the header info component.
+%locationInfo {
+  max-width: 30rem !important;
+  .locationInfo-body {
+    line-height: 1.5;
+  }
+  .location-info-card {
+    border: 1 solid #2d5e6c;
+  }
+}
+
+%cart {
+  .cart {
+    &-content {
+      background: none !important;
+    }
+  }
+}
+
+// Center tip selector
+.tip {
+  & > span {
+    .tip-label {
+    }
+
+    .tip-group {
+    }
+  }
+}
+
+%fieldsContainer {
+  background-color: $accentLight !important;
+}
+
+%loyaltyHeader {
+  padding: 0 0 1rem 0 !important;
+  .loyaltyHeader {
+    &-description {
+      &-text {
+        text-align: left;
+        margin-left: 1rem;
+        max-width: 20rem;
+      }
+    }
+  }
+}
+
+// Menu item selected
+.list > li {
+  border-bottom: 1px solid $accentDark;
+  padding: 0px !important;
+}
+%modifierItem {
+  .modifierItem {
+    border-bottom: 1px solid $accentDark;
+    &-btn {
+      color: $baseWhite !important;
+    }
+    &-quantity-btn {
+      color: $baseWhite !important;
+      &-plus,
+      &-minus {
+        border-radius: 100px !important;
+      }
+    }
+  }
+}
+
+.section-title {
+  background-color: $accentLight !important;
+  border-color: $accentDark;
+}
+
+.form {
+  background-color: $accentLight !important;
+}
+
+.fields-container {
+  background-color: $accentLight !important;
+  padding: 15px 20px !important;
+}
+
+// necessary to ensure link tags are properly colored by the button surrounding them
+a {
+  color: inherit;
+}
+
+%stripeForm {
+  .stripeForm {
+    &-container {
+      background: $accentLight !important;
+    }
+  }
+}
+
+// card body border bottom color
+.card-body {
+  border-color: $accentDark;
+}
+
+// Logout drawer background
+.drawer-content {
+  background-color: $accentLight;
+}
+
+.footerContainer {
+  border-top: 2.5px solid $accentDark;
+}
+// Home catering logo
+.nav-left {
+  padding-left: 30px !important;
+}
+
+.logo {
+  img {
+    width: auto !important;
+    height: 100% !important;
+  }
+}
+
+.logo:not(:last-child) {
+  border-right: none !important;
+}
+
+.orderItem-info-actions {
+  .cart-btn:last-child {
+    opacity: 0.6;
+  }
+}
+
+.section-content {
+  background-color: $accentLight;
+}

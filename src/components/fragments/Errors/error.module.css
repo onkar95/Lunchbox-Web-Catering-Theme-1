@@ -1,0 +1,8 @@
+.cart-empty div:first-child {
+  text-align: center;
+  flex-grow: 0;
+}
+
+.cart-empty img {
+  margin-top: 30px;
+}

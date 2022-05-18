@@ -1,0 +1,12 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find the closest Green District near you",
+    "SEARCH_DELIVERY_LABEL": "Where's your food going?"
+  },
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu"
+  },
+  "CHECKOUT_STATIC": {
+    "COMPLETE_BACK_TO_MENU_BUTTON_TEXT": "Back to Locations"
+  }
+}

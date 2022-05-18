@@ -1,0 +1,55 @@
+@import "client";
+
+
+.rc-tabs-bar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 75px;
+  overflow: hidden;
+  background: white;
+}
+
+.rc-tabs-bar > div:first-child {
+  display: flex;
+  flex-grow: 1;
+}
+
+.rc-tabs-top {
+  border-bottom: none;
+}
+
+.rc-tabs-top .rc-tabs-ink-bar {
+  height: 2px;
+}
+
+.rc-tabs-top .rc-tabs-tab {
+  flex-grow: 1;
+  margin-right: 0px;
+  flex-basis: 0;
+}
+
+.rc-tabs-tab {
+  text-align: center;
+}
+
+.rc-tabs-tab-active.rc-tabs-tab:only-child {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.rc-tabs-content {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 48em) {
+  .rc-tabs-bar {
+    display: flex;
+    position: relative;
+    top: 0px;
+  }
+
+  .rc-tabs-content {
+    margin-top: 0px;
+  }
+}

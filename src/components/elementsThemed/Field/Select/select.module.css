@@ -1,0 +1,76 @@
+.select-container {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.select {
+  width: 100%;
+  font-size: inherit;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 1px;
+  padding-bottom: 10px;
+  text-indent: 0.01px;
+  text-overflow: "";
+  appearance: none;
+  box-sizing: border-box;
+  border-radius: 0px;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*Hiding the select arrow for IE10*/
+.select::-ms-expand {
+  display: none;
+}
+
+.select-container::before,
+.select-container::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.select-container::after {
+  content: "\25BC";
+  height: 1em;
+  font-size: 0.625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.select-container::before {
+  /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.select-container::after {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.select-container .select[disabled] {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.select {
+  width: 100%;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.select:focus {
+  outline: none !important;
+  box-shadow: none;
+}

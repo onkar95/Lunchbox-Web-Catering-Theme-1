@@ -1,0 +1,11 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find your closest Great White",
+    "SEARCH_DELIVERY_LABEL": "Where are you located?"
+  },
+
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "Join now or login to place your order!"
+  }
+}

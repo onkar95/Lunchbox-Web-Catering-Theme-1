@@ -1,0 +1,27 @@
+{
+  "HEADER_STATIC": {
+    "START_A_NEW_ORDER_TEXT": "Ordering from",
+    "EDIT_ORDER_TEXT": "Ordering from ",
+    "GO_BACK_TO_MENU_TEXT": "BACK TO MENU"
+  },
+  "CART_STATIC": {
+    "CHECKOUT_HEADER_TEXT": "Order Information",
+    "CHECKOUT_PLACE_ORDER_BUTTON_TEXT": "Place Order"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter your email",
+    "INPUT_PLACEHOLDER": "Email",
+    "BUTTON_TEXT": "Next"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "JOIN NOW AND EARN POINTS ON EVERY ORDER!"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Password"
+  }
+}

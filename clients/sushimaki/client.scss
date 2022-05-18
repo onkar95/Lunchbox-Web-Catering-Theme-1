@@ -1,0 +1,164 @@
+@import "styles/config";
+
+.header {
+  border-bottom: black 2px solid !important;
+  box-shadow: none !important;
+
+  .logo {
+    max-width: 193px;
+  }
+
+  .logo:not(:last-child) {
+    border-right-color: #000000;
+  }
+}
+
+.cateringHome {
+  &-footer {
+    &-button {
+      box-shadow: 0px 4px 7px 0px #d8d8d8;
+    }
+
+    &-container {
+      span {
+        color: #32b8df !important;
+      }
+    }
+  }
+}
+
+.back {
+  background-color: transparent !important;
+}
+
+.group-info {
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+}
+
+.item-card {
+  box-shadow: 0px 5px 10px 0px #cfcfcfcc !important;
+}
+
+.tab-container {
+  background-color: #f2f2f2;
+}
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0px;
+      box-shadow: 0px 5px 5px 0px #cfcfcfcc !important;
+      .nav {
+        .nav-item {
+          button {
+            padding: 0.4rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: #ff8200;
+            }
+          }
+        }
+      }
+    }
+    &-menu-options {
+      background-color: #f2f2f2;
+    }
+  }
+}
+
+%option {
+  .option {
+    &-lineText {
+      padding: 0px;
+    }
+  }
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  box-shadow: 0px 4px 4px 0px #00000040 !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: #32b8df;
+      }
+      path {
+        fill: #ffffff;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+
+%footerButton {
+  & > button {
+    min-height: 58px !important;
+    max-height: 58px !important;
+  }
+}
+
+%footerContainer {
+  box-shadow: 0px -2px 5px 0px #e4e3e3 !important;
+
+  %quantitySelector {
+    font-family: "Makipelli-Extrabold";
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    &::before {
+      content: "QUANTITY";
+    }
+
+    .wrapper .quantity-btn span {
+      font-size: 36px;
+    }
+  }
+}
+
+%priceContainer {
+  padding-top: 15px !important;
+  box-shadow: 0px -3px 5px 0px #e4e3e3 !important;
+}
+
+input:disabled {
+  color: #1a1a1a !important;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+form .terms span a span {
+  color: #ff8200 !important;
+  font-family: "Trenda-Semibold" !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+
+.select-container::after {
+  color: #ff8200 !important;
+}
+
+@media screen and (max-width: 48em) {
+  .group-info .group-description {
+    visibility: visible;
+  }
+
+  .remove-confirmation {
+    height: 100%;
+  }
+}

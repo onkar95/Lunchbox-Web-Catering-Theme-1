@@ -1,0 +1,210 @@
+@import "styles/config";
+
+$baseBlack: #333333;
+$baseWhite: #ffffff;
+$darkGray: #343435;
+$accentDark: #ff6600;
+$accentLight: #ffd952;
+
+// header
+.header {
+  background-color: $baseWhite !important;
+  .logo:not(:last-child) {
+    border-right-color: $baseBlack;
+  }
+  &::after {
+    z-index: 100;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 4.625rem;
+    height: 53%;
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='150.818 161.153 1925.455 49.093' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='matrix(1, 0, 0, 1, 153.994003, -76.699997)'%3E%3Cpath class='bg-part' d='M -154.913 -122.849 L -58.566 -96.536 L 39.282 -122.849 L 161.594 -82.585 L 246.338 -108.385 L 282.158 -99.724 L 376.512 -122.847 L 477.854 -99.727 L 589.027 -122.85 L 683.381 -96.537 L 781.23 -122.85 L 903.54 -82.585 L 988.284 -108.385 L 1024.104 -99.724 L 1118.458 -122.847 L 1219.8 -99.727 L 1330.973 -122.85 L 1425.327 -96.537 L 1523.176 -122.85 L 1645.487 -82.585 L 1730.231 -108.385 L 1766.051 -99.724 L 1860.405 -122.847 L 1961.748 -99.724 L 2072.921 -122.847 L 2072.92 -127.482 L -154.913 -127.482 L -154.913 -122.849 Z' transform='translate(0.919 365.335)' fill='%23fff'%3E%3C/path%3E%3Cpath d='M2072.919,69.656,1961.747,92.778,1860.4,69.656,1766.05,92.778l-35.82-8.661-84.744,25.8L1523.176,69.656l-97.849,26.313-94.354-26.313L1219.8,92.778,1118.457,69.656,1024.1,92.778l-35.82-8.661-84.744,25.8L781.229,69.656,683.381,95.969,589.027,69.656,477.854,92.778,376.511,69.656,282.157,92.778l-35.82-8.661-84.744,25.8L39.283,69.656-58.566,95.969-152.92,69.656' fill='none' stroke='%23343435' stroke-miterlimit='10' stroke-width='8' transform='translate(0 172.83)' style='stroke-linecap: square;'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    @media screen and (min-width: 100rem) {
+      height: 66%;
+    }
+  }
+}
+
+// location/home page
+.rc-tabs-bar {
+  background-color: $darkGray;
+}
+
+.select-container::after {
+  color: $accentDark !important;
+}
+.rc-tabs-tab {
+  text-align: center;
+  margin: 0 4.375rem;
+  right: 2.813rem;
+}
+
+// location info card
+.location-info-card {
+  padding-top: 0.625 !important;
+  line-height: 1.7rem !important;
+}
+
+// menu page
+.item-card {
+  box-shadow: 0px 4px 7px 2px #d8d8d8 !important;
+}
+
+.item-image-container > div:first-child {
+  border-radius: 3px !important;
+}
+
+%header-image {
+  background-position: 0 -3.438rem !important;
+}
+
+// item details
+.tab-container {
+  padding: 0 0 !important;
+}
+
+%modifierItem-nav {
+  padding: 0 0 !important;
+}
+
+%modifierItem-item {
+  margin: 0 1.875rem !important;
+}
+
+%option-name {
+  background-color: $accentLight;
+  border-radius: 15px;
+  padding: 0.313rem 1.25rem;
+}
+
+.option {
+  text-align: center;
+}
+
+%modifierItem {
+  .modifierItem {
+    &-quantity-btn {
+      &-plus,
+      &-minus {
+        color: #ffd952 !important;
+        height: 2rem;
+        width: 2rem;
+        padding-top: 0.188rem;
+      }
+    }
+  }
+}
+
+%datePicker-option {
+  text-align: left;
+}
+
+%option-list {
+  padding: 0 1.875rem !important;
+  border-bottom-color: #9b9b9b !important;
+}
+
+%quantitySelector {
+  padding-bottom: 0 !important;
+}
+
+.footerButton {
+  background-color: #ffffff !important;
+  & > button {
+    box-shadow: 0px 4px 7px #d8d8d8;
+  }
+}
+
+// cart checkout
+%orderItem {
+  .orderItem-actions {
+    button:nth-of-type(1) > span {
+      color: $accentLight !important;
+    }
+  }
+}
+
+// checkout page
+.tip-group {
+  padding-left: 1.25rem;
+
+  label {
+    padding: 0.313rem 0.938rem;
+  }
+}
+
+// home page
+.cateringHome {
+  background-size: cover !important;
+  background-position: top 0px right -100px !important;
+  @media screen and (min-width: 90rem) {
+    background-size: 80% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: top 0px right -100px !important;
+  }
+  &-content {
+    &-title {
+      padding-left: 3.438rem !important;
+      z-index: 99 !important;
+      @media screen and (min-width: 100rem) {
+        padding-top: 0.625rem !important;
+      }
+    }
+  }
+}
+
+%input-address {
+  padding-left: 0;
+}
+.input {
+  padding-left: 0 !important;
+}
+
+%nav-right {
+  margin-right: 0 !important;
+  > span {
+    > span {
+      vertical-align: auto !important;
+    }
+  }
+}
+
+.nav-item {
+  margin-right: 1.875rem !important;
+  height: 2.5rem !important;
+}
+
+.nav-list {
+  margin: 1.25rem auto !important;
+  @include media-breakpoint-down(md) {
+    margin: 0 auto !important;
+  }
+  @media screen and (min-width: 100rem) {
+    margin: 1.563rem auto !important;
+  }
+}
+
+%dropdown-container {
+  opacity: 0.8 !important;
+  z-index: 101;
+}
+
+.back {
+  background-color: yellow !important;
+}
+
+%menu-nav-item {
+  margin: 0.625rem !important;
+}
+
+.footer-logo {
+  height: 47% !important ;
+}
+
+.logo {
+  max-width: 11.875rem !important;
+}

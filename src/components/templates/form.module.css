@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.fields-container {
+  flex-grow: 1;
+  padding: 15px 10px;
+}
+
+.terms {
+  text-align: center;
+  padding-bottom: 10px;
+}

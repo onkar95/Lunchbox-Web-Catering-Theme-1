@@ -1,0 +1,51 @@
+.nav-item {
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  border: none !important;
+}
+
+.nav-item:active {
+  background: none !important;
+}
+
+.nav-item > span:first-child {
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
+
+.name {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+  .nav-item {
+    text-align: center;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

@@ -1,0 +1,33 @@
+@import "styles/config";
+@import "client";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.fields-container {
+  background-color: $white;
+  flex-grow: 1;
+  padding: 15px 15px;
+}
+
+.terms {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.social-btns {
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @extend %socialButtons !optional;
+}
+
+.footer-logo {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}

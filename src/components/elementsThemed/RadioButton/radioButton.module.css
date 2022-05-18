@@ -1,0 +1,41 @@
+.wrapper {
+  display: inline;
+  position: relative;
+  cursor: pointer;
+  vertical-align: top;
+  user-select: none;
+}
+
+.wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.radio-btn {
+  padding: 5px 10px;
+}
+.radio-group {
+  display: flex;
+}
+.radio-group > .radio-btn {
+  flex-grow: 1;
+}
+
+.radio-group > .radio-btn:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+
+.radio-group > .radio-btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.radio-group > .radio-btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

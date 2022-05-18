@@ -1,0 +1,16 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find the closest Rachel's Grill",
+    "SEARCH_DELIVERY_LABEL": "Where is your food going?"
+  },
+  "HEADER_STATIC": {
+    "GO_BACK_TO_MENU_TEXT": "Back to menu"
+  },
+  "LOGIN_STATIC": {
+    "INPUT_PLACEHOLDER": "Enter Your Password",
+    "EMAIL_INPUT_PLACEHOLDER": "Enter your email address"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome!"
+  }
+}

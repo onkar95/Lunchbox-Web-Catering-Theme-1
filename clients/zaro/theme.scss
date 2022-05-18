@@ -1,0 +1,50 @@
+:root {
+    --font-1: "gt-walsheim-regular";
+    --font-2: "gt-walsheim-bold-web";
+    --font-3: "gt-walsheim-light-web";
+    --font-4: "gt-walsheim-medium-web";
+    --font-5: "gt-walsheim-regular-oblique-web";
+    --font-6: "gt-walsheim-light-oblique-web";
+    --font-7: "gt-walsheim-bold-oblique-web";
+    --font-8: "GT-Walsheim-Pro-Trial-Medium-Oblique";
+}
+
+@font-face {
+    font-family: gt-walsheim-regular;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-bold-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-bold-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-light-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-light-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-medium-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-medium-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-regular-oblique-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-regular-oblique-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-light-oblique-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-light-oblique-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: gt-walsheim-bold-oblique-web;
+    src: url("../../clients/#{$client}/fonts/gt-walsheim-bold-oblique-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GT-Walsheim-Pro-Trial-Medium-Oblique;
+    src: url("../../clients/#{$client}/fonts/GT-Walsheim-Pro-Trial-Medium-Oblique.otf") format("opentype");
+}

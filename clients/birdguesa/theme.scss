@@ -1,0 +1,19 @@
+
+:root {
+  --font-1: "Barbaro-Roman";
+  --font-2: "News-Gothic";
+  --font-3: "News-Gothic-Bold";
+}
+
+@font-face {
+  font-family: "Barbaro-Roman";
+  src: url("../fonts/Barbaro-Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "News-Gothic";
+  src: url("../fonts/News-Gothic.otf") format("opentype");
+}
+@font-face {
+  font-family: "News-Gothic-Bold";
+  src: url("../fonts/News-Gothic-Bold.otf") format("opentype");
+}

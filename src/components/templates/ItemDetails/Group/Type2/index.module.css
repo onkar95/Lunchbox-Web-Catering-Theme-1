@@ -1,0 +1,33 @@
+.container {
+  padding: 0px 20px;
+}
+
+.option {
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+  border-top-width: 0px !important;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  min-height: 175px;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.name {
+  flex-grow: 1;
+}
+
+.desc {
+  flex-grow: 3;
+}
+
+.price {
+  flex-grow: 0;
+}

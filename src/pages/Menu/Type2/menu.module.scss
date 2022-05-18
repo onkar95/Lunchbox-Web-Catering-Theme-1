@@ -1,0 +1,84 @@
+@import "client";
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @extend %header-image !optional;
+}
+
+.nav-container {
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: none;
+}
+
+.missing-menu {
+  margin-top: 15%;
+  height: 100%;
+  text-align: center;
+}
+
+.missing-menu > * {
+  display: block;
+  margin: 0 auto;
+}
+
+.missing-menu img {
+  margin-top: 50px;
+}
+
+.footer {
+  padding: 20px;
+}
+.footer-link {
+  text-decoration: none;
+}
+.footer-link > span {
+  text-decoration: underline;
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 48em) {
+  .header {
+    width: 325px;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .header-image {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 72em) {
+  .header-image {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

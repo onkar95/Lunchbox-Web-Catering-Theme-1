@@ -1,0 +1,9 @@
+{
+  "api": {
+    "url": "https://patron.lunchbox.dev",
+    "version": "v0"
+  },
+  "apps": {
+    "google_maps": ""
+  }
+}

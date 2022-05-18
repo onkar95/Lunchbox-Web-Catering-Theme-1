@@ -1,0 +1,264 @@
+@import "styles/config";
+
+$baseGray: #55595e;
+$baseWhite: #ffffff;
+$backgroundGray: #fefbe7;
+$baseBlack: #212121;
+$baseLink: #659b9d;
+$accentDark: #e6635a;
+$accentLight: #fbce45;
+$lightGray: #f4f5f6;
+$alternateGray: #88919a;
+
+$header-misc-art: true;
+
+.locationCard {
+  box-shadow: 0 0 0.5rem rgba(95, 95, 95, 0.17);
+}
+
+body {
+  background-color: $backgroundGray !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+a {
+  color: $baseLink;
+}
+
+.drawer-content-wrapper {
+  background-color: $backgroundGray !important;
+  .drawer-content {
+    & > div:nth-child(1) {
+      & > div:nth-child(1) {
+        border-bottom: 2px solid #c4c7c4 !important;
+      }
+    }
+  }
+}
+
+.tabContent-container {
+  padding: 0 0 9.375rem 0 !important;
+  background-color: $backgroundGray;
+  & > div:nth-child(1) {
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    border-bottom: 1px solid #88919a;
+  }
+  & > div:nth-child(2) {
+    padding: 1.25rem;
+  }
+}
+
+.rc-tabs-tab {
+  text-align: center;
+  & > div {
+    padding: 0.5rem 1rem;
+  }
+}
+
+form .terms span a span {
+  color: $baseBlack !important;
+  font-family: MontserratRegular !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+
+.cateringHome {
+  &-content {
+    background-color: $backgroundGray;
+    &-title {
+      background-color: $backgroundGray !important;
+    }
+  }
+  &-footer {
+    background-color: $backgroundGray !important;
+  }
+}
+
+%stripeForm {
+  .stripeForm {
+    &-container {
+      background: $backgroundGray !important;
+    }
+  }
+}
+
+%socialButtons {
+  button {
+    background-color: $baseWhite;
+  }
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 4px solid $accentLight !important;
+    margin: 0 1.25rem 2rem 1.25rem !important;
+  }
+  &-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.tip-group {
+  padding-left: 1.25rem;
+
+  label {
+    padding: 0.313rem 0.938rem;
+  }
+}
+
+.location-info-card {
+  opacity: 0.95 !important;
+}
+
+%socialButton {
+  .btn {
+    &.google {
+      background-color: #e6635a !important;
+    }
+  }
+}
+
+%dropdown-container {
+  background-color: $backgroundGray !important;
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7.06667px 2.01905px #ececec;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 20px #e2dada !important;
+  }
+}
+
+// ITEM DETAILS
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0;
+      .nav {
+        background-color: #f6f6ea;
+        border-top: 1px solid $alternateGray !important;
+        border-bottom: 1px solid $alternateGray !important;
+        align-items: center;
+        .nav-item {
+          button {
+            padding: 0.5rem 1rem;
+            span {
+              color: $baseGray;
+            }
+          }
+          &[data-active="1"] {
+            button {
+              background-color: $accentLight;
+              span {
+                color: $baseBlack;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0 0.625rem !important;
+      }
+    }
+  }
+}
+
+// CART
+%orderItem {
+  .orderItem {
+    &-info {
+      border: 1px solid $accentDark !important;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+  }
+}
+
+.fields-container {
+  background-color: $backgroundGray !important;
+}
+
+.footerButton {
+  background-color: $backgroundGray !important;
+}
+
+.back-button {
+  width: 1rem !important;
+  height: 1.25rem !important;
+  margin-right: 1rem !important;
+}
+
+#itemDetails {
+  > div:first-child {
+    > div:first-child {
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2rem !important;
+        height: 2rem !important;
+        margin-right: 1rem !important;
+      }
+    }
+  }
+}
+
+.page-content {
+  background-color: $backgroundGray !important;
+}
+
+.back {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+%footerContainer {
+  border-top: 1px solid $alternateGray;
+}
+
+.loginHeader {
+  width: 100% !important;
+  flex-direction: column !important;
+  &-image {
+    width: fit-content !important;
+  }
+  &-description {
+    padding-left: 1rem !important;
+  }
+}
+
+.section-title {
+  background-color: $backgroundGray !important;
+}
+
+.section-content {
+  background-color: $backgroundGray !important;
+}
+
+.section-content-cards {
+  background-color: $backgroundGray !important;
+}

@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0px;
+  cursor: pointer;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.name {
+  flex-grow: 1;
+}
+
+.price > * {
+  vertical-align: middle;
+}
+
+.radio {
+  z-index: 2;
+}
+
+.option {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.title {
+  padding: 15px 15px 0px 15px;
+}

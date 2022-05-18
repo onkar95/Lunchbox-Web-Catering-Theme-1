@@ -1,0 +1,143 @@
+@import "styles/config";
+@import "client";
+
+$header-misc-art: false !default;
+$hide-footer-cta: false !default;
+
+.cateringHome {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background: #f0f2f5;
+  min-height: 0;
+  height: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 4.688rem);
+  }
+
+  &-content {
+    padding-top: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-height: 87vh;
+
+    &-title {
+      background: white;
+      z-index: 9999;
+      padding-bottom: 0.625rem;
+      text-align: center;
+      position: fixed;
+      top: 5.875rem;
+      display: none;
+
+      @include media-breakpoint-up(sm) {
+        position: relative;
+        top: 0rem;
+        display: flex;
+        padding: 0 2rem;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
+      }
+    }
+
+    &-body {
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  &-misc-image {
+    display: none;
+    @if $header-misc-art {
+      display: block;
+    }
+  }
+
+  &-tab-container {
+    margin-top: 0rem;
+    @include media-breakpoint-up(sm) {
+      margin-top: 1rem;
+    }
+  }
+
+  &-footer {
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 1.8rem;
+    width: 100%;
+
+    @include media-breakpoint-up(sm) {
+      padding-top: 0.7rem;
+      position: absolute;
+      bottom: 1.8rem;
+      width: 100%;
+    }
+
+    & > div:nth-child(2) {
+      padding-top: 0;
+      padding-bottom: 0.5rem;
+    }
+
+    &-container {
+      text-align: center;
+      padding: 1rem 1rem;
+
+      > div {
+        padding-bottom: 0.5rem;
+      }
+    }
+
+    &-button {
+      padding: 0;
+      margin-top: 0;
+      padding-top: 0;
+
+      @include media-breakpoint-up(sm) {
+      }
+    }
+
+    &-cta {
+      @if $hide-footer-cta {
+        display: none;
+      }
+    }
+    &-logo {
+      @include media-breakpoint-up(sm) {
+        width: 50% !important;
+      }
+      @include media-breakpoint-up(lg) {
+        width: 33.4% !important;
+      }
+    }
+  }
+}
+
+.delivery-no-results {
+  text-align: center;
+  padding-top: 10%;
+}
+
+@keyframes stickySlide {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(1.4rem);
+  }
+}

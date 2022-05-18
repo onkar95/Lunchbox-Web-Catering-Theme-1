@@ -1,0 +1,51 @@
+//color
+$black: #545F5C;
+$backgroundGray: #F5F5F5;
+
+.logo:not(:last-child) {
+  margin-right: 0rem !important;
+  border-right: none !important;
+}
+
+%option {
+  .option {
+    &-items {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      button {
+        font: 15px "GT-Pressura-Regular", sans-serif;
+        color: white;
+      }
+    }
+  }
+}
+
+%itemDetails-tabs {
+.itemDetails-tabs {
+  &-nav-container {
+    border-top: 3px solid $black;
+    border-bottom: 3px solid $black;
+  }
+}}
+
+%footerContainer {
+  background-color: $backgroundGray;
+  box-shadow: 0px -2px 5px #E4E3E3;
+}
+
+%footerButton {
+  button {
+    box-shadow: 0px 4px 7px #D8D8D8;
+  }
+}
+
+%loginHeader {
+  .loginHeader {
+    &-image {
+      max-width: 4rem;
+      margin-top: 1rem;
+    }
+  }
+}

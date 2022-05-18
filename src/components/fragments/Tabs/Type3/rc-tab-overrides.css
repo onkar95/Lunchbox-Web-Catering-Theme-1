@@ -1,0 +1,33 @@
+.rc-tabs-top {
+  border-bottom: none;
+}
+
+.rc-tabs-top .tabs-type3-bar .rc-tabs-ink-bar {
+  height: 7px;
+}
+
+.tabs-type3-bar {
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  outline: none;
+  zoom: 1;
+  -webkit-transition: padding 0.45s;
+  transition: padding 0.45s;
+}
+
+.tabs-type3-bar.rc-tabs-tab .rc-tabs-tab {
+  text-align: center;
+}
+
+.rc-tabs-tab-active.rc-tabs-tab:only-child {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.rc-tabs-tab {
+  width: 50%;
+}

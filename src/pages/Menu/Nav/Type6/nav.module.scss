@@ -1,0 +1,60 @@
+@import "styles/config";
+@import "client";
+
+.nav {
+  &-item {
+    padding: 1rem 5rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    &:active {
+      background: none !important;
+    }
+    & > span:first-child {
+      position: relative;
+    }
+    &[active="1"] {
+      border-bottom-color: initial;
+    }
+  }
+
+  @extend %navItem !optional;
+}
+
+.shape {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
+
+.name {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+  .nav-item {
+    text-align: center;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

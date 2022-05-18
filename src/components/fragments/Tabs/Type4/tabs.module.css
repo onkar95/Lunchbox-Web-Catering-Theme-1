@@ -1,0 +1,18 @@
+.tab-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.tab {
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tab-contents-container {
+  padding: 5px;
+}
+
+.tab-content {
+  padding: 5px;
+}

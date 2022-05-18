@@ -1,0 +1,44 @@
+@import "styles/config";
+@import "client";
+
+.stripeForm {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px 1rem 10px 1rem;
+  }
+
+  &-items {
+    margin: 1rem 0rem;
+  }
+
+  @extend %stripeForm !optional;
+}
+
+.loader {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cardsOnFile-item {
+  margin: 0.3125rem;
+  @media (min-width: 880px) {
+    font-size: 1.5rem;
+  }
+  svg {
+    height: 2.375rem;
+    width: 2.375rem;
+    margin: 0 1rem;
+
+    @media (min-width: 880px) {
+      height: 3rem;
+      width: 3rem;
+      margin: 0 0.625rem;
+    }
+  }
+}

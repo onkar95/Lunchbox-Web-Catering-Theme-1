@@ -1,0 +1,121 @@
+@import "styles/config";
+
+// general
+$accentLight: #4e5c6f;
+$shadowColor: #4e5c6f;
+$accentDark: #4e5c6f;
+//home
+$header-misc-art: true !default;
+$show-delivery-image: true !default;
+//menu
+$menuItem-shadow: true !default;
+$group-info-hr: true !default;
+$cart-header-text: true !default;
+$hide-checkout-overflow-x: true !default;
+$hide-footer-cta: false !default;
+
+.nav-item img {
+  height: 1.875rem !important;
+  width: 1.875rem !important;
+  margin-bottom: 3px;
+}
+
+.cart-catering-logo {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.location-nav {
+  .location-info {
+    padding-bottom: 6px;
+  }
+}
+
+.quantity-btn {
+  line-height: 0;
+}
+
+.input-container .input {
+  padding-top: 0.5rem;
+}
+
+.dropdown-icon img {
+  margin-top: 0.3125rem;
+}
+
+.itemDetails-tabs {
+  &-nav-container {
+    border-top: 3px solid #434345;
+    border-bottom: 3px solid #434345;
+  }
+}
+
+%menuGroup {
+  .group {
+    &-info {
+      border-bottom: 2px solid $accentLight;
+      margin: 3rem 2rem 1rem 2rem;
+      padding: 0 0 1rem 0;
+    }
+  }
+}
+
+.cateringHome {
+  background-size: 68% 140% !important;
+  background-repeat: no-repeat !important;
+  background-position: top -18px right -18px !important;
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7px 2px #ececec !important;
+  transition: all 1s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 20px #4e5c6f !important;
+  }
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  box-shadow: 0px 1px 4px 0px #00000040 !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: #ffffff;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+
+%selectors {
+  .quantitySelector-container .quantity-btn {
+    display: initial;
+  }
+}
+
+%quantitySelector {
+  background-color: #f4f4f4;
+}
+
+%completeCard {
+  padding: 1rem !important;
+}
+
+%loginHeader {
+  padding: 2rem 4rem;
+  .loginHeader {
+    &-image {
+      max-width: 4rem;
+      margin-top: 1rem;
+    }
+  }
+}

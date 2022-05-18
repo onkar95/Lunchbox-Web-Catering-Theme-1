@@ -1,0 +1,7 @@
+.drawer {
+  outline-width: 0px;
+}
+.drawer-content {
+  display: flex;
+  overflow: hidden;
+}

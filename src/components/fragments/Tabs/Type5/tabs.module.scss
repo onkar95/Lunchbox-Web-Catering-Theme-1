@@ -1,0 +1,25 @@
+.tab-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.tab {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.tab-contents-container {
+  padding: 5px;
+  background: black !important;
+}
+
+.tab-content {
+  padding: 5px;
+}

@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}

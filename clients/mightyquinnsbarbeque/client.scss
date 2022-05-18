@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+@import "styles/config";
+
+$header-misc-art: true;
+$cart-header-text: true;
+$backgroundGray: #f4f4f4;
+
+.rc-tabs-bar > div:first-child {
+  background: black;
+}
+
+.rc-tabs-tab-active > div {
+  background: white;
+}
+
+.input-suffix > img {
+  display: none;
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7px 2px $backgroundGray;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 9px 4px #c9c9c9 !important;
+  }
+}
+
+.nav-item[active="1"] {
+  span {
+    color: black !important;
+  }
+}
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      .nav {
+        background-color: black;
+        .nav-item {
+          button {
+            padding: 0.4rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: white;
+            }
+          }
+        }
+      }
+    }
+    &-menu-options {
+      background-color: $backgroundGray;
+    }
+  }
+}
+
+%option {
+  .option-items {
+    & > div {
+      padding: 0.25rem 0.5rem;
+      min-height: 13rem;
+    }
+  }
+}
+
+%footerButton {
+  background-color: $backgroundGray;
+}
+
+%quantitySelector {
+  padding-bottom: 0px !important;
+}
+
+%footerContainer {
+  box-shadow: 0px -2px 5px $backgroundGray;
+}
+
+%priceContainer {
+  z-index: 1;
+  margin-top: 1rem;
+  padding-top: 1rem !important;
+  box-shadow: 0px -2px 5px $backgroundGray;
+}
+
+%cartHeaderText {
+  margin-bottom: 1rem;
+}

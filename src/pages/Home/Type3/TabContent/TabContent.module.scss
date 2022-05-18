@@ -1,0 +1,66 @@
+@import "client";
+$show-delivery-image: false !default;
+
+.tabContent {
+  &-container {
+    padding: 20px 30px 150px 30px;
+  }
+
+  &-card-container {
+    z-index: 999;
+  } 
+
+  &-card-content {
+    min-height: 800px;
+  }
+  @extend %tabContent !optional;
+}
+
+
+.location-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.image-container {
+  display: none;
+  @if $show-delivery-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nothing-image {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  @media screen and (max-width: 60em) {
+    max-width: 20rem;
+  }
+}
+
+.show-call-button {
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 48em) {
+  .tabContent {
+    &-card-container {
+      height: 800px;
+    }
+    &-card-scroll {
+      overflow-y: hidden;
+      padding-bottom: 0;
+      min-height: 600px;
+    }
+    &-detail-scroll {
+      overflow-y: hidden;
+      padding-bottom: 0;
+      min-height: 600px;
+    }
+    @extend %tabContent !optional;
+  }
+}

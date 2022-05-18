@@ -1,0 +1,38 @@
+.container {
+  height: 100%;
+}
+
+.content {
+  padding: 40px 50px;
+  z-index: 1;
+}
+
+.context > div:first-child {
+  width: 100%;
+}
+
+.title {
+}
+
+.divider {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.footer {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

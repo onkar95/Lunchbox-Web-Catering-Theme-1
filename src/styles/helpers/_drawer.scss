@@ -1,0 +1,48 @@
+%nav {
+  display: flex;
+  padding: 10.5px 15px;
+  align-items: center;
+  border-bottom-width: 1.5px;
+  min-height: 70px;
+
+  & > *:first-child {
+    flex-grow: 1;
+  }
+
+  & > *:last-child {
+    flex-grow: 45;
+  }
+}
+
+%container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+%content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+%route {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+%loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

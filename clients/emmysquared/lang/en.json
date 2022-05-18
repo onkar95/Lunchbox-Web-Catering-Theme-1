@@ -1,0 +1,26 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_DELIVERY_LABEL": "WHERE ARE YOU LOCATED?",
+    "SEARCH_PICKUP_LABEL": "Find your closest Emmy Squared"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN OR SIGNUP",
+    "FORGOT_PASSWORD_BUTTON_TEXT": "forgot password?",
+    "EMAIL_INPUT_PLACEHOLDER": "Email",
+    "INPUT_LABEL": "enter your password",
+    "INPUT_PLACEHOLDER": "Password",
+    "EMAIL_INPUT_LABEL": "enter your email"
+  },
+  "CHECKOUT_STATIC": {
+    "CONFIRM_GO_TO_CART_BUTTON_TEXT": "NO",
+    "COMPLETE_TYPE4_ORDER_IN_THE_KITCHEN_MESSAGE": "Your order is currently being reviewed.",
+    "COMPLETE_TYPE4_PICKUP_FROM_TEXT": "Pickup Location ",
+    "COMPLETE_TYPE4_DELIVERING_FROM_TEXT": "Delivery Address "
+  },
+  "CART_STATIC": {
+    "CHECKOUT_PLACE_ORDER_BUTTON_TEXT": "Next"
+  }
+}

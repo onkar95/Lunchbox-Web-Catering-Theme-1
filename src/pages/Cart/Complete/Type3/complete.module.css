@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  padding: 30px;
+  width: 60%;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+}
+
+.divider {
+  height: 2px;
+  margin: 20px;
+}

@@ -1,0 +1,7 @@
+{
+  "api": {
+    "url": "https://patron.lunchbox.io",
+    "version": "v0"
+  },
+  "apps": {}
+}

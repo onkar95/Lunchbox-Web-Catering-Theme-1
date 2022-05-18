@@ -1,0 +1,161 @@
+@import "styles/config";
+$header-misc-art: true;
+$hide-footer-cta: true;
+
+//adjust background image size to aviod being stretched
+.cateringHome {
+  background-size: 70% 100% !important;
+  background-position: top 0px right -10px !important;
+  @media screen and (min-width: 90rem) {
+    background-size: 68% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: top 0px right 0px !important;
+  }
+}
+
+//increase dining option selector tabs heights
+.rc-tabs-tab {
+  & > div {
+    padding: 4px;
+  }
+}
+
+.rc-tabs-bar {
+  border-color: #88919a !important;
+}
+
+.tabContent {
+  //paint form background color per figma
+  &-container {
+    background-color: #f4f5f6;
+  }
+  // Selected location has border
+  &-card-content {
+    > div:first-child {
+      border: 3px solid #88919a;
+    }
+  }
+}
+
+// location card shadow
+.locationCard {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+// override downward arrow to be text edit
+.select-container::after {
+  content: "edit" !important;
+  font-family: "Function-Regular";
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+// align login header to the left
+.loginHeader {
+  width: 100% !important;
+  flex-direction: column !important;
+  &-description {
+    padding-left: 1rem !important;
+  }
+}
+
+// paint profile page background
+.page-content {
+  background-color: #e5e5e5;
+}
+
+.section-title {
+  border-bottom-color: #88919a !important;
+}
+
+// location-info card transparency and height
+.location-info-card {
+  opacity: 0.9;
+  height: 175px !important;
+}
+
+// adjust menu header image size
+.header-image {
+  height: 300px !important;
+}
+
+// special hover animation for this client basd on figma
+.menu-item > div {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16) !important;
+  }
+}
+
+// group border bottom
+.group-items {
+  padding-top: 30px;
+  border-top: 1px solid #88919a;
+}
+
+// ITEM DETAILS
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0px;
+      border-top: 1px solid #c8ccd0;
+      border-bottom: 1px solid #c8ccd0;
+
+      .nav {
+        background-color: #ffffff;
+        padding: 15px;
+        align-items: center;
+        .nav-item {
+          padding: 0px;
+          button {
+            padding: 0.4rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: #ffda00;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// added quantity label per figma
+%footerContainer {
+  box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+  %quantitySelector {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.62rem 1.25rem;
+    &::before {
+      content: "Quantity";
+      font-family: "Neutra-Display-Titling";
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+}
+
+.footerButton {
+  background-color: white;
+}
+
+//removed borders from order items at cart page
+.orderItem {
+  border-bottom: 1px solid #c8ccd0 !important;
+  &-actions {
+    border: none !important;
+    &-btn {
+      border-right: none !important;
+    }
+  }
+}
+
+// override textarea to match with figma
+textarea {
+  border: 1px solid #88919a !important;
+  border-radius: 4px !important;
+}

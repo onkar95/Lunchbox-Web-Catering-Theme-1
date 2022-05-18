@@ -1,0 +1,13 @@
+.location-info-card {
+  position: absolute;
+  min-height: 52.5%;
+  width: clamp(50%, 90%, 100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.375rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

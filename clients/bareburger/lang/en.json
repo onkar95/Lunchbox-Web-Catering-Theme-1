@@ -1,0 +1,35 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our catering menu"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find your nearest bareburger"
+  },
+  "HEADER_STATIC": {
+    "EDIT_ORDER_TEXT": "Catering"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "Welcome to Bareburger",
+    "INPUT_PLACEHOLDER": "Enter Your Password",
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_PLACEHOLDER": "Enter Your Email",
+    "BUTTON_TEXT": "Login"
+  },
+  "FORGOT_PASSWORD_STATIC": {
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Enter Your Password"
+  },
+  "SIGN_UP_STATIC": {
+    "EMAIL_PLACEHOLDER": "Enter Your Email",
+    "PASSWORD_PLACEHOLDER": "Enter Your Password"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen and delivery team to be aware of",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of"
+  },
+  "CART_STATIC": {
+    "CHECKOUT_PLACE_ORDER_BUTTON_TEXT": "Place Catering Order"
+  }
+}

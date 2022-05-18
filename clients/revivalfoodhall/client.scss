@@ -1,0 +1,145 @@
+@import "styles/config";
+
+$show-delivery-image: true !default;
+
+a {
+  color: inherit;
+}
+
+.section {
+  box-shadow: none !important;
+  &-title {
+    border-bottom-color: #000000 !important;
+  }
+}
+%page-content {
+  background-color: #f5f5f5 !important;
+}
+.rc-tabs-bar {
+  box-shadow: 0px 4px 15px rgba(146, 146, 146, 0.1);
+}
+
+.dropdown-icon {
+  & img {
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+  }
+}
+.nothing-image {
+  max-width: 40rem !important;
+}
+
+%loginHeader {
+  .loginHeader {
+    &-image {
+      width: 50% !important;
+    }
+    &-description {
+      max-width: 15.5rem !important;
+      & > span:first-child {
+        margin-top: 0.5rem !important;
+      }
+    }
+  }
+}
+
+.cateringHome {
+  background-size: 70% 100% !important;
+  background-position: top 0px right -10px !important;
+  @media screen and (min-width: 90rem) {
+    background-size: contain !important;
+    background-position: top 0px right 0px !important;
+  }
+  &-content {
+    padding-top: 0 !important;
+    &-title {
+      padding: 1.56rem !important;
+    }
+  }
+}
+
+.location-title span {
+  text-transform: uppercase !important;
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7.06667px 2.01905px #ececec !important;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 20px #e2dada !important;
+    box-shadow: 0px 0px 20px #e2dada !important;
+  }
+}
+
+.group-info {
+  width: 100%;
+  margin: 2.8rem 1.68rem 2.3rem 1.68rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #1e2f1d !important;
+}
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0;
+      .nav {
+        align-items: center;
+        .nav-item {
+          button {
+            padding: 0.5rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: #9d863c;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+%modifierItem {
+  .item {
+    &-check-icon {
+      circle {
+        fill: #142415;
+      }
+      path {
+        fill: white;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+    &-qty {
+      &--btn {
+        padding: 0 15px !important;
+      }
+    }
+  }
+}
+
+.footerContainer {
+  box-shadow: 0px -2px 5px #e4e3e3 !important;
+}
+
+.footerButton {
+  box-shadow: 0px -4px 4px rgba(95, 95, 95, 0.1);
+}
+
+.cart-catering-logo {
+  width: 9.5rem !important;
+  height: 4.25rem !important;
+}
+
+.back-button {
+  width: 2rem !important;
+  height: 2rem !important;
+  margin: -0.25rem !important;
+}
+
+// hide tax question mark & tooltip on the order summary
+// this css override would hide question mark & tooltip for service fees as well
+// it's doable since we dont have any tooltips for service fee for now
+.information {
+  display: none;
+}

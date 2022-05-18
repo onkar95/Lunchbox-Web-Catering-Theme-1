@@ -1,0 +1,51 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our menu",
+    "SEARCH_DELIVER_LOCATIONS_MESSAGE": "ENTER YOUR ADDRESS TO FIND\nTHE CLOSEST MIKE'S CHICKEN CRUNCHERS CATERING NEAR\nYOU!"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Where are you located"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP",
+    "EMAIL_INPUT_LABEL": "Enter Your Email",
+    "EMAIL_INPUT_PLACEHOLDER": "Email",
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Enter Password Here"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Password"
+  },
+  "SIGN_UP_STATIC": {
+    "EMAIL_PLACEHOLDER": "Enter Your Email",
+    "PASSWORD_PLACEHOLDER": "Your Password"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Email"
+  },
+  "FORGOT_PASSWORD_STATIC": {
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Password"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "Sign into your account"
+  },
+  "HEADER_STATIC": {
+    "START_A_NEW_ORDER_TEXT": "Back to Menu",
+    "EDIT_ORDER_TEXT": "Back to Menu",
+    "GO_BACK_TO_MENU_TEXT": "Back to Menu "
+  },
+  "CHECKOUT_STATIC": {
+    "CONFIRM_GO_TO_CART_BUTTON_TEXT": "NO"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen team to be aware of",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of"
+  },
+  "CART_STATIC": {
+    "CHECKOUT_HEADER_TEXT": "Order Information"
+  }
+}

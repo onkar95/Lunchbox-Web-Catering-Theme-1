@@ -1,0 +1,216 @@
+@import "styles/config";
+
+$header-misc-art: true;
+$show-delivery-image: true;
+
+$accentLight: #FF5656;
+$accentDark: #1B1B5E;
+$backgroundGray: #f4f3f4;
+$baseGray: #505050;
+$boxShadowColor: #ececec;
+$alternateGray: #e2dada;
+$baseBlack: #000000;
+$backgroundGray: #f4f4f4;
+$baseWhite: #ffffff;
+$borderColor: #d8d8d8;
+$paleYellow: #f1ebe2;
+
+// HOME PAGE
+// adds a background style to the header section.
+// the background of the header section isn't extended.
+// this class is added because of the abscence of  extension in the theme.json
+
+.header {
+  background-color: $baseWhite !important;
+  box-shadow: none !important;
+}
+
+// ACCOUNT PAGE
+// adds a background style to the profile subheader section.
+// the background of the header section isn't extended.
+// this class is added because of the abscence of  extension in the theme.json
+.profileHeader {
+background-color: transparent !important;
+}
+
+// LOCATION PAGE
+// adds a background style to the tab section (Tab Type 2).
+// the background of the header section isn't extended.
+// this class is added because of the abscence of  extension in the theme.json 
+.rc-tabs {
+  &-bar {
+    background-color: $baseWhite;
+  }
+ 
+  // default padding of rc-tabs-tab is big as compared to the figma design which requires no padding at all.
+  // this override is used as a temp fix for this.
+  &-tab {
+    padding: 0rem 0rem;
+    & > div {
+      padding-top: 0.31rem;
+    }
+  }
+}
+
+// LOCATION PAGE
+// adds a padding style to the cards in the location section.
+// the padding of the cards section isn't extended.
+// this class is added because of the abscence of  extension in the theme.json
+%locationCard {
+  padding: 0.8rem 1.2rem !important;
+
+  span:nth-child(3) {
+    font-size: 0.875rem;
+    color: #000;
+  }
+}
+
+// LOCATION PAGE
+// adds a padding style to the location header section.
+// the padding of the cards section isn't extended.
+// this class is added because of the abscence of  extension in the theme.json
+.cateringHome {
+  &-content {
+    padding-top: 0 !important;
+    &-title {
+      padding: 1.56rem !important;
+    }
+  }
+}
+
+.header-image {
+  height: 18.75rem !important;
+}
+
+.location-info-card {
+  height: 52% !important;
+}
+
+// ITEM DETAIL PAGE
+// adds a background color style to the nav-container and a box-shadow override (item_details.tabs Type5)
+// the box-shadow override is required due to the default box-shadow having a large shadow as compared to the figma design which is very small.
+// this class is added because of the abscence of  extension in the theme.json
+.nav-container {
+  box-shadow: 0 0.25rem 1rem rgba(146, 146, 146, 0.1) !important;
+  background-color: $baseWhite;
+}
+
+// Header Section
+// adds a margin to each of the  child div of nav-links-container (account login contact).
+// the default margin  placed the elements tightly together, this override was required to space those element as displayed in the figma design.
+// this class is added because of the abscence of  extension in the theme.json
+.nav-links-container {
+  & > div {
+    margin-left: 1.2rem !important;
+  }
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 0.125rem solid $baseGray !important;
+    margin: 0 1.25rem 2rem 1.25rem !important;
+  }
+  &-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+// ITEM DETAILS
+// adds a background to  the item details nav section and padding to the nav buttons.
+// the padding of the nav buttons isn't extended.
+// this class is added because of the abscence of  extension in the theme.json
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0;
+      .nav {
+        background-color: $baseWhite;
+        align-items: center;
+        .nav-item {
+          button {
+            padding: 0.5rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: $accentLight;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemDetails-tabs-menu-options {
+  background-color: $backgroundGray;
+}
+
+.back-button {
+  width: 1rem !important;
+  height: 1.25rem !important;
+  margin-right: 1rem !important;
+}
+
+%option {
+  .option {
+    &-lineText {
+      padding: 0;
+    }
+  }
+}
+
+.quantity-btn {
+  padding-bottom: 0 !important;
+}
+
+.quantity {
+  padding-top: 0.18rem !important;
+}
+
+.item-qty {
+  margin-bottom: 2rem !important;
+}
+
+// modifier items quantity buttons are circles in the figma. In order to make them circles, height & width must be equal.
+// This is an acceptable use of client.scss unless we build this into the actual component.
+
+.item-qty--number {
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+// DEFAULT
+// enforces an inherit principle on links in the client.
+// some anchor tags didn't inherit the color property properly which lead to issues with overriding.
+
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
+// LOGIN PAGE
+// adjusted the width of the header section for login header (Type 1).
+// the width needed adjustment so as to be centered on the page , it is neccessary to set the flex-direction to column so as the text "Welcome" been rendered is moved to bottom from the right figma has this element centered on the page, but no component type supports this by default.
+// this class is added because of the abscence of  extension in the theme.json
+.loginHeader {
+  width: 90%;
+  flex-direction: column;
+}
+
+// LOCATION PAGE
+// added a border style to the selected location on the pickup card section(Type 3).
+// this was added so as to conform with the figma design as no component .
+// this class is added because of the abscence of  extension in the theme.json
+.tabContent-card-content {
+  > div:first-child {
+    border: 3px solid $accentDark; // Selected location has border
+  }
+}
+
+.location-info {
+  margin-bottom: 0.5rem;
+}

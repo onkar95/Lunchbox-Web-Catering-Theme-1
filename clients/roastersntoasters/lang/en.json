@@ -1,0 +1,36 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Where Are You Located?",
+    "SEARCH_DELIVERY_LABEL": "Where Are You Located?"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "Join now and earn \n points on every order!"
+  },
+  "CART_STATIC": {
+    "EMPTY_MESSAGE": ""
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP",
+    "EMAIL_INPUT_LABEL": "Enter Your Email",
+    "EMAIL_INPUT_PLACEHOLDER": "Email",
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Enter Password Here"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Password"
+  },
+  "SIGN_UP_STATIC": {
+    "EMAIL_PLACEHOLDER": "Enter Your Email",
+    "PASSWORD_PLACEHOLDER": "Your Password"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Email"
+  },
+  "FORGOT_PASSWORD_STATIC": {
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Password"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "LOGIN_STATIC": {
+    "EMAIL_INPUT_LABEL": "Email Address",
+    "EMAIL_INPUT_PLACEHOLDER": "Enter your email address",
+    "INPUT_LABEL": "Password",
+    "INPUT_PLACEHOLDER": "Enter your password",
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "Back to menu",
+    "LOGIN_BUTTON_TEXT": "Sign In"
+  },
+  "SIGN_UP_STATIC": {
+    "FIRST_NAME_LABEL": "First Name",
+    "FIRST_NAME_PLACEHOLDER": "Enter your first name",
+    "LAST_NAME_LABEL": "Last Name",
+    "LAST_NAME_PLACEHOLDER": "Enter your last name",
+    "EMAIL_LABEL": "Email",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "PHONE_LABEL": "Mobile Number",
+    "PHONE_PLACEHOLDER": "Enter your mobile phone number",
+    "PASSWORD_LABEL": "Password",
+    "PASSWORD_PLACEHOLDER": "Create a password"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Email Address",
+    "INPUT_PLACEHOLDER": "Enter your email address",
+    "BUTTON_TEXT": "Sign In"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_LABEL": "Password",
+    "INPUT_PLACEHOLDER": "Enter your password"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome!"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Enter your address"
+  },
+  "HEADER_STATIC": {
+    "START_A_NEW_ORDER_TEXT": "Back to Menu",
+    "EDIT_ORDER_TEXT": "Back to Menu "
+  }
+}

@@ -1,0 +1,44 @@
+// Layout Variables
+
+// Grid
+$grid-breakpoints: (
+  xs: 22em,
+  sm: 48em,
+  md: 60em,
+  lg: 72em,
+  xl: 84em,
+  xxl: 96em,
+) !default;
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+// Aspect Ratios
+$aspect-ratios: (
+  "21x9": (
+    x: 21,
+    y: 9,
+  ),
+  "16x9": (
+    x: 16,
+    y: 9,
+  ),
+  "4x3": (
+    x: 4,
+    y: 3,
+  ),
+  "1x1": (
+    x: 1,
+    y: 1,
+  ),
+) !default;

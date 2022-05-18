@@ -1,0 +1,96 @@
+// Shadow Variables
+
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.15) !default;
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175) !default;
+$box-shadow-inset: inset 0 1px 2px rgba($black, 0.075) !default;
+$elevatedElements: (
+  dialog: (
+    24,
+  ),
+  picker: (
+    24,
+  ),
+  nav-drawer: (
+    16,
+  ),
+  right-drawer: 16,
+  bottom-sheet: 16,
+  fab: 6 12 active,
+  sub-menu-3: 11,
+  sub-menu-2: 10,
+  sub-menu-1: 9,
+  menu: 8,
+  bottom-nav-bar: 8,
+  card: 2 8 hover,
+  raised-button: 2 8 active,
+  snackbar: 6,
+  app-bar: 4,
+  refresh-indicator: 3,
+  quick-entry: 2 3 active,
+  search-bar: 2 3 active,
+  switch: 1,
+);
+$key_umbra: rgba($black, 0.2);
+$key_penumbra: rgba($black, 0.14);
+$ambient: rgba($black, 0.12);
+$reference_shadows: (
+  (
+    elevation: 0,
+    shadows: (
+      (0, 0, 0, 0, $key_umbra),
+      (0, 0, 0, 0, $key_penumbra),
+      (0, 0, 0, 0, $ambient),
+    ),
+  ),
+  (
+    elevation: 2,
+    shadows: (
+      (0, 3, 1, -2, $key_umbra),
+      (0, 2, 2, 0, $key_penumbra),
+      (0, 1, 5, 0, $ambient),
+    ),
+  ),
+  (
+    elevation: 3,
+    shadows: (
+      (0, 3, 3, -2, $key_umbra),
+      (0, 3, 4, 0, $key_penumbra),
+      (0, 1, 8, 0, $ambient),
+    ),
+  ),
+  (
+    elevation: 4,
+    shadows: (
+      (0, 2, 4, -1, $key_umbra),
+      (0, 4, 5, 0, $key_penumbra),
+      (0, 1, 10, 0, $ambient),
+    ),
+  ),
+  (
+    elevation: 6,
+    shadows: (
+      (0, 3, 5, -1, $key_umbra),
+      (0, 6, 10, 0, $key_penumbra),
+      (0, 1, 18, 0, $ambient),
+    ),
+  ),
+  (
+    elevation: 8,
+    shadows: (
+      (0, 5, 5, -3, $key_umbra),
+      (0, 8, 10, 1, $key_penumbra),
+      (0, 3, 14, 2, $ambient),
+    ),
+  ),
+  (
+    elevation: 16,
+    shadows: (
+      (0, 8, 10, -5, $key_umbra),
+      (0, 16, 24, 2, $key_penumbra),
+      (0, 6, 30, 5, $ambient),
+    ),
+  )
+);
+$min_animation_length: 250ms;
+$max_animation_length: 400ms;

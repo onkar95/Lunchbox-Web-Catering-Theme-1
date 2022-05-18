@@ -1,0 +1,35 @@
+@import "styles/config";
+@import "client";
+
+.navContainer{
+  display: flex;
+  @extend %navContainer !optional;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.nav {
+  display: flex;
+  padding: 20px 15px;
+  height: 25px;
+  align-items: center;
+}
+
+.nav > *:first-child {
+  flex-grow: 1;
+}
+
+.nav > *:last-child {
+  flex-grow: 45;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: scroll;
+}

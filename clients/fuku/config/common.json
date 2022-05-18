@@ -1,0 +1,161 @@
+{
+  "id": "fuku",
+  "restaurant": "fuku",
+  "directory": "fuku",
+  "local_storage_key": "access",
+  "default_tab": "delivery",
+  "pickup": {
+    "tip": false,
+    "tip_default": 0,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": true,
+    "tip_default": 0.15,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": false,
+      "client_id": null
+    },
+    "google": {
+      "enabled": false,
+      "client_id": null
+    }
+  },
+  "login_signup": {
+    "version": "Type1",
+    "header": "",
+    "nav_item": "Type1"
+  },
+  "payment_processor": "stripe",
+  "website": {
+    "name": "Eat Fuku",
+    "description": "Fuku is a fried chicken spot by Momofuku. Fuku is focused on offering guests approachable, tasty food that draws from both Asian and American influences.",
+    "url": "https://eatfuku.com",
+    "favicons": [
+      {
+        "rel": "apple-touch-icon",
+        "src": "https://assets.lunchbox.io/fuku/images/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": ""
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/fuku/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/fuku/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  },
+  "diet_order": ["vegan", "glutenFree", "nuts"],
+  "hardcodes": {
+    "groupOrder": [
+      "meals",
+      "fried chicken",
+      "salads",
+      "snacks",
+      "sides",
+      "drinks"
+    ],
+    "optionsTabs": [
+      {
+        "tabName": "Modify",
+        "type": 0,
+        "optionNames": ["side"]
+      },
+      {
+        "tabName": "Sides",
+        "type": 1,
+        "optionNames": ["side"]
+      }
+    ]
+  },
+  "theme": {
+    "color": "#3FAE49",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "",
+      "card": "",
+      "map_geo": {
+        "lat": 40.7831,
+        "long": -73.9712
+      }
+    },
+    "menu": {
+      "layout": "Type2",
+      "nav": "Type3",
+      "group_container": "Type3",
+      "item_card": "Type4",
+      "catering_info_time": "",
+      "info": "",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "confirmation": "Type3",
+      "cart_item": "Type2"
+    },
+    "item_details": {
+      "group": "Type3",
+      "header": "Type2",
+      "tabs": "Type3",
+      "modifier_items": "Type4",
+      "cart_item": "",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type3",
+    "empty": "",
+    "cart_item": "",
+    "footer": "sticky",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": true,
+    "required_contact_name": true,
+    "required_contact_phone": true,
+    "required_number_of_guests": true,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": false
+  },
+  "lang": {
+    "phone": "+1-646-565-4102",
+    "email": "events@eatfuku.com",
+    "info": "",
+    "home_title": "Get more Fuku",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Service Fees",
+    "service_delivery_information": "A delivery service charge may be applied to all sales.",
+    "service_pickup_information": "",
+    "tax_tooltip": true
+  }
+}

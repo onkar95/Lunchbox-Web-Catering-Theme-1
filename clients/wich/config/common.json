@@ -1,0 +1,155 @@
+{
+  "id": "wich",
+  "restaurant": "Wich",
+  "directory": "wich",
+  "local_storage_key": "access",
+  "default_tab": "delivery",
+  "pickup": {
+    "tip": true,
+    "tip_default": 0,
+    "tip_available_options": [
+      0,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": true,
+    "tip_default": 0.15,
+    "tip_available_options": [
+      0,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "minimum": 0
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": false,
+      "client_id": null
+    },
+    "google": {
+      "enabled": false,
+      "client_id": ""
+    }
+  },
+  "login_signup": {
+    "version": "Type2",
+    "header": "Type1",
+    "nav_item": "Type2"
+  },
+  "payment_processor": "stripe",
+  "website": {
+    "name": "Wich Reservation",
+    "description": "",
+    "url": "https://www.wich.com/",
+    "favicons": [
+      {
+        "rel": "apple-touch-icon",
+        "src": "https://assets.lunchbox.io/wich/images/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": ""
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/wich/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/wich/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  },
+  "diet_order": ["vegan", "glutenFree", "nutFree", "dairyFree", "vegetarian"],
+  "hardcodes": {
+    "groupOrder": [],
+    "optionsTabs": []
+  },
+  "theme": {
+    "color": "#000000",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "Type1",
+      "card": "Type2",
+      "map_geo": {
+        "lat": 40.774372,
+        "long": -73.96977
+      }
+    },
+    "menu": {
+      "layout": "Type2",
+      "nav": "Type2",
+      "group_container": "Type3",
+      "item_card": "",
+      "catering_info_time": 1,
+      "info": "Type1",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "confirmation": "Type4",
+      "cart_item": "Type6"
+    },
+    "item_details": {
+      "group": "Type3",
+      "header": "Type1",
+      "tabs": "Type5",
+      "modifier_items": "Type12",
+      "cart_item": "",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type2",
+    "empty": "",
+    "cart_item": "",
+    "footer": "",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": false,
+    "required_contact_name": true,
+    "required_contact_phone": true,
+    "required_number_of_guests": true,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": false
+  },
+  "lang": {
+    "phone": "sdasd",
+    "email": "asdasd",
+    "info": "asdasd",
+    "home_title": "Welcome to Wich!",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Service Fees",
+    "service_delivery_information": "Catering delivery fee may change depending on distance and price.",
+    "service_pickup_information": "",
+    "tax_tooltip": true
+  }
+}

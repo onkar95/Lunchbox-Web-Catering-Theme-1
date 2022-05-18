@@ -1,0 +1,84 @@
+@import "styles/config";
+
+// general
+$accentLight: #febe10;
+$shadowColor: #f9c1ba;
+//home
+$header-misc-art: true !default;
+$show-delivery-image: true !default;
+//menu
+$menuItem-shadow: true !default;
+$group-info-hr: true !default;
+$cart-header-text: true !default;
+$hide-checkout-overflow-x: true !default;
+$hide-footer-cta: true !default;
+
+.nav-item img {
+  height: 1.875rem !important;
+  width: 1.875rem !important;
+  margin-bottom: 3px;
+}
+
+.cart-catering-logo {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.quantity-btn {
+  line-height: 0;
+}
+
+.dropdown-icon img {
+  margin-top: 0.3125rem;
+}
+
+.itemDetails-tabs {
+  &-nav-container {
+    border-top: 3px solid #434345;
+    border-bottom: 3px solid #434345;
+  }
+}
+
+%menuGroup {
+  .group {
+    &-info {
+      border-bottom: 2px solid $accentLight;
+      margin: 3rem 2rem 1rem 2rem;
+      padding: 0 0 1rem 0;
+    }
+  }
+}
+
+%menuItem {
+  box-shadow: 0px 0px 7px 2px #ececec !important;
+  transition: all 1s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 20px #f9c1ba !important;
+  }
+}
+
+%modifierItem {
+  .modifierItem {
+    &-radio-wrapper {
+      box-shadow: none !important;
+      span {
+        border: none;
+      }
+    }
+  }
+  margin: 0.5rem !important;
+  padding: 1rem !important;
+  border: none !important;
+  background-color: #f4f4f4;
+  border-radius: 0.25rem;
+}
+
+%selectors {
+  .quantitySelector-container .quantity-btn {
+    display: initial;
+  }
+}
+
+%quantitySelector {
+  background-color: #f4f4f4;
+}

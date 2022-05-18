@@ -1,0 +1,201 @@
+@import "styles/config";
+
+$baseRed: #cc2127;
+$baseWhite: #ffffff;
+$baseGray: #55595e;
+$lightGray: #f5f5f5;
+$baseBlack: #222222;
+$accentLight: #88919a;
+$alternateGray: #f7f4ed;
+$borderGray: #c8ccd0;
+
+html,
+body {
+  background-color: $alternateGray !important;
+}
+
+a {
+  color: $baseRed !important;
+}
+
+.tabContent-container {
+  background-color: $alternateGray !important;
+}
+
+.header {
+  box-shadow: none !important;
+}
+
+.locationCard {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+// Selected Nav item text color only changes on click by default
+.nav-item[active="1"] {
+  span {
+    color: $baseWhite !important;
+  }
+}
+
+// Border for menu group
+.group-info {
+  border-bottom: 1px solid $accentLight !important;
+  width: 98% !important;
+  margin-left: 1% !important;
+}
+
+// Location list options are reversed
+.location-title {
+  flex-direction: row-reverse;
+}
+
+%locationInfo {
+  opacity: 0.8;
+}
+
+%modifierItem {
+  flex-direction: row;
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $baseRed;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-3px, -5px);
+      }
+    }
+
+    &-qty {
+      &--number {
+        background-color: $baseWhite !important;
+      }
+      &--btn {
+        background-color: $baseWhite !important;
+        border: 1px solid #88919a;
+        border-radius: 100% !important;
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+      }
+    }
+  }
+}
+
+.orderItem {
+  border-bottom: 1px solid $borderGray;
+}
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      .nav {
+        .nav-item {
+          &[data-active="1"] {
+            button {
+              background-color: $baseRed;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//adjusted close button size and position
+.back-button {
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  margin-left: -0.1rem !important;
+}
+
+//button text to be centrally aligned
+.cardsOnFile-item button {
+  padding-bottom: 0.438rem !important;
+}
+.location-info {
+  margin-bottom: 0.5rem;
+}
+
+.cart-header-text {
+  margin-bottom: 0.5rem;
+}
+
+.loginHeader {
+  width: 100% !important;
+  flex-direction: column !important;
+  &-description {
+    padding-left: 1rem !important;
+  }
+}
+
+.tabContent-container {
+  > div:first-child {
+    margin: -1.25rem -1.875rem 1.125rem -1.875rem;
+    padding: 1.25rem 1.875rem 0.5rem 1.875rem;
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+}
+
+.rc-tabs-tab {
+  border-bottom: 1px solid $baseGray;
+}
+
+.rc-tabs-tab-active {
+  border-bottom: 3px solid $baseRed;
+}
+
+.tabContent-card-content {
+  > div:first-child {
+    border: 3px solid black; // Selected location has border
+  }
+}
+
+.loginHeader {
+  &-image {
+    width: 40% !important;
+    margin: 1rem !important;
+  }
+}
+
+.fields-container {
+  background-color: $baseWhite !important;
+}
+
+.drawer-content {
+  background-color: $alternateGray;
+  > div:nth-child(1) > :nth-child(1) > :nth-child(2) {
+    margin-bottom: 0.25rem;
+  }
+  > div:nth-child(1) > :nth-child(2) {
+    box-shadow: 0px 4px 4px 8px rgba(33, 33, 33, 0.08);
+  }
+}
+
+.remove-confirmation {
+  background-color: $alternateGray;
+}
+
+%quantitySelector {
+  border-top: 0.1px solid #88919a;
+}
+
+%quantitySelector + div {
+  background-color: $baseWhite;
+  border-top: 0.1px solid $baseWhite;
+}
+
+.footerButton {
+  background-color: $baseWhite !important;
+  border-top: 0.1px solid $accentLight;
+}
+
+// Client requests to have prices hidden on item cards. This is an exception do not do this for other clients!
+%menuItem {
+  .item-description {
+    & > div:last-child {
+      display: none !important;
+    }
+  }
+}

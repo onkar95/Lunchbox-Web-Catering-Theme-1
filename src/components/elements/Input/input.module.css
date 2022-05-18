@@ -1,0 +1,14 @@
+.in {
+  height: 100%;
+  width: 90%;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}

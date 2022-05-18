@@ -1,0 +1,19 @@
+$unique-input-border-color: #f2525b !default;
+$show-delivery-image: true !default;
+$custom-qmark: true !default;
+
+@mixin customQmark {
+    background-color: #f2525b;
+    color: white !important;
+    border-radius: 50%;
+}
+
+.nothing-image {
+    height: 300px !important;
+}
+
+.group-info {
+    .group-description {
+        margin-top: 1rem;
+    }
+}

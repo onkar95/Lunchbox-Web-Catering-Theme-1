@@ -1,0 +1,36 @@
+.search-container {
+  width: 100%;
+  position: relative;
+}
+
+.divider {
+  margin: 0px;
+}
+
+.search-dropdown {
+  width: 100%;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.search-results {
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  max-height: 175px;
+  display: none;
+  border: 1px solid black;
+  border-top: none;
+  z-index: 100;
+  background: white;
+  overflow: auto;
+}
+
+.visible {
+  display: initial;
+}
+
+.search-result {
+  padding: 10px;
+  cursor: pointer;
+}

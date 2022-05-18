@@ -1,0 +1,265 @@
+@import "styles/config";
+
+$baseBlue: #7D99DE;
+$baseWhite: #ffffff;
+$lightGray: #f5f5f5;
+$baseBlack: #222222;
+$basePink: #EAA69B;
+$darkGrey: #F1E7E1;
+$accentPrimary: #ED9A00;
+$basePurple: #952376;
+$whiteRare: #FFF7F2;
+
+$header-misc-art: true !default;
+
+.tabContent-container {
+    border-top: 2px solid $basePurple;
+}
+.tab-container {
+  background-color: $darkGrey;
+}
+
+.drawer-content{
+  background-color: $darkGrey; 
+ }
+
+%card {
+  box-shadow: none !important;
+  background-color: $darkGrey !important;
+}
+
+.card-module {
+  background-color: $darkGrey !important;
+}
+
+.card-title {
+  background-color: $darkGrey !important;
+  
+}
+
+.back {
+  background-color: transparent !important;
+}
+
+.center {
+  background-color: $darkGrey !important;
+}
+
+.rc-tabs-tab {
+    text-align: center;
+    margin: 0 4.375rem;
+    right: 2.813rem;
+}
+
+.fields-container {
+  background-color: $darkGrey !important;
+}
+
+.section {
+  box-shadow: none !important;
+}
+.section-title {
+  background-color: $darkGrey !important;
+}
+
+.section-content {
+  background-color: $darkGrey !important;
+}
+
+.section-content-cards {
+  background-color: $darkGrey !important;
+}
+
+
+.cart-catering-logo {
+  width: auto !important;
+  height: auto !important;
+}
+
+input:disabled {
+  color: rgba(00, 00, 00, 0.7) !important;
+}
+
+%locationCard {
+    border: 1px solid $accentPrimary;
+    margin: 1rem 0rem 2rem 0.5rem!important;
+    width: 95%!important;
+}
+
+.nav-container {
+  border-top: 1px solid $basePurple;
+  border-bottom: 1px solid $basePurple;
+}
+
+html {
+  background-color: $darkGrey;
+}
+
+.group-info {
+  border-bottom: 1px solid $basePurple;
+}
+
+
+.itemDetails-tabs {
+  &-nav-container {
+    border-top: 1px solid $basePurple;
+    border-bottom: 1px solid $basePurple;
+  }
+}
+
+
+%location {
+  .location {
+    &-container {
+      &--header {
+        padding: 0;
+        background-color: $darkGrey;
+        & .body {
+          padding: 2rem 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: $darkGrey !important;
+        }
+        & .tabs {
+          background-color: $darkGrey;
+          &-container {
+            padding: 1rem 2rem 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  border-bottom: 2px solid $basePurple !important;
+  .logo:not(:last-child) {
+    border-color: $darkGrey !important;
+  }
+}
+
+
+
+%footerContainer {
+    border-top: 3px solid $basePurple;
+    background-color: $darkGrey;
+}
+
+.cateringHome {
+  background-size: cover !important;
+  &-content {
+    background-color: $darkGrey;
+    &-title {
+      background-color: $darkGrey !important;
+    }
+  }
+}
+
+// %modifierItem{
+//   .modifierItem {
+//     &-quantity-btn{ 
+//       &-plus, &-minus {
+//         border: 2px solid $baseBlue;
+//         color: $baseBlue!important;
+//         background-color: transparent!important;
+//         height: 2rem;
+//         width: 2rem;
+//         padding-top: 3px;
+//       }
+//     }
+//   }
+//   border-bottom: 1.5px solid #808080!important;
+// }
+
+
+%section-content {
+  border-top: 1.5px solid $basePurple;
+}
+
+%header {
+  :first-child {
+    padding-bottom: 10px;
+  }
+}
+
+
+.tip {
+  & > span {
+    display: flex !important;
+    align-items: center !important;
+
+    .tip-label {
+      margin-bottom: 0 !important;
+    }
+
+    .tip-group {
+      
+      flex-grow: 1 !important;
+      display: flex !important;
+      justify-content: center !important;
+      & > label {
+        padding: 3px 30px!important;
+      }
+    }
+  }
+}
+
+// MENU PAGE
+// special hover animation for this client basd on figma
+.item {
+  box-shadow: 0px 0px 2px 2px $lightGray !important;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid $accentPrimary !important;
+  &:hover {
+    -webkit-box-shadow: 6px 6px 0px 0px $accentPrimary !important;
+    box-shadow: 6px 6px 0px 0px $accentPrimary !important;
+    border: 2px solid $accentPrimary !important;
+  }
+}
+
+
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      .nav {
+        .nav-item {
+          button {
+            padding: 0.4rem 1rem;
+            background-color: transparent !important;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: $basePink !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.orderItem {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+@media screen and (max-width: 48em) {
+  .rc-tabs-tab {
+    padding: 8px 10px!important;
+    & > div {
+      width: 7rem;
+    }
+  }
+  .tip {
+    & > span {
+      .tip-group {
+        & > label {
+          padding: 3px 10px !important;
+        }
+      }
+    }
+  }
+  .remove-confirmation {
+    height: 100%;
+  }
+}

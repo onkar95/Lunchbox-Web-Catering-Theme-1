@@ -1,0 +1,23 @@
+@import "styles/config";
+@import "client";
+
+.invalidItem {
+  padding: 0.5rem;
+  border: 1px solid $pink;
+  li {
+    > div:not(:first-child) {
+      opacity: 0.2;
+      filter: grayscale(1);
+    }
+    margin-bottom: 0;
+    span {
+      color: $red;
+    }
+    button {
+      span {
+        color: $red !important;
+      }
+    }
+  }
+  margin-bottom: 1rem;
+}

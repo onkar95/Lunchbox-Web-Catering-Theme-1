@@ -1,0 +1,9 @@
+.price-field {
+  display: flex;
+}
+.price-field > span {
+  flex-grow: 1;
+}
+.price-field > span:last-child {
+  text-align: right;
+}

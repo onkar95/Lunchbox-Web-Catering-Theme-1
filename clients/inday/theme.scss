@@ -1,0 +1,15 @@
+:root {
+    --font-1: "AkkuratLL-Regular";
+    --font-2: "BigCaslon";
+  }
+  
+  @font-face {
+    font-family: "AkkuratLL-Regular";
+    src: url("../fonts/AkkuratLL-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "BigCaslon";
+    src: url("../fonts/BigCaslon.ttf") format("truetype");
+  }
+  

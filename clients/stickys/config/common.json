@@ -1,0 +1,143 @@
+{
+  "id": "stickys",
+  "restaurant": "Stickys The Finger Joint",
+  "directory": "stickys",
+  "local_storage_key": "access",
+  "default_tab": "pickup",
+  "pickup": {
+    "tip": true,
+    "tip_default": 0,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": true,
+    "tip_default": 0.15,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 150
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": false,
+      "client_id": null
+    },
+    "google": {
+      "enabled": false,
+      "client_id": null
+    }
+  },
+  "login_signup": {
+    "version": "Type1",
+    "header": "",
+    "nav_item": "Type1"
+  },
+  "payment_processor": "stripe",
+  "website": {
+    "name": "Sticky's The Finger Joint Catering",
+    "description": "Order the Best Damn Chicken Fingers",
+    "url": "https://stickys.com",
+    "favicons": [
+      {
+        "rel": "apple-touch-icon",
+        "src": "https://assets.lunchbox.io/stickys/images/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": ""
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/stickys/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/stickys/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  },
+  "diet_order": ["vegan", "glutenFree", "nut"],
+  "hardcodes": {
+    "groupOrder": [],
+    "optionsTabs": []
+  },
+  "theme": {
+    "color": "#FFCF06",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "",
+      "card": "",
+      "map_geo": {
+        "lat": 40.7831,
+        "long": -73.9712
+      }
+    },
+    "menu": {
+      "layout": "",
+      "nav": "",
+      "group_container": "",
+      "item_card": "Type2",
+      "catering_info_time": 1,
+      "info": "Type2",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "cart_item": "Type1",
+      "confirmation": ""
+    },
+    "item_details": {
+      "group": "Type2",
+      "header": "Type1",
+      "tabs": "Type2",
+      "modifier_items": "Type2",
+      "cart_item": "",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type1",
+    "empty": "Type1",
+    "cart_item": "",
+    "footer": "sticky",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": false,
+    "required_contact_name": true,
+    "required_contact_phone": true,
+    "required_number_of_guests": true,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": true
+  },
+  "lang": {
+    "phone": "",
+    "email": "catering@stickys.com",
+    "info": "https://www.stickys.com/stickys-catering/",
+    "home_title": "Best Damn Catering",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Service Fees",
+    "service_delivery_information": "A delivery service charge may be applied to all sales.",
+    "service_pickup_information": "",
+    "tax_tooltip": true
+  }
+}

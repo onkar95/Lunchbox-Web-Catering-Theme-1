@@ -1,0 +1,128 @@
+.item-card {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  transition: all ease-in-out 0.3s;
+  height: auto;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  flex: 1 1 100%;
+  min-height: 120px;
+}
+
+.item-image-container {
+  flex-shrink: 1.5;
+  width: 100%;
+}
+
+.item-image-container > div:first-child {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.item-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.item-title {
+  display: flex;
+  border-width: 0px;
+  margin-bottom: 5px;
+}
+
+.item-title > span {
+  flex-grow: 1;
+}
+
+.item-title > span:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-description {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.item-description > *:first-child {
+  flex-grow: 1;
+}
+
+.item-cals {
+  text-align: right;
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 48em) {
+  .item-image-container > div:first-child {
+    border-radius: 0px;
+  }
+
+  .item-card {
+    padding: 0px;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 5px;
+    /* height: 320px; */
+  }
+
+  .item-info {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .item-image-container {
+    padding: 0px;
+    flex: initial;
+    max-width: 100%;
+    order: -1;
+  }
+
+  .item-image {
+    padding-bottom: 56.25%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px !important;
+  }
+
+  .item-title {
+    margin-bottom: 0px;
+    padding: 7.5px 20px 0px 20px;
+  }
+
+  .item-description {
+    padding: 0px 20px 7.5px 20px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .item-description > *:first-child {
+    flex-grow: 1;
+  }
+
+  .description {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

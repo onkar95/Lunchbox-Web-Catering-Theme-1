@@ -1,0 +1,24 @@
+{
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "Back to menu"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_DELIVERY_LABEL": "Where is your food going",
+    "SEARCH_PICKUP_LABEL": "Find the closest Pita"
+  },
+  "LOGIN_SIGNUP_STATIC": { 
+    "HEADER": "Welcome!"
+  },
+  "VALIDATE_LOGIN_STATIC": { 
+    "BUTTON_TEXT": "Sign In"
+  },
+  "HEADER_STATIC": { 
+    "GO_BACK_TO_MENU_TEXT": "Back to order info",
+    "START_A_NEW_ORDER_TEXT": "Back to order info", 
+    "EDIT_ORDER_TEXT": "Back to order info"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Driver Instructions",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Driver Instructions"
+  }
+}

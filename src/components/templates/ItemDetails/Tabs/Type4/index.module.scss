@@ -1,0 +1,7 @@
+@import "styles/config";
+@import "client";
+
+.container {
+  padding: 0px 20px;
+  @extend %modifierItem-nav !optional;
+}

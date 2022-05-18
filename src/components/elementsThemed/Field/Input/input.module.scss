@@ -1,0 +1,74 @@
+@import "client";
+
+.input-container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: start;
+}
+
+.input-container .input-suffix {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.input-suffix {
+  right: 0px;
+  height: 100%;
+}
+
+.input-suffix > img,
+.input-suffix > i {
+  height: 100%;
+}
+
+.input-container .input:disabled {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.input {
+  width: 100%;
+  padding-bottom: 10px;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background: transparent;
+}
+.input:not(:only-child) {
+  padding-right: 30px;
+  @extend %input-address !optional
+}
+
+.input:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

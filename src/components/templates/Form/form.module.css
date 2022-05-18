@@ -1,0 +1,28 @@
+.field {
+  margin-top: 15px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.locationInput {
+  margin-bottom: 0px !important;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+.geo-icon {
+  cursor: pointer;
+  width: 18px;
+}

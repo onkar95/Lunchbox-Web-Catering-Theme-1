@@ -1,0 +1,72 @@
+@import "client";
+@import "styles/config";
+
+.group {
+  border: none !important;
+  margin: 0px 25px;
+
+  &-info {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    border-top-width: 0px !important;
+
+    &:first-child {
+      margin-top: 40px;
+    }
+  }
+
+  &-name {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &-description {
+    display: block;
+    visibility: hidden;
+    margin-bottom: 30px;
+  }
+
+  &-items {
+    // empty ruleset
+  }
+}
+
+
+.grid > div {
+  margin-bottom: 25px;
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 48em) {
+  .group {
+    margin: 0px 30px;
+
+    &-info {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+
+    &-description {
+      visibility: visible;
+    }
+
+    &-items {
+      // empty ruleset
+    }
+  }
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

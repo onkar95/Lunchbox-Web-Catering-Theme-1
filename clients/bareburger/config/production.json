@@ -1,0 +1,11 @@
+{
+  "api": {
+    "url": "https://patron.lunchbox.io",
+    "version": "v0"
+  },
+
+  "apps": {
+    "google_analytics": "UA-110982358-1",
+    "facebook_pixel": "1463529493739252"
+  }
+}

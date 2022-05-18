@@ -1,0 +1,28 @@
+@import "styles/config";
+@import "client";
+
+.loginHeader {
+  display: flex;
+  padding-top: 1rem;
+
+  // image flex-start alignment is needed to prevent image stretching on safari, if image is a .png
+  &-image {
+    width: 20%;
+    align-self: flex-start;
+    margin-right: 1rem;
+  }
+  &-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    &-text {
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        font-size: 1.25rem !important;
+      }
+    }
+  }
+
+  @extend %loginHeader !optional;
+}

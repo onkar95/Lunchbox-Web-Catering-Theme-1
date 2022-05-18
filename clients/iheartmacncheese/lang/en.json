@@ -1,0 +1,43 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Enter your address",
+    "SEARCH_DELIVERY_LABEL": "Where is your food going?"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome!"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "Back to menu"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "BUTTON_TEXT": "Sign in",
+    "INPUT_LABEL": "Email Address",
+    "INPUT_PLACEHOLDER": "Enter your email address"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_PLACEHOLDER": "Enter your password"
+  },
+  "SIGN_UP_STATIC": {
+    "FIRST_NAME_PLACEHOLDER": "Enter your first name",
+    "LAST_NAME_PLACEHOLDER": "Enter your last name",
+    "PHONE_LABEL": "Mobile Number",
+    "PHONE_PLACEHOLDER": "Enter your mobile phone number",
+    "PASSWORD_PLACEHOLDER": "Create a password",
+    "SIGN_UP_BUTTON_TEXT": "Next"
+  },
+  "HEADER_STATIC": {
+    "GO_BACK_TO_MENU_TEXT": "Back to Menu "
+  },
+  "PROFILE_STATIC": {
+    "USER_WELCOME_TEXT": "Welcome, {firstName}"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of.",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen and delivery team to be aware of."
+  },
+  "CHECKOUT_STATIC": {
+    "COMPLETE_TYPE4_ORDER_IN_THE_KITCHEN_MESSAGE": "Your order is all set and will be ready for you soon!",
+    "COMPLETE_TYPE4_PICKUP_FROM_TEXT": "Pickup Location",
+    "COMPLETE_TYPE4_DELIVERING_FROM_TEXT": "Delivery Address"
+  }
+}

@@ -1,0 +1,150 @@
+@import "styles/config";
+
+$baseGray: #55595e;
+$baseWhite: #ffffff;
+$backgroundGray: #f4f5f6;
+$baseBlack: #212121;
+$accentDark: #dc0021;
+$accentLight: #8d8d94;
+$lightGray: #88919a;
+
+.rc-tabs-bar {
+  background-color: $backgroundGray !important;
+}
+
+.rc-tabs-tab div {
+  padding: 5px;
+}
+
+.locationCard {
+  box-shadow: 0px 0px 4px rgba(95, 95, 95, 0.4);
+}
+
+.cateringHome {
+  &-footer {
+    background-color: $backgroundGray !important;
+  }
+}
+
+.tabContent-container {
+  background-color: $backgroundGray !important;
+  padding: 0 0 150px 0 !important;
+  & > div:nth-child(1) {
+    padding: 20px 20px 0 20px;
+    border-bottom: 1px solid #88919a;
+    background-color: $baseWhite;
+  }
+  & > div:nth-child(2) {
+    padding: 20px;
+  }
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 0.125rem solid #88919a !important;
+    margin: 0 1.25rem 2rem 1.25rem !important;
+  }
+  &-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.menu-item > div {
+  &:hover {
+    box-shadow: 0px 0px 20px #e2dada !important;
+  }
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $accentDark;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0 0.625rem !important;
+      }
+    }
+  }
+}
+
+// ITEM DETAILS
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0;
+      .nav {
+        align-items: center;
+        .nav-item {
+          border-bottom: 2px solid $baseWhite;
+          padding: 0 !important;
+          button {
+            padding: 0.5rem 1rem;
+            span {
+              color: $baseGray;
+            }
+          }
+          &[data-active="1"] {
+            border-bottom: 2px solid $accentDark;
+            button {
+              // background-color: $baseBlack;
+              span {
+                color: $accentDark;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemDetails-tabs-menu-options {
+  background-color: $backgroundGray;
+}
+
+%footerContainer {
+  box-shadow: 0px -2px 5px 0px #e4e3e3 !important;
+
+  %quantitySelector {
+    font-family: "MissionGothicRegular";
+    font-weight: 900;
+    font-size: 20px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    &::before {
+      content: "QUANTITY";
+    }
+
+    .wrapper .quantity-btn span {
+      font-size: 36px;
+    }
+  }
+}
+
+%orderItem {
+  padding-bottom: 1rem !important;
+  border-bottom: 0.1rem solid $lightGray !important;
+}
+
+.tip-group {
+  padding-left: 1.25rem;
+
+  label {
+    padding: 0.313rem 0.938rem;
+  }
+}
+
+.page-content {
+  background-color: #e5e5e5 !important;
+}

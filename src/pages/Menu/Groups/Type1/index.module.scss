@@ -1,0 +1,90 @@
+@import "client";
+@import "styles/config";
+
+$group-info-hr: false !default;
+
+.group {
+  border: none !important;
+}
+
+.group-info {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+@if $group-info-hr {
+  .group-info-hr {
+    display: block;
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid $accentLight;
+    margin-bottom: 30px;
+  }
+} @else {
+  .group-info-hr {
+    display: none;
+  }
+}
+
+.groups > div:first-child .group-info {
+  margin-top: 30px;
+}
+
+.group-info {
+  text-align: center;
+}
+
+.group-info .group-description {
+  display: none;
+}
+
+.group-items {
+  margin: 0px 10px;
+}
+
+.grid > div {
+  margin-bottom: 25px;
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 48em) {
+  @if $group-info-hr {
+    .group-info {
+      margin-bottom: 10px;
+    }
+  } @else {
+    .group-info {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .group-info:first-child {
+    margin-top: 40px;
+  }
+  .group-info .group-description {
+    display: inherit;
+  }
+  .group-items {
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

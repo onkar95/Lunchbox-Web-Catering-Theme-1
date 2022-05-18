@@ -1,0 +1,14 @@
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin no-scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

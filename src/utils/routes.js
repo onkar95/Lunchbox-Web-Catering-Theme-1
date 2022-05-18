@@ -1,0 +1,70 @@
+export const Routes = {
+  ADD_CARD: "/add-card",
+  CHECK_OUT: "/checkout",
+  CHECK_PRICE: "/order/check-price",
+  CHECK_PRICE_CATERING: "/catering/check-price",
+  CLEAR_DISCOUNT: "/discount-clear",
+  CLEAR_GIFTCARD: "/giftcard-clear",
+  DELETE_CARD: (cardId) => `/delete/${cardId}`,
+  DELIVERY: "/delivery",
+  EDIT_CARDS: "/edit-cards",
+  FETCH_CARDS: "/cards",
+  FETCH_DISCOUNT: "/discount",
+  FETCH_GIFTCARD: "/giftcard",
+  // ITEM DETAILS
+  FETCH_ITEM_DETAIL: "/item/:id/:index",
+  FETCH_LOCATIONS_SCHEDULE_DATE: "/locations/schedule-dates",
+  FETCH_ORDER_DETAILS: "/order-details/",
+  FETCH_ORDER_HISTORY: "/orders",
+  FETCH_ORDER_HISTORY_DETAIL: (orderId) => `/orders/${orderId}`,
+  FETCH_PAYMENT: "/payment",
+  FETCH_PICK_UP: "/pickup",
+  FETCH_PRIMARY_CARD: `/primary/:id`,
+  FETCH_SCHEDULE_DATE: "/schedule-date",
+  FORGOT_PASSWORD: "/forgot-password",
+  GOOGLE_MAP: (googleMapKey) =>
+    `https://maps.googleapis.com/maps/api/js?key=${googleMapKey}&v=3.exp&libraries=geometry,drawing,places`,
+  // CHECK OUT
+  GUESTS: "/guest",
+  // BEAM IMPACT
+  INTERCEPT_CHECKOUT_COMPLETE: "/beam",
+  ITEM_DETAILS: ({slug, orderType, resGroupId, itemId}) =>
+    `/location/${slug}/${orderType}/${resGroupId}/${itemId}`,
+  LINK: "/link",
+  LOCATION_INFO: ({slug, orderType, resGroupId}) =>
+    `/location/${slug}/${orderType}/${resGroupId}`,
+  // LOCATION
+  LOCATIONS: "/locations",
+  LOG_IN: "/login",
+  MARKET_PLACE: (slug, orderType) => `/market/${slug}/${orderType}`,
+  ORDER_HISTORY_DETAIL: "/orders/:id",
+  PACKING: "/packing",
+  PASSWORD: "/password",
+  PATRON_ADD_CARD: "/patron/add-card",
+  PATRON_FORGOT_PASSWORD: "/patron/forgot-password",
+  PAYMENT_INTENT: "/order/create-payment-intent",
+  PERSONAL_COMMUNITY_IMPACT: "/impact",
+  PINCODE: "/pincode",
+  // ORDER
+  PLACE_ORDER: "/order/",
+  PLACE_ORDER_CASH: "/order/cash/",
+  PURCHASE_COMPLETE: "/complete",
+  REDEEM_REWARDS: "/redeem-rewards",
+  // CART
+  REMOVE_CART_ITEM: "/delete/:index?",
+  ROOT: "/",
+  SET_PRIMARY_CARD: (cardId) => `/primary/${cardId}`,
+  SET_TABLE_NUMBER: "/table-number",
+  // ACCOUNT
+  SIGN_UP: "/sign-up",
+  SIGN_UP_CONFIRMATION: "/sign-up-confirmation",
+  UPDATE_CARD: (cardId) => `/cards/${cardId}`,
+  UPDATE_EMAIL: "/update-email",
+  UPDATE_PASSWORD: "/update-password",
+  UPDATE_PHONE: "/update-phone",
+  // UPSELL
+  UPSELLS: "/upsells",
+  UPSELLS_ITEM: "/upsells/:id",
+  UPSELLS_ITEM_DETAIL: (itemID) => `/upsells/${itemID}`,
+  VALIDATE_ORDER: "/order/validate",
+};

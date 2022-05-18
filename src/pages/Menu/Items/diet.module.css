@@ -1,0 +1,7 @@
+.item-diet {
+  height: 25px;
+}
+
+.item-diet:not(:last-child) {
+  margin-right: 5px;
+}

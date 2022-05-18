@@ -1,0 +1,9 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "Join now or login to place your order!"
+  }
+}

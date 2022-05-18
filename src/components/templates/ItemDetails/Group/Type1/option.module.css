@@ -1,0 +1,10 @@
+.option {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.title {
+  padding: 15px 15px 0px 15px;
+}

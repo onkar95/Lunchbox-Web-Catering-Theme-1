@@ -1,0 +1,18 @@
+.wrapper {
+  box-sizing: border-box;
+  max-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  pointer-events: auto;
+  position: fixed;
+  top: 85px;
+  right: 15px;
+  padding: 8px;
+  z-index: 1000;
+}
+
+.item {
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px 0.5px #717171;
+}

@@ -1,0 +1,9 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find your nearest Zaro's Bakery",
+    "SEARCH_DELIVERY_LABEL": "Where's your food going?"
+  },
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu"
+  }
+}

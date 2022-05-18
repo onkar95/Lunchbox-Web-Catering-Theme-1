@@ -1,0 +1,33 @@
+@value size: 30px;
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+input.radio[type="checkbox"] {
+  position: absolute;
+  width: size;
+  height: size;
+  margin: 0px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+label.label {
+  float: left;
+  height: size;
+  width: size;
+  cursor: pointer;
+}
+
+.radio input[type="checkbox"] {
+  opacity: 0;
+}
+
+div.label {
+  margin-left: 5px;
+}

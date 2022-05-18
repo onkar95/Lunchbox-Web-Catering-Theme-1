@@ -1,0 +1,21 @@
+.fields-container {
+  flex-grow: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+.discount-form {
+  display: flex;
+}
+
+.discount .input {
+  flex-grow: 1;
+}
+
+.discount .apply {
+  flex-grow: 1;
+}
+
+.error {
+  text-align: center;
+}

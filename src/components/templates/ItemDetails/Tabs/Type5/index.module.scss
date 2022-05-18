@@ -1,0 +1,95 @@
+@import "styles/config";
+@import "client";
+
+.itemDetails-tabs {
+  &-nav-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 1.25rem;
+
+    &[data-fixed="true"] {
+      position: sticky;
+      width: 100%;
+      z-index: 9;
+      top: 0px;
+      background-color: white;
+    }
+
+    &[data-fixed="true"] ul li:first-child {
+      padding-left: 60px;
+    }
+
+    .nav {
+      border-bottom: 0px !important;
+      border-left: 0px !important;
+      border-right: 0px !important;
+      margin: 0px -20px !important;
+      display: flex;
+      width: 100%;
+      flex-wrap: nowrap;
+      margin: 0;
+      padding-left: 0;
+      overflow-x: scroll;
+      list-style: none;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &[data-has-scroll="1"]:not([data-at-max="1"]) ~ .right {
+        visibility: initial;
+        opacity: 1;
+      }
+      /* if the list can scroll and not at max scroll pos*/
+      &[data-has-scroll="1"]:not([data-scroll="0"]) ~ .left {
+        visibility: initial;
+        opacity: 1;
+      }
+      .nav-item {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        padding: 14px;
+        .item-button {
+          border: 0 !important;
+          .fixed {
+            position: sticky;
+            padding-left: 20px;
+            width: 100%;
+            z-index: 9;
+            top: 0px;
+            overflow-x: auto;
+            background-color: white;
+          }
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+    .left,
+    .right {
+      font-size: 1.5rem;
+      height: 100%;
+      flex-grow: 1;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .left {
+      order: -1;
+      padding-left: 10px;
+    }
+    .right {
+      padding-right: 10px;
+    }
+  }
+
+  &-menu-options {
+    padding: 0px 20px;
+  }
+  @extend %itemDetails-tabs !optional;
+}

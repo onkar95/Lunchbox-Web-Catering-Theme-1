@@ -1,0 +1,41 @@
+.container {
+  height: 100%;
+}
+
+.content {
+  padding: 15px;
+}
+
+.navigation {
+  padding: 15px;
+}
+
+.card-item {
+  padding: 7.5px 0px;
+  border: none;
+}
+.card-item:first-child {
+  padding-top: 0px;
+}
+.card-item:last-child {
+  padding-bottom: 0px;
+}
+
+.text {
+}
+
+/* Tablet 768px */
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

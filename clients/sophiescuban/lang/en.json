@@ -1,0 +1,18 @@
+{
+  "CART_STATIC": {
+    "CART_HEADER_TEXT": "Sophie's Cuban Cuisine"
+  },
+  "CHECKOUT_STATIC": {
+    "COMPLETE_TYPE4_PICKUP_FROM_TEXT": "Pickup Location",
+    "COMPLETE_TYPE4_DELIVERING_FROM_TEXT": "Delivery Address",
+    "COMPLETE_TYPE4_ORDER_IN_THE_KITCHEN_MESSAGE": "Your order is all set and will be ready for you soon!",
+    "CONFIRM_REMOVE_ITEM_APPROVAL_MESSAGE": "\nAre you sure you want to remove \n\u201C{itemName}\u201D \nfrom your cart?"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome",
+    "SUBHEADER": "Join now and earn points on every order!"
+  }
+}

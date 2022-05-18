@@ -1,0 +1,33 @@
+@import "client";
+$unique-input-border-color: false !default;
+@if $unique-input-border-color {
+  .field {
+    input,
+    select {
+      border-color: $unique-input-border-color;
+    }
+  }
+}
+
+.field {
+  margin-bottom: 30px;
+}
+
+.field:last-child {
+  margin-bottom: 0px;
+}
+.field:only-child {
+  margin-bottom: 30px;
+}
+
+.field.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 10px;
+}

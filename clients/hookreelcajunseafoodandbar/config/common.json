@@ -1,0 +1,154 @@
+{
+  "id": "hookreelcajunseafoodandbar",
+  "restaurant": "Hook & Reel",
+  "directory": "hookandreel",
+  "local_storage_key": "access",
+  "default_tab": "delivery",
+  "pickup": {
+    "tip": true,
+    "tip_default": 0,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": true,
+    "tip_default": 0.15,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": true,
+      "client_id": "com.hookreelcajunseafoodandbar.auth"
+    },
+    "google": {
+      "enabled": true,
+      "client_id": "5234248228-0o2lh9t1f1m3r5i7ajs33qa7jti74gp4.apps.googleusercontent.com"
+    }
+  },
+  "login_signup": {
+    "version": "Type2",
+    "header": "Type1",
+    "nav_item": "Type2"
+  },
+  "payment_processor": "stripe",
+  "website": {
+    "name": "Hook & Reel Catering",
+    "description": "",
+    "url": "https://www.hookreel.com/",
+    "favicons": [
+      {
+        "rel": "apple-touch-icon",
+        "src": "https://assets.lunchbox.io/hookandreel/images/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": ""
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/hookandreel/images/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/hookandreel/images/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  },
+  "diet_order": ["vegan", "glutenFree", "nutFree", "dairyFree", "vegetarian"],
+  "hardcodes": {
+    "groupOrder": [
+      "chicken",
+      "signature creations",
+      "sandwiches",
+      "wraps",
+      "salads",
+      "fries",
+      "extra sauces",
+      "sides",
+      "drinks",
+      "catering"
+    ],
+    "optionsTabs": []
+  },
+  "theme": {
+    "color": "#FFCF06",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "Type1",
+      "card": "Type5",
+      "map_geo": {
+        "lat": 40.728608,
+        "long": -73.998962
+      }
+    },
+    "menu": {
+      "layout": "Type2",
+      "nav": "Type1",
+      "group_container": "Type1",
+      "item_card": "Type2",
+      "catering_info_time": "",
+      "info": "Type1",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "confirmation": "Type5",
+      "cart_item": "Type5"
+    },
+    "item_details": {
+      "group": "Type1",
+      "header": "Type1",
+      "tabs": "Type5",
+      "modifier_items": "Type10",
+      "cart_item": "Type2",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type1",
+    "empty": "Type1",
+    "cart_item": "",
+    "footer": "sticky",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": false,
+    "required_contact_name": true,
+    "required_contact_phone": true,
+    "required_number_of_guests": true,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": false
+  },
+  "lang": {
+    "phone": "",
+    "email": "catering@hookreel.com",
+    "info": "",
+    "home_title": "WELCOME TO HOOK & REEL!",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Delivery Fees",
+    "service_delivery_information": "",
+    "service_pickup_information": "",
+    "tax_tooltip": false
+  }
+}

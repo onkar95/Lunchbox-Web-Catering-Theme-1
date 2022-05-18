@@ -1,0 +1,33 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our menu"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_DELIVERY_LABEL": "WHERE ARE YOU LOCATED?"
+  },
+  "LOGIN_STATIC": {
+    "EMAIL_INPUT_LABEL": "Enter Your Email",
+    "EMAIL_INPUT_PLACEHOLDER": "Email",
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGN UP"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_PLACEHOLDER": "Password",
+    "INPUT_LABEL": "Enter Your Password"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Email"
+  },
+  "FORGOT_PASSWORD_STATIC": {
+    "EMAIL_INPUT_PLACEHOLDER": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Password"
+  },
+  "SIGN_UP_STATIC": {
+    "EMAIL_PLACEHOLDER": "Enter Your Email",
+    "PASSWORD_PLACEHOLDER": "Your Password"
+  },
+  "CART_STATIC": {
+    "CHECKOUT_HEADER_TEXT": "Order Information",
+    "CHECKOUT_PLACE_ORDER_BUTTON_TEXT": "Continue To Payment"
+  }
+}

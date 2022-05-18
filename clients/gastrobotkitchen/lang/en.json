@@ -1,0 +1,44 @@
+{
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_DELIVERY_LABEL": "Where is your food going?"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN/SIGNUP",
+    "FORGOT_PASSWORD_BUTTON_TEXT": "Forgot Password?",
+    "EMAIL_INPUT_LABEL": "ENTER YOUR EMAIL"
+  },
+  "LOGIN_SIGNUP_STATIC": {
+    "HEADER": "Welcome!"
+  },
+  "VALIDATE_LOGIN_STATIC": {
+    "INPUT_LABEL": "Enter Your Email",
+    "INPUT_PLACEHOLDER": "Email",
+    "BUTTON_TEXT": "Next"
+  },
+  "PASSWORD_STATIC": {
+    "INPUT_LABEL": "Enter Your Password",
+    "INPUT_PLACEHOLDER": "Password",
+    "BUTTON_TEXT": "Next"
+  },
+  "ORDER_DETAILS": {
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen and delivery team to be aware of",
+    "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of"
+  },
+  "HEADER_STATIC": {
+    "EDIT_ORDER_TEXT": "Go Back",
+    "START_A_NEW_ORDER_TEXT": "Go Back",
+    "GO_BACK_TO_MENUBACK_TEXT": " TO MENU"
+  },
+  "PROFILE_STATIC": {
+    "DELETE_CARD_BUTTON_TEXT": "delete",
+    "USER_WELCOME_TEXT": "Welcome, {firstName}",
+    "CARD_ON_FILE_TEXT": "CARD On FILE"
+  },
+  "CHECKOUT_STATIC": {
+    "CONFIRM_GO_TO_CART_BUTTON_TEXT": "NO",
+    "CONFIRM_REMOVE_ITEM_APPROVAL_MESSAGE": "\nAre you sure you want to remove \n\u201C{itemName}\u201D \nfrom your cart?",
+    "COMPLETE_TYPE4_ORDER_IN_THE_KITCHEN_MESSAGE": "Your order is all set and will be ready for you soon!",
+    "COMPLETE_TYPE4_PICKUP_FROM_TEXT": "Pickup Location",
+    "COMPLETE_TYPE4_DELIVERING_FROM_TEXT": "Delivery Address"
+  }
+}

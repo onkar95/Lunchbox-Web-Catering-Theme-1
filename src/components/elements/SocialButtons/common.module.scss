@@ -1,0 +1,64 @@
+@import "styles/config";
+@import "client";
+
+.btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  width: 21rem;
+  min-height: 3rem;
+  text-align: center;
+
+  @include media-breakpoint-up(sm) {
+    width: 21rem;
+  }
+
+  &.google,
+  &.apple {
+    border-radius: 0.25rem;
+    text-align: left;
+    text-decoration: none;
+    border-width: 0.0625rem;
+    border-style: solid;
+    line-height: 1.25rem;
+  }
+
+  &.apple {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 300;
+  }
+
+  &-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 300;
+  }
+
+  @extend %socialButton !optional;
+}
+.pseudoApple {
+  opacity: 0 !important;
+  position: absolute;
+  height: 3rem;
+  width: 21rem;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0 !important;
+  }
+}

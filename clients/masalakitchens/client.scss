@@ -1,0 +1,235 @@
+@import "styles/config";
+$header-misc-art: true;
+$hide-footer-cta: true;
+$baseBlack: #212121;
+$accentDark: #282828;
+$accentLight: #feb6fb;
+$baseWhite: #ffffff;
+$headerShadow: 0px 1px 0px $baseWhite;
+
+// adjust background color of whole page
+.page-content {
+  background-color: $accentDark !important;
+}
+// adjust header background color
+.header {
+  background-color: $baseBlack !important;
+  box-shadow: $headerShadow !important;
+}
+//adjust background image size to avoid being stretched
+.cateringHome {
+  background-size: 70% 100% !important;
+  background-position: top 0px right -10px !important;
+  @media screen and (min-width: 90rem) {
+    background-size: 80% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: top 0px right 0px !important;
+  }
+  &-content {
+    background-color: $accentDark !important;
+    &-title {
+      background-color: $accentDark !important;
+      line-height: 2.5rem !important;
+    }
+  }
+}
+// align login header to the left
+.loginHeader {
+  width: 100% !important;
+  flex-direction: column !important;
+  &-description {
+    padding-left: 1rem !important;
+    line-height: 2.5rem !important;
+    padding-top: 1rem !important;
+  }
+}
+// adjust input fields container background color
+.fields-container {
+  background-color: $accentDark !important;
+}
+.card-body {
+  background-color: $accentDark !important;
+}
+// add a border-bottom active rc-tabs
+.rc-tabs-tab-active,
+.rc-tabs-tab-active:hover {
+  color: transparent;
+  border-bottom: 4px solid $accentLight;
+  color: $accentLight;
+}
+// adjust the line-height of all input fields(this is because of the font)
+.input {
+  line-height: 1.25rem !important;
+}
+// location-info card transparency and height
+.location-info-card {
+  opacity: 0.9 !important;
+  height: 12.5rem !important;
+  background-color: $baseWhite !important;
+}
+.nav-container {
+  background: $accentDark !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25) !important;
+}
+// adjust the menu nav-item to match the Figma design
+.nav-item {
+  padding: 1.5rem 1.25rem !important;
+  margin: 0 15px !important;
+}
+// adjust rc-tabs-bar background color
+.rc-tabs-bar {
+  background-color: $accentDark !important;
+}
+// active nav-item
+.nav-item[active="1"] {
+  border-bottom: 0.25rem solid #FEB6FB !important;
+}
+%menuGroup {
+  .group {
+    &-info {
+      text-align: left;
+      border-bottom: 1.5px solid #88919A;
+      margin: 3rem 2rem 1rem 2rem;
+      padding: 0 0 1rem 0;
+    }
+  }
+}
+// adjust section background color
+.section-title, .section-content {
+  background-color: $accentDark !important;
+}
+// adjust profileHeader background color
+.profileHeader {
+  background-color: $accentDark !important;
+  box-shadow: none !important;
+}
+// adjust card background color
+.card {
+  background-color: $accentDark !important;
+}
+// remove the border on the order-item to match the Figma design
+.order-item {
+  border: 0 !important;
+}
+// adjust orderItem-title, font is distorted by default, increasing the line-height fixed it
+.orderItem-title {
+  span:nth-child(2) {
+    line-height: 1.875rem;
+  }
+}
+// adjust orderItem-info, font is distorted by default, increasing the line-height fixed it
+.orderItem-info {
+  line-height: 2.5rem !important;
+}
+// remove border around orderItem-desc to match the Figma design
+.orderItem-desc {
+  border: 0 !important;
+}
+.orderItem-actions {
+  border-top: 0 !important;
+  border-bottom: 1px solid #C8CCD0 !important;
+  &-btn {
+    border-right: 0 !important;
+    padding: 1.25rem 0 !important;
+  }
+}
+// adjust the background-color of the logout section
+.drawer-content-wrapper {
+  background-color: $accentDark !important;
+}
+// Card Title
+.item-title {
+  line-height: 2rem !important;
+}
+// Modifiers
+.item-qty {
+  &--btn {
+    width: 1.875rem !important;
+    height: 1.875rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    span {
+      position: relative !important;
+      top: 5px !important;
+    }
+  }
+}
+// adjust the padding of the menu nav to match the Figma design
+.nav {
+  .nav-item {
+    padding: 0.875rem 1.25rem !important;
+    margin: 0  !important;
+  }
+}
+.nav-left > .logo > a img {
+  width: auto !important;
+}
+// back button icon
+.back-button {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-left: 6px !important;
+  margin-top: 6px !important;
+}
+// ITEM DETAILS
+%itemDetails-tabs {
+  background-color: #282828 !important;
+  .itemDetails-tabs-nav-container {
+    .nav {
+      height: 3rem !important;
+      border-bottom: 1px solid #c8ccd0 !important;
+      border-top: 1px solid #c8ccd0 !important;
+      border-radius: 0 !important;
+      .nav-item {
+        .item-button {
+          padding: 0 1rem;
+          border-bottom: 0.25rem solid $accentLight;
+          span {
+            display: block;
+          }
+        }
+        &[data-active="1"] {
+          border-bottom: 2px solid $accentLight !important;
+          .item-button {
+            span {
+              color: $accentLight !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  ul {
+    li {
+      &:first-child {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+// Apple SSO button background color
+.apple {
+  background-color: $baseWhite !important;
+}
+// item total, font is distorted by default, increasing the line-height fixed it
+.price-container > div:last-child  {
+  span:last-child {
+    line-height: 2.5rem !important;
+  }
+}
+// adjust the background color of the stripeForm container
+.stripeForm-container {
+  background-color: $accentDark !important;
+}
+
+//////////SELECT FIELD FIX on darkmode //////////
+
+// by default most clients have a base background of white, but this currently client is mostly black
+// temp fix to change the color of select fields to white on a dark background
+select select[disabled] {
+  color: $baseWhite !important;
+}
+option {
+  color: $baseWhite !important;
+}

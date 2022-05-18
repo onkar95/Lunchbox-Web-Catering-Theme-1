@@ -1,0 +1,48 @@
+@import "client";
+$custom-qmark: false !default;
+
+.price-container {
+  padding: 0px 15px 0px 15px;
+  flex-grow: 1;
+  position: relative;
+  bottom: 0;
+  @extend %priceContainer !optional;
+}
+
+.price-container > div {
+  margin-bottom: 15px;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+}
+
+.promo > span,
+.tip > span {
+  flex-grow: 1;
+}
+.promo > span:last-child {
+  flex-grow: 0;
+}
+
+.promo > span:last-child > *:first-child {
+  padding: 0px;
+}
+
+.promo-clear {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.information {
+  padding: 0px 5px;
+  text-align: center;
+  @if $custom-qmark {
+    @include customQmark();
+  }
+}

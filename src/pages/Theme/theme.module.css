@@ -1,0 +1,44 @@
+.header {
+  padding: 15px;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  height: 550px;
+}
+
+.section-title {
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.fields-container {
+  flex-grow: 1;
+  padding: 15px 15px;
+}
+
+/* Tablet 768px */
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

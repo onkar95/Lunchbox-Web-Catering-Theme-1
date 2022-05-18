@@ -1,0 +1,13 @@
+.container {
+  flex: auto;
+  background: #f0f2f5;
+  min-height: 0;
+  height: calc(100vh - 75px);
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  padding-top: 25px;
+  max-height: 80vh;
+}

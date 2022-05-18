@@ -1,0 +1,53 @@
+@import "client";
+
+.nav-container {
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  box-shadow: 0 2px 7px 0 #989898;
+}
+
+.nav-container::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: none;
+}
+
+.nav-list {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+}
+
+.nav-list::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: none;
+}
+
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+  .nav-list {
+    align-items: center;
+    min-width: fit-content;
+    margin: auto;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

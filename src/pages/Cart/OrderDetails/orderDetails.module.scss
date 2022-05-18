@@ -1,0 +1,66 @@
+@import "client";
+$hide-checkout-overflow-x: false !default;
+
+.content {
+  padding: 15px 15px 0px 15px;
+  flex-grow: 1;
+  @if $hide-checkout-overflow-x {
+    overflow-x: hidden;
+  }
+
+  @extend %orderDetailsContent !optional;
+}
+
+.steppers {
+  margin-right: 15px;
+}
+
+.arrow-up:after {
+  content: "\25B2";
+  height: 1em;
+  font-size: 1em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.arrow-down:after {
+  content: "\25BC";
+  height: 1em;
+  font-size: 1em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.selector::before,
+.selector::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.selector::after {
+  content: "\25BC";
+  height: 1em;
+  font-size: 0.625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.selector::before {
+  /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.selector::after {
+  color: rgba(0, 0, 0, 0.6);
+}

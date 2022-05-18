@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  padding: 10.5px 15px;
+  align-items: center;
+  border-bottom-width: 1.5px;
+  min-height: 70px;
+}
+
+.nav > *:first-child {
+  flex-grow: 1;
+}
+
+.nav > *:last-child {
+  flex-grow: 45;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

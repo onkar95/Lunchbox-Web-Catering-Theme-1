@@ -1,0 +1,217 @@
+@import "styles/config";
+$unique-input-border-color: #000 !default;
+
+// general
+$baseWhite: #ffffff;
+$baseBlack: #172b29;
+$accentDark: #5ca87d;
+$background: #f5f5f5;
+$custom-qmark: true !default;
+
+@mixin customQmark {
+  background-color: $baseBlack;
+  color: white !important;
+  border-radius: 50%;
+}
+
+//home
+$show-delivery-image: true !default;
+
+//cart
+$cart-header-text: true !default;
+$hide-checkout-overflow-x: true !default;
+$custom-cart-button-border: #888888 !default;
+
+// home
+.header {
+  .logo {
+    max-width: 200px;
+    &:not(:last-child) {
+      border-right-color: $baseBlack;
+    }
+  }
+}
+
+// small buffer for input on homepage to display logo fully.
+.input-container .input {
+  padding-top: 0.5rem;
+}
+
+// .logo:not(:last-child) {
+//   border-right-color: $accentDark;
+// }
+
+.rc-tabs-tab-active span:after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  width: 30px;
+  height: 30px;
+  background-color: $accentDark;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.locationCard {
+  box-shadow: 0px 0px 10px 2px #e6e6e6;
+}
+
+.item-card {
+  box-shadow: 0px 5px 10px 0px #cfcfcfcc !important;
+}
+
+%menuItem {
+  box-shadow: 0px 5px 10px 0px #cfcfcfcc !important;
+}
+
+// end menu edits
+
+//itemdetail edits
+
+%modifierItem {
+  justify-content: stretch !important;
+  box-shadow: 0px 1px 4px 0px #00000040 !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $baseWhite;
+      }
+      path {
+        fill: $baseBlack;
+        transform: translate(-3px, -3px);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0px 10px !important;
+      }
+      &--number span {
+        padding-bottom: 0.25rem;
+      }
+    }
+  }
+}
+
+.item-qty--number span {
+  position: relative;
+  top: 0.2rem;
+}
+
+.footerButton {
+  & > button {
+    padding: 0.5rem 0;
+    max-height: 100% !important;
+    min-height: 100% !important;
+  }
+}
+
+%footerContainer {
+  background-color: $accentDark;
+  box-shadow: 0px -2px 5px 0px #e4e3e3 !important;
+  %quantitySelector {
+    font-family: "Fort-Foundry-Termina-Bold";
+    font-weight: 900;
+    font-size: 24px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    &::before {
+      content: "QUANTITY";
+    }
+  }
+}
+
+// .quantity-btn {
+//   font-size: 24px;
+// }
+
+.itemDetails-tabs {
+  &-nav-container {
+    top: 0 !important;
+    position: relative;
+  }
+  .nav-item {
+    .item-button {
+      position: relative;
+    }
+  }
+  .nav-item[data-active="1"] {
+    border-bottom: 2px solid $accentDark;
+    ::before {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -45%);
+      position: absolute;
+      content: "";
+      height: 30px;
+      width: 30px;
+      border-radius: 999px;
+      background: $accentDark;
+      opacity: 15%;
+    }
+  }
+}
+
+.nav-item img {
+  height: 1.875rem !important;
+  width: 1.875rem !important;
+  margin-bottom: 3px;
+}
+
+.cart-catering-logo {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+%cartContent {
+  // .content {
+  //   padding: 1.5rem 4rem !important;
+  // }
+  padding: 1.5rem 4rem !important;
+}
+
+%orderDetailsContent {
+  padding: 1.5rem 4rem !important;
+}
+
+// becuase of bigger padding in figma design, the following 2 media queries are needed to give enough space for all content on mobile view
+%checkoutContent {
+  padding: 1.5rem 4rem !important;
+  @media only screen and (max-width: 1200px) {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+.footer {
+  padding: 1.5rem 4rem 0.2rem !important;
+  box-shadow: 0px -4px 4px rgba(95, 95, 95, 0.1) !important;
+  z-index: 2;
+  @media only screen and (max-width: 1200px) {
+    padding: 1.2rem 2rem !important;
+  }
+}
+
+.cart-header-text {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dropdown-icon img {
+  margin-top: 0.3125rem;
+  height: 1.2rem !important;
+}
+
+.input {
+  padding-bottom: 5px !important;
+}
+
+%completeCard {
+  padding: 1rem !important;
+}
+
+//Todo: FIx this globally for every client.
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

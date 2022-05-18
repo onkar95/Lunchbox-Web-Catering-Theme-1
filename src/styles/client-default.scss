@@ -1,0 +1,101 @@
+// This is only for reference and not actually used anywhere
+
+%page {
+  &-wrapper {
+  }
+}
+
+$header-shadow: 4 !default;
+
+%header {
+  &-wrapper {
+    &--left {
+      & .logo {
+        & a img {
+        }
+      }
+      & .nav {
+        &-back {
+        }
+        &-info {
+        }
+      }
+    }
+    &--right {
+      & .dropdown {
+        &-item {
+          & span {
+          }
+          & img {
+          }
+        }
+      }
+    }
+  }
+}
+
+$location-shadow: 1 !default;
+
+%location {
+  &-container {
+    &--header {
+      & .body {
+        &-title {
+        }
+        &-art {
+        }
+      }
+      & .tabs {
+        &-container {
+        }
+      }
+    }
+    &--cards {
+      & .loader {
+      }
+      & .nothing {
+        & img {
+        }
+      }
+    }
+  }
+  &-map {
+  }
+}
+
+$locationCard-shadow: true !default;
+
+%locationCard {
+  &-top {
+    &--header {
+      & .title {
+      }
+      & .button {
+      }
+    }
+    &--phone {
+    }
+  }
+  &-bottom {
+  }
+}
+
+%locationsMap {
+  &-info {
+    &--name {
+    }
+    &--address {
+      & .title {
+      }
+    }
+    &--hour {
+      & span {
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

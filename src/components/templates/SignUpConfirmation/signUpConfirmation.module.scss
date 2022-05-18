@@ -1,0 +1,12 @@
+.content {
+  height: 100%;
+  text-align: center;
+
+  &-text {
+    margin-bottom: 1rem;
+  }
+  &-img img {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}

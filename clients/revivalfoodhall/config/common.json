@@ -1,0 +1,143 @@
+{
+  "id": "revival",
+  "restaurant": "revivalfoodhall",
+  "directory": "revivalfoodhall",
+  "local_storage_key": "access",
+  "default_tab": "pickup",
+  "pickup": {
+    "tip": false,
+    "tip_default": 0.2,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "delivery": {
+    "tip": false,
+    "tip_default": 0.2,
+    "tip_available_options": [0, 0.15, 0.2, 0.25, 0.3],
+    "minimum": 0
+  },
+  "auth": {
+    "facebook": {
+      "enabled": false,
+      "app_id": null
+    },
+    "apple": {
+      "enabled": true,
+      "client_id": "com.revivalfoodhall.auth"
+    },
+    "google": {
+      "enabled": true,
+      "client_id": "558218732577-bog7mohk8v225l3of5602901tpi30m9u.apps.googleusercontent.com"
+    }
+  },
+  "login_signup": {
+    "version": "Type2",
+    "header": "Type1",
+    "nav_item": "Type2"
+  },
+  "payment_processor": "stripe",
+  "website": {
+    "name": "Revival Food Hall Catering",
+    "description": "Order revivalfoodhall",
+    "url": "https://revivalfoodhall.com/",
+    "favicons": [
+      {
+        "rel": "apple-touch-icon",
+        "src": "https://assets.lunchbox.io/revivalfoodhall/images/favicon/apple-icon-180x180.png",
+        "sizes": "180x180",
+        "type": ""
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/revivalfoodhall/images/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "src": "https://assets.lunchbox.io/revivalfoodhall/images/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  },
+  "diet_order": ["vegetarian", "vegan", "glutenfree", "dairyfree", "nutfree"],
+  "hardcodes": {
+    "groupOrder": [],
+    "optionsTabs": []
+  },
+  "theme": {
+    "color": "#FFCF24",
+    "fonts": {
+      "source": "",
+      "href": ""
+    },
+    "header": {
+      "theme": ""
+    },
+    "location": {
+      "layout": "Type3",
+      "card": "Type3",
+      "map_geo": {
+        "lat": 41.881832,
+        "long": -87.623177
+      }
+    },
+    "menu": {
+      "layout": "Type2",
+      "nav": "Type2",
+      "group_container": "Type3",
+      "item_card": "Type1",
+      "catering_info_time": "",
+      "info": "",
+      "group_item_breakpoints": {
+        "xs": "1",
+        "sm": "1-2",
+        "md": "1-3",
+        "lg": "1-4"
+      }
+    },
+    "checkout": {
+      "confirmation": "Type4",
+      "cart_item": "Type4"
+    },
+    "item_details": {
+      "group": "Type2",
+      "header": "Type3",
+      "tabs": "Type5",
+      "modifier_items": "Type10",
+      "cart_item": "",
+      "is_default_modifier_unselectable": true
+    }
+  },
+  "components": {
+    "tab": "Type2",
+    "empty": "Type1",
+    "cart_item": "",
+    "footer": "sticky",
+    "home_template": "Type3"
+  },
+  "order_details": {
+    "has_company": true,
+    "has_utensils": true,
+    "required_patron_company": false,
+    "required_contact_name": false,
+    "required_contact_phone": false,
+    "required_number_of_guests": false,
+    "required_needs_serving_utensils": true,
+    "required_needs_eating_utensils": true,
+    "required_notes": false
+  },
+  "lang": {
+    "phone": "312-970-1180",
+    "email": "catering@revivalfoodhall.com",
+    "info": "",
+    "home_title": "Welcome to revival catering",
+    "location_pg": "",
+    "location_text": "",
+    "service_copy": "Service Fees",
+    "service_delivery_information": "",
+    "service_pickup_information": "",
+    "tax_tooltip": true
+  }
+}

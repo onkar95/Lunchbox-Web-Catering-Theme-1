@@ -1,0 +1,62 @@
+@import "styles/config";
+@import "client";
+
+.orderItem {
+  margin-bottom: 1.563rem;
+  padding: 0.625rem;
+  min-height: 6.25rem;
+  display: flex;
+  text-decoration: none;
+  padding: 0.313rem 0.469rem;
+  margin-bottom: 0.938rem;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-self: center;
+}
+
+.title {
+  flex-grow: 0;
+  display: flex;
+}
+
+.title span:first-child {
+  flex-grow: 1;
+  padding-right: 0.469rem;
+}
+.title span:nth-child(2) {
+  flex-grow: 0;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0.313rem 0rem;
+  line-height: 1.3rem;
+}
+
+.mods {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cart-btn {
+  margin: 0rem;
+  text-align: right;
+}
+
+@media screen and (min-width: 48em) {
+}

@@ -1,0 +1,45 @@
+{
+    "LOCATION_FORM_STATIC": {
+        "SEARCH_PICKUP_LABEL": "Enter your address",
+        "SEARCH_PLACEHOLDER":"Find the closest Masala Kitchens"
+    },
+    "LOGIN_STATIC": {
+        "LOGIN_SIGN_UP_BUTTON_TEXT": "Back to menu"
+    },
+    "LOGIN_SIGNUP_STATIC": {
+        "HEADER": "Welcome!"
+    },
+    "VALIDATE_LOGIN_STATIC": {
+        "INPUT_LABEL":"Email Address",
+        "INPUT_PLACEHOLDER":"Enter your email address",
+        "BUTTON_TEXT":"Sign In"
+    },
+    "PASSWORD_STATIC": {
+        "INPUT_PLACEHOLDER":"Enter your password"
+    },
+    "SIGN_UP_STATIC": {
+        "FIRST_NAME_PLACEHOLDER": "Enter your first name",
+        "LAST_NAME_PLACEHOLDER": "Enter your last name",
+        "PHONE_LABEL": "Mobile Number",
+        "PHONE_PLACEHOLDER": "Enter your mobile phone number",
+        "PASSWORD_PLACEHOLDER": "Create a password",
+        "SIGN_UP_BUTTON_TEXT": "Next"
+    },
+    "HEADER_STATIC": {
+        "EDIT_ORDER_TEXT": "Back to Menu",
+        "START_A_NEW_ORDER_TEXT": "Go Back",
+        "GO_BACK_TO_MENU_TEXT": "Back to Menu"
+    },
+    "CART_STATIC":{
+        "LOGGED_IN_USER_MESSAGE": "Proceed to Checkout"
+    },
+    "ORDER_DETAILS": {
+        "ORDER_DETAILS_NOTES_PLACEHOLDER_PICKUP": "Add any specific notes you want the kitchen and delivery team to be aware of.",
+        "ORDER_DETAILS_NOTES_PLACEHOLDER_DELIVERY": "Add any specific notes you want the kitchen and delivery team to be aware of."
+    },
+    "CHECKOUT_STATIC": {
+        "COMPLETE_TYPE4_ORDER_IN_THE_KITCHEN_MESSAGE": "Your order is all set and will be ready for you soon!",
+        "COMPLETE_TYPE4_PICKUP_FROM_TEXT": "Pickup Location",
+        "COMPLETE_TYPE4_DELIVERING_FROM_TEXT": "Delivery Address"
+    }
+}

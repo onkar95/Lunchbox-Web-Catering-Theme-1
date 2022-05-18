@@ -1,0 +1,341 @@
+@import "styles/config";
+
+$header-misc-art: true;
+$show-delivery-image: true;
+
+$accentLight: #f18a00;
+$accentDark: #ff0f00;
+$backgroundGray: #f4f3f4;
+$baseGray: #505050;
+$boxShadowColor: #ececec;
+$alternateGray: #e2dada;
+$baseBlack: #000000;
+$backgroundGray: #f4f4f4;
+$baseWhite: #ffffff;
+$borderColor: #d8d8d8;
+$paleYellow: #f1ebe2;
+
+// HOME PAGE
+.header {
+  box-shadow: none !important;
+
+  .logo {
+    max-width: 12rem;
+  }
+
+  .logo:not(:last-child) {
+    border: none;
+    margin-right: 1rem !important;
+  }
+}
+
+.rc-tabs {
+  &-bar {
+    background-color: $accentLight;
+  }
+
+  &-tab {
+    padding: 0.875rem 2.5rem;
+    & > div {
+      padding-top: 0.31rem;
+    }
+  }
+}
+
+.show-call-button {
+  opacity: 0.5;
+}
+
+%locationCard {
+  padding: 0.8rem 1.2rem !important;
+
+  span:nth-child(3) {
+    font-size: 0.875rem;
+    color: #000;
+  }
+}
+
+.cateringHome {
+  background-size: 75% 175% !important;
+  background-position: 25rem !important;
+  @include media-breakpoint-up(sm) {
+    background-size: 75% 175% !important;
+    background-position: 25rem !important;
+  }
+  &-content {
+    padding-top: 0 !important;
+    &-title {
+      padding: 1.56rem !important;
+    }
+  }
+
+  &-tab-container {
+    margin-top: 0rem !important;
+  }
+
+  &-footer {
+    &-button {
+      box-shadow: 0 0.25rem 0.43rem 0 $borderColor;
+    }
+    &-container {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+// MENU PAGE
+// special hover animation for this client basd on figma
+.menu-item > div {
+  box-shadow: 0 0 0.43rem 0.125rem $boxShadowColor !important;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    -webkit-box-shadow: 0 0 1.25rem $alternateGray !important;
+    box-shadow: 0 0 1.25rem $alternateGray !important;
+  }
+}
+
+.header-image {
+  height: 18.75rem !important;
+}
+
+.location-info-card {
+  height: 52% !important;
+}
+
+.nav-container {
+  box-shadow: 0 0.25rem 1rem rgba(146, 146, 146, 0.1) !important;
+}
+
+.nav-links-container {
+  & > div {
+    margin-left: 1.2rem !important;
+  }
+}
+
+.group {
+  > div:first-child {
+    border-bottom: 0.125rem solid $baseGray !important;
+    margin: 0 1.25rem 2rem 1.25rem !important;
+  }
+  &-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+// ITEM DETAILS
+%itemDetails-tabs {
+  .itemDetails-tabs {
+    &-nav-container {
+      top: 0;
+      .nav {
+        background-color: $accentLight;
+        align-items: center;
+        .nav-item {
+          button {
+            padding: 0.5rem 1rem;
+          }
+          &[data-active="1"] {
+            button {
+              background-color: $baseBlack;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemDetails-tabs-menu-options {
+  background-color: $backgroundGray;
+}
+
+.back-button {
+  width: 1rem !important;
+  height: 1.25rem !important;
+  margin-right: 1rem !important;
+}
+
+#itemDetails {
+  > div:first-child {
+    > div:first-child {
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2rem !important;
+        height: 2rem !important;
+        margin-right: 1rem !important;
+      }
+    }
+  }
+}
+
+.back {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+%option {
+  .option {
+    &-lineText {
+      padding: 0;
+    }
+  }
+}
+
+.quantity-btn {
+  padding-bottom: 0 !important;
+}
+
+.quantity {
+  padding-top: 0.18rem !important;
+}
+
+%modifierItem {
+  justify-content: stretch !important;
+  .item {
+    &-check-icon {
+      circle {
+        fill: $baseBlack;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0 0.625rem !important;
+      }
+    }
+  }
+}
+
+// CART
+%orderItem {
+  padding-bottom: 1rem !important;
+  border-bottom: 0.1rem solid $borderColor !important;
+  background-color: $baseWhite !important;
+}
+
+%orderDetailsContent {
+  padding-top: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.inline {
+  margin-bottom: 1.25rem !important;
+}
+
+%footerContainer {
+  box-shadow: 0 -0.125rem 0.31rem 0 #e4e3e3 !important;
+
+  %quantitySelector {
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+%footerButton {
+  box-shadow: 0 -0.25rem 0.25rem rgba(95, 95, 95, 0.1) !important;
+  & > button {
+    min-height: 3.62rem !important;
+    max-height: 3.62rem !important;
+  }
+}
+
+%priceContainer {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.56rem !important;
+}
+
+.cart-catering-logo {
+  width: auto !important;
+  height: auto !important;
+}
+
+.cart-btn {
+  padding: 0 !important;
+}
+
+.item-qty {
+  margin-bottom: 2rem !important;
+}
+
+.item-qty--number {
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+.orderItem-info-actions {
+  button:nth-child(2) {
+    opacity: 0.6;
+    margin-left: 1.25rem !important;
+  }
+}
+
+input:disabled {
+  color: #1a1a1a !important;
+}
+
+.input-container {
+  input {
+    border-bottom-width: 0.13rem;
+  }
+  input::placeholder {
+    opacity: 0.5;
+  }
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.page-content {
+  background-color: $paleYellow !important;
+}
+
+%header {
+  & > div {
+    & > div:first-child {
+      margin-bottom: 1.25rem !important;
+    }
+    & > div:nth-child(2) {
+      padding-left: 0.25rem !important;
+    }
+  }
+}
+
+.loginHeader-description {
+  max-width: 15.5rem !important;
+  & > span:first-child {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+.section {
+  box-shadow: none !important;
+}
+
+.section-title {
+  padding: 1.5rem 1.5rem 1.25rem !important;
+}
+
+.fields-container {
+  padding: 2rem 1.5rem 0rem !important;
+}
+
+@media screen and (max-width: 48em) {
+  .group-info .group-description {
+    visibility: visible;
+  }
+
+  .remove-confirmation {
+    height: 100%;
+  }
+}

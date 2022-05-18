@@ -1,0 +1,25 @@
+@import "client";
+
+.nav-item {
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.nav-item > * {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-item span{
+  margin-top: 0.3rem;
+}
+
+.nav-item a {
+  line-height: 0px;
+}
+
+.nav-item img {
+  max-width: 32px;
+  max-height: 32px;
+  height: 100%;
+}

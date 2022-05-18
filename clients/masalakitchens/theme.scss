@@ -1,0 +1,20 @@
+:root {
+  --font1: 'GothamBold';
+  --font2: 'GothamMedium';
+  --font3: 'GothamBookRegular';
+}
+
+/* sc-component-id: sc-global-3834781558 */
+@font-face {
+  font-family: GothamBold;
+  src: url("../fonts/GothamBold.ttf") format('truetype');
+  line-height: 2.5rem;
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url("../fonts/GothamMedium.ttf") format('truetype');
+}
+@font-face {
+  font-family: GothamBookRegular;
+  src: url("../fonts/GothamBookRegular.otf") format('opentype');
+}

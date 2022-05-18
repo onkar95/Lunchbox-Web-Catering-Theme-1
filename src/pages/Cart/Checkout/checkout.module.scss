@@ -1,0 +1,115 @@
+@import "client";
+$custom-qmark: false !default;
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 15px 15px 0px 15px;
+  flex-grow: 1;
+
+  @extend %checkoutContent !optional;
+}
+
+.footer {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-container {
+  padding: 0px 15px 15px 15px;
+  flex-grow: 1;
+  position: relative;
+  bottom: 0;
+}
+
+.price-container > div {
+  margin-bottom: 15px;
+}
+
+.promo,
+.tip {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.promo > span,
+.tip > span {
+  flex-grow: 10;
+}
+.promo > span:last-child,
+.tip > div:last-child {
+  flex-grow: 1;
+  flex-basis: 50px;
+}
+
+.promo > span:last-child > *:first-child {
+  padding: 0px;
+}
+
+.tip > span:last-child {
+  text-align: right;
+}
+
+.tip {
+  & > span {
+    display: flex;
+    align-items: center;
+
+    .tip-label {
+      margin-bottom: 0;
+    }
+
+    .tip-group {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.tip-input {
+  margin: 0px;
+}
+
+.tip-btn {
+  padding: 3px 6px;
+}
+
+.tip-group > .tip-btn:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+
+.tip-group > .tip-btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.tip-group > .tip-btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.information {
+  padding: 0px 5px;
+  text-align: center;
+  @if $custom-qmark {
+    @include customQmark();
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .tip-btn {
+    padding: 5px 10px;
+  }
+}

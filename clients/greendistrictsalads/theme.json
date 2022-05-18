@@ -1,0 +1,2553 @@
+{
+  "fonts": {
+    "title1": {
+      "name": "Formula-Condensed-Bold",
+      "size": 32
+    },
+    "title2": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "size": 20
+    },
+    "title3": {
+      "name": "Formula-Condensed-Bold",
+      "weight": 700,
+      "size": 24
+    },
+    "title4": {
+      "name": "Formula-Condensed-Bold",
+      "weight": 700,
+      "size": 18
+    },
+    "title5": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 600,
+      "size": 16
+    },
+    "title6": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 600,
+      "size": 14
+    },
+    "title7": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 600,
+      "size": 34
+    },
+    "title8": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 400,
+      "size": 28
+    },
+    "subheader1": {
+      "name": "Surt-Medium",
+      "weight": 400,
+      "size": 14
+    },
+    "subtitle1": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 600,
+      "size": 14
+    },
+    "subtitle2": {
+      "name": "Fort-Foundry-Termina-Bold",
+      "weight": 600,
+      "size": 22
+    },
+    "subtitle3": {
+      "name": "Formula-Condensed-Bold",
+      "weight": 700,
+      "size": 20
+    },
+    "body1": {
+      "name": "Surt-Medium",
+      "weight": 400,
+      "size": 16
+    },
+    "body2": {
+      "name": "Surt-Medium",
+      "weight": 400,
+      "size": 18
+    },
+    "body3": {
+      "name": "Surt-Medium",
+      "weight": 400,
+      "size": 14
+    },
+    "buttontext1": {
+      "name": "Surt-Medium",
+      "weight": 400,
+      "size": 14
+    }
+  },
+  "colors": {
+    "baseBlack": "172B29",
+    "baseWhite": "FFFFFF",
+    "baseGray": "717171",
+    "lightGray": "F5F5F5",
+    "alternateGray": "E3E3E3",
+    "backgroundGray": "F5F5F5",
+    "baseWarning": "FF2A00",
+    "accentDark": "5CA87D",
+    "baseLink": "4A90E2",
+    "accentBrown": "332E2A"
+  },
+  "elements": {
+    "buttons": {
+      "buttonPrimaryStandard": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": "title3_baseBlack",
+          "disabled": "title3_baseGray"
+        },
+        "stateBackgroundColors": {
+          "unselected": "accentDark",
+          "selected": "accentDark",
+          "disabled": "alternateGray"
+        },
+        "view": "roundedBase"
+      },
+      "buttonFooterAlt": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": "title3_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseWhite",
+          "selected": "baseWhite",
+          "disabled": null
+        },
+        "view": "roundedBase"
+      },
+      "buttonSecondaryWhite": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": "title3_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseWhite",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryWhite": {
+        "stateTextStyles": {
+          "unselected": "body1_baseBlack",
+          "selected": "body1_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseWhite",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonSecondaryBorderless": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": "baseGrayBordered"
+      },
+      "buttonTertiaryGray": {
+        "stateTextStyles": {
+          "unselected": "body1_baseGray",
+          "selected": "body1_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "accentDarkBorderedBackgroundGrayBackground"
+      },
+      "buttonTertiaryAccent": {
+        "stateTextStyles": {
+          "unselected": "body1_accentDark",
+          "selected": "body1_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "roundedAccentClearBackground"
+      },
+      "buttonQuantitySelector": {
+        "stateTextStyles": {
+          "unselected": "title2_baseBlack",
+          "selected": "title2_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "lightGray",
+          "disabled": null
+        },
+        "view": "baseCircle"
+      },
+      "buttonTertiaryBorderless": {
+        "stateTextStyles": {
+          "unselected": "body1_baseGray",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryBorderless_cap": {
+        "stateTextStyles": {
+          "unselected": "body1_baseGray",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryBorderlessAccent_cap": {
+        "stateTextStyles": {
+          "unselected": "body1_accentDark",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryLink": {
+        "stateTextStyles": {
+          "unselected": "body1_accentDark",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonUnaryClear": {
+        "stateTextStyles": {
+          "unselected": "title2_baseBlack",
+          "selected": "title2_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonUnaryClearSmall": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": "title3_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonUnaryDark": {
+        "stateTextStyles": {
+          "unselected": "title3_baseWhite",
+          "selected": "title3_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseBlack",
+          "selected": "baseWhite",
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonUnaryLight": {
+        "stateTextStyles": {
+          "unselected": "title3_baseBlack",
+          "selected": "title3_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseWhite",
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonUnaryAccent": {
+        "stateTextStyles": {
+          "unselected": "title2_baseWhite",
+          "selected": "title2_baseGray",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "accentDark",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "circleaccentDark"
+      },
+      "buttonUnaryAccentDark": {
+        "stateTextStyles": {
+          "unselected": "title3_baseWhite",
+          "selected": "title3_accentDark",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "accentDark",
+          "selected": "baseWhite",
+          "disabled": null
+        },
+        "view": "roundedAccentDarkBackground"
+      },
+      "buttonOptionRadio": {
+        "stateTextStyles": {
+          "unselected": "title7_baseBlack",
+          "selected": "title7_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonRadioAccentDark": {
+        "stateTextStyles": {
+          "unselected": "body1_baseGray",
+          "selected": "body1_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseWhite",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "clearAccentDarkBorderRounded"
+      },
+      "buttonToggleStandard": {
+        "stateTextStyles": {
+          "unselected": "title2_baseBlack",
+          "selected": "title2_accentDark",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "baseBackgroundGray"
+      },
+      "buttonNavStandard": {
+        "stateTextStyles": {
+          "unselected": "title5_baseBlack",
+          "selected": "title5_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "base"
+      },
+      "buttonNavSecondary": {
+        "stateTextStyles": {
+          "unselected": "title5_baseBlack",
+          "selected": "title5_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      }
+    },
+    "cells": {
+      "location": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseGray",
+          "tertiary": "title5_accentDark"
+        },
+        "button": "buttonPrimaryStandard",
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      },
+      "locationInfo": {
+        "labelTextStyles": {
+          "primary": "title2_accentDark",
+          "secondary": "body1_baseBlack",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      },
+      "locationCard": {
+        "labelTextStyles": {
+          "primary": "title1_baseBlack",
+          "secondary": "body1_baseBlack"
+        },
+        "button": "buttonPrimaryStandard",
+        "views": {
+          "background": "baseRounded",
+          "secondary": null
+        }
+      },
+      "searchResults": {
+        "labelTextStyles": {
+          "primary": "title2_baseBlack",
+          "secondary": "title2_accentDark",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "mapInformation": {
+        "labelTextStyles": {
+          "primary": "title1_accentDark",
+          "secondary": "subtitle1_baseBlack",
+          "tertiary": "body1_baseGray"
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "orderHeader": {
+        "labelTextStyles": {
+          "primary": "title3_accentDark",
+          "secondary": "title3_accentDark",
+          "tertiary": "body1_baseWarning"
+        },
+        "button": "buttonNavStandard",
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      },
+      "itemDetailGroup": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "title3_baseBlack",
+          "tertiary": "body1_baseWarning"
+        },
+        "button": "buttonNavStandard",
+        "views": {
+          "background": "baseBackgroundGray",
+          "secondary": "baseBackgroundGray"
+        }
+      },
+      "orderItem": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": "body1_baseBlack"
+        },
+        "button": null,
+        "views": {
+          "background": "baseRounded",
+          "secondary": null
+        }
+      },
+      "orderItemMobile": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": "body1_baseBlack"
+        },
+        "button": null,
+        "views": {
+          "background": "baseRounded",
+          "secondary": null
+        }
+      },
+      "menuGroup": {
+        "labelTextStyles": {
+          "primary": "title7_baseBlack",
+          "secondary": "body1_baseGray",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "cartItem": {
+        "labelTextStyles": {
+          "primary": "subtitle3_baseBlack",
+          "secondary": "body1_baseGray",
+          "tertiary": "body1_baseGray"
+        },
+        "buttons": {
+          "primary": "buttonTertiaryBorderlessAccent_cap",
+          "secondary": "buttonTertiaryBorderless_cap"
+        },
+        "views": {
+          "background": "baseBordered",
+          "secondary": "base"
+        }
+      },
+      "upsellItem": {
+        "labelTextStyles": {
+          "primary": "title5_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": "body3_baseBlack"
+        },
+        "button": "buttonSecondaryBorderless",
+        "views": {
+          "background": "roundedBase",
+          "secondary": "baseGrayBorderedHeavy"
+        }
+      },
+      "history": {
+        "labelTextStyles": {
+          "primary": "body1_baseGray",
+          "secondary": "subtitle1_baseBlack",
+          "tertiary": null
+        },
+        "button": "buttonSecondaryBorderless",
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "optionItem": {
+        "labelTextStyles": {
+          "primary": "title6_baseBlack",
+          "secondary": "title6_baseBlack",
+          "tertiary": "title6_baseBlack"
+        },
+        "buttons": {
+          "primary": "buttonOptionRadio"
+        },
+        "views": {
+          "primary": "base",
+          "secondary": "base",
+          "background": "base"
+        }
+      },
+      "optionItemSelected": {
+        "labelTextStyles": {
+          "primary": "title6_baseBlack",
+          "secondary": "title6_baseBlack",
+          "tertiary": "title8_baseBlack"
+        },
+        "buttons": {
+          "primary": "buttonOptionRadio"
+        },
+        "views": {
+          "primary": "accentDark",
+          "secondary": "baseCircle",
+          "background": "accentDark"
+        }
+      },
+      "itemDetail": {
+        "labelTextStyles": {
+          "primary": "title1_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": "body1_baseGray"
+        },
+        "button": "buttonNavSecondary",
+        "views": {
+          "background": "baseBackgroundGray",
+          "secondary": "baseBackgroundGray"
+        }
+      },
+      "cartHeader": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "form": {
+        "labelTextStyles": {
+          "primary": "body1_accentDark",
+          "secondary": "body1_baseBlack",
+          "tertiary": null
+        },
+        "button": "buttonTertiaryBorderless",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "formUnaryAccent": {
+        "labelTextStyles": {
+          "primary": "body1_baseGray",
+          "secondary": "body1_baseBlack",
+          "tertiary": null
+        },
+        "button": "buttonUnaryAccent",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "formAccent": {
+        "labelTextStyles": {
+          "primary": "subtitle1_baseBlack",
+          "secondary": "subtitle1_baseGray",
+          "tertiary": null
+        },
+        "button": "buttonTertiaryAccent",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "quantitySelector": {
+        "labelTextStyles": {
+          "primary": "title2_baseBlack",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonQuantitySelector",
+        "views": {
+          "background": "accentDark",
+          "secondary": "baseCircle"
+        }
+      },
+      "footerButtonCell": {
+        "labelTextStyles": {
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonPrimaryStandard",
+        "views": {
+          "background": "accentDark",
+          "secondary": "accentDark"
+        }
+      },
+      "footerButtonCellAlt": {
+        "labelTextStyles": {
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonFooterAlt",
+        "views": {
+          "background": "accentDark",
+          "secondary": "accentDark"
+        }
+      },
+      "menuFooter": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "title3_baseBlack",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "baseBackgroundGray",
+          "secondary": null
+        }
+      },
+      "cardItem": {
+        "labelTextStyles": {
+          "primary": "title2_baseBlack",
+          "secondary": "body1_baseGray",
+          "tertiary": "body1_accentDark"
+        },
+        "buttons": {
+          "primary": "buttonTertiaryGray",
+          "secondary": "buttonToggleStandard"
+        },
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "dropdown": {
+        "labelTextStyles": {
+          "primary": "subtitle1_baseBlack",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "profileHeader": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonTertiaryBorderless",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "packingGroup": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseWarning",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "packingItem": {
+        "labelTextStyles": {
+          "primary": "body1_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": "body1_baseGray"
+        },
+        "button": "buttonToggleStandard",
+        "views": {
+          "background": "baseGrayBordered",
+          "secondary": null
+        }
+      },
+      "notification": {
+        "labelTextStyles": {
+          "primary": "title4_baseBlack",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "loginHeader": {
+        "labelTextStyles": {
+          "primary": "title1_baseBlack",
+          "secondary": "title2_baseBlack",
+          "tertiary": null
+        },
+        "buttons": null,
+        "views": {
+          "background": "base",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        }
+      }
+    },
+    "views": {
+      "base": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      },
+      "baseRounded": {
+        "cornerRadius": 5,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      },
+      "baseCircle": {
+        "cornerRadius": 100,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      },
+      "baseAccentBrown": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "accentBrown"
+      },
+      "accentDark": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "accentDark"
+      },
+      "baseBackgroundGray": {
+        "cornerRadius": null,
+        "border": null,
+        "backgroundColor": "backgroundGray"
+      },
+      "clearAccentDarkBorderRounded": {
+        "cornerRadius": 5,
+        "border": {
+          "width": 2,
+          "colors": {
+            "unselected": "accentDark",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "accentDarkBorderedBackgroundGrayBackground": {
+        "cornerRadius": 8,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "accentDark",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "backgroundGray"
+      },
+      "baseBordered": {
+        "cornerRadius": 5,
+        "border": {
+          "width": 2,
+          "colors": {
+            "unselected": "lightGray",
+            "selected": "lightGray",
+            "disabled": "lightGray"
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "baseGrayBordered": {
+        "cornerRadius": 0,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "baseGray",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "baseGrayBorderedHeavy": {
+        "cornerRadius": 0,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "baseGray",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "roundedBase": {
+        "cornerRadius": 5,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      },
+      "roundedBaseGrayBordered": {
+        "cornerRadius": 10,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "baseGray",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedBlackClearBackground": {
+        "cornerRadius": 10,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "baseBlack",
+            "selected": null,
+            "disabled": "alternateGray"
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedAccentClearBackground": {
+        "cornerRadius": 10,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "accentDark",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedAccentDarkBackground": {
+        "cornerRadius": 10,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "baseWhite",
+            "selected": "accentDark",
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "circleAccentDark": {
+        "cornerRadius": 25,
+        "border": {
+          "width": 2,
+          "colors": {
+            "unselected": "accentDark",
+            "selected": "accentDark",
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "circleBlack": {
+        "cornerRadius": 25,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "baseBlack",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "circleaccentDark": {
+        "cornerRadius": 100,
+        "border": null,
+        "backgroundColor": "accentDark"
+      }
+    },
+    "labels": {
+      "title1_baseBlack": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title1_baseWhite": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title1_baseGray": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title1_lightGray": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title1_alternateGray": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title1_backgroundGray": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title1_baseWarning": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title1_accentDark": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title1_baseLink": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title1_accentDark": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title1_accentBrown": {
+        "isUppercase": true,
+        "font": "title1",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title2_baseBlack": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title2_baseWhite": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title2_baseGray": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title2_lightGray": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title2_alternateGray": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title2_backgroundGray": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title2_baseWarning": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title2_accentDark": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title2_baseLink": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title2_accentDark": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title2_accentBrown": {
+        "isUppercase": true,
+        "font": "title2",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title3_baseBlack": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title3_baseWhite": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title3_baseGray": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title3_lightGray": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title3_alternateGray": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title3_backgroundGray": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title3_baseWarning": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title3_accentDark": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title3_baseLink": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title3_accentDark": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title3_accentBrown": {
+        "isUppercase": true,
+        "font": "title3",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title4_baseBlack": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title4_baseWhite": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title4_baseGray": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title4_lightGray": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title4_alternateGray": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title4_backgroundGray": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title4_baseWarning": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title4_accentDark": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title4_baseLink": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title4_accentDark": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title4_accentBrown": {
+        "isUppercase": true,
+        "font": "title4",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title5_baseBlack": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title5_baseWhite": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title5_baseGray": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title5_lightGray": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title5_alternateGray": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title5_backgroundGray": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title5_baseWarning": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title5_accentDark": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title5_baseLink": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title5_accentDark": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title5_accentBrown": {
+        "isUppercase": true,
+        "font": "title5",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title6_baseBlack": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title6_baseWhite": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title6_baseGray": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title6_lightGray": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title6_alternateGray": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title6_backgroundGray": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title6_baseWarning": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title6_accentDark": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title6_baseLink": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title6_accentDark": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title6_accentBrown": {
+        "isUppercase": true,
+        "font": "title6",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title7_baseBlack": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "title7_baseWhite": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "title7_baseGray": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "title7_lightGray": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "title7_alternateGray": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "title7_backgroundGray": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "title7_baseWarning": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "title7_baseLink": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "title7_accentDark": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "title7_accentBrown": {
+        "isUppercase": false,
+        "font": "title7",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "title8_baseBlack": {
+        "isUppercase": false,
+        "font": "title8",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "body1_baseBlack": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "body1_baseWhite": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "body1_baseGray": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "body1_lightGray": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "body1_alternateGray": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "body1_backgroundGray": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "body1_baseWarning": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "body1_accentDark": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body1_baseLink": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "body1_accentDark": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body1_accentBrown": {
+        "isUppercase": false,
+        "font": "body1",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "body2_baseBlack": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "body2_baseWhite": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "body2_baseGray": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "body2_lightGray": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "body2_alternateGray": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "body2_backgroundGray": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "body2_baseWarning": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "body2_accentDark": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body2_baseLink": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "body2_accentDark": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body2_accentBrown": {
+        "isUppercase": false,
+        "font": "body2",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "body3_baseBlack": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "body3_baseWhite": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "body3_baseGray": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "body3_lightGray": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "body3_alternateGray": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "body3_backgroundGray": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "body3_baseWarning": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "body3_accentDark": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body3_baseLink": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "body3_accentDark": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "body3_accentBrown": {
+        "isUppercase": false,
+        "font": "body3",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "subtitle1_baseBlack": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "subtitle1_baseWhite": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "subtitle1_baseGray": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "subtitle1_lightGray": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "subtitle1_alternateGray": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "subtitle1_backgroundGray": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "subtitle1_baseWarning": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "subtitle1_accentDark": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "subtitle1_baseLink": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "subtitle1_accentDark": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "subtitle1_accentBrown": {
+        "isUppercase": false,
+        "font": "subtitle1",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "subtitle2_baseBlack": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "subtitle2_baseWhite": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "subtitle2_baseGray": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "subtitle2_lightGray": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "subtitle2_alternateGray": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "subtitle2_backgroundGray": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "subtitle2_baseWarning": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "subtitle2_accentDark": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "subtitle2_baseLink": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "subtitle2_accentBrown": {
+        "isUppercase": true,
+        "font": "subtitle2",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "subtitle3_baseBlack": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "subtitle3_baseWhite": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "subtitle3_baseGray": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "subtitle3_lightGray": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "subtitle3_alternateGray": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "subtitle3_backgroundGray": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "subtitle3_baseWarning": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "subtitle3_accentDark": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "subtitle3_baseLink": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "subtitle3_accentDark": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "subtitle3_accentBrown": {
+        "isUppercase": false,
+        "font": "subtitle3",
+        "textColor": "accentBrown",
+        "view": null
+      },
+      "buttontext1_baseBlack": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "baseBlack",
+        "view": null
+      },
+      "buttontext1_baseWhite": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "buttontext1_baseGray": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "baseGray",
+        "view": null
+      },
+      "buttontext1_lightGray": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "lightGray",
+        "view": null
+      },
+      "buttontext1_alternateGray": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "alternateGray",
+        "view": null
+      },
+      "buttontext1_backgroundGray": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "backgroundGray",
+        "view": null
+      },
+      "buttontext1_baseWarning": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "buttontext1_accentDark": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "buttontext1_baseLink": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "baseLink",
+        "view": null
+      },
+      "buttontext1_accentDark": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "accentDark",
+        "view": null
+      },
+      "buttontext1_accentBrown": {
+        "isUppercase": true,
+        "font": "buttontext1",
+        "textColor": "accentBrown",
+        "view": null
+      }
+    },
+    "segmentViews": {
+      "primary": {
+        "stateTextStyles": {
+          "unselected": "title2_baseBlack",
+          "selected": "title2_baseBlack",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "alternateGray",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "base"
+      },
+      "secondary": {
+        "stateTextStyles": {
+          "unselected": "subtitle1_baseGray",
+          "selected": "title5_accentDark",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "alternateGray",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "base"
+      },
+      "tertiary": {
+        "stateTextStyles": {
+          "unselected": "subtitle1_baseGray",
+          "selected": "title3_accentDark",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "alternateGray",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "base"
+      }
+    },
+    "inputs": {
+      "primary": {
+        "title": "body1_accentDark",
+        "field": "body1_baseBlack",
+        "placeholder": "body1_alternateGray",
+        "error": "body1_baseWarning"
+      },
+      "secondary": {
+        "title": "body1_accentDark",
+        "field": "body1_baseBlack",
+        "placeholder": "body1_baseBlack",
+        "error": "body1_baseWarning"
+      },
+      "tertiary": {
+        "title": "body3_accentDark",
+        "field": "body3_baseBlack",
+        "placeholder": "body3_baseBlack",
+        "error": "body3_baseWarning"
+      }
+    },
+    "dialogues": {
+      "primary": {
+        "labelTextStyles": {
+          "primary": "title3_baseBlack",
+          "secondary": "body1_baseBlack",
+          "tertiary": null
+        },
+        "buttons": {
+          "deny": "buttonSecondaryWhite",
+          "approve": "buttonSecondaryWhite"
+        },
+        "view": "base"
+      }
+    },
+    "pageControls": null,
+    "navigationViews": null
+  },
+  "styles": {
+    "normal": {
+      "template": "StandardWeb",
+      "version": "1.0.0",
+      "main": {
+        "buttons": {
+          "dropdown": "buttonTertiaryWhite"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title3_baseBlack",
+          "secondary": "title3_accentDark",
+          "tertiary": "title6_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "accentDark"
+        }
+      },
+      "catering": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell",
+          "locationCard": "locationCard",
+          "footer": "menuFooter"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "primary": "title1_baseBlack",
+          "secondary": "body3_baseBlack",
+          "tertiary": "body1_baseGray",
+          "error": "body1_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "payment": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell",
+          "cards": "cardItem"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "body1_baseGray",
+          "error": "body1_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "menu": {
+        "buttons": {
+          "locationNotFound": "buttonUnaryDark"
+        },
+        "cells": {
+          "group": "menuGroup",
+          "item": "orderItem",
+          "itemMobile": "orderItemMobile",
+          "location": "locationInfo",
+          "nav": "orderHeader",
+          "footer": "menuFooter"
+        },
+        "dialogues": {
+          "addItem": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "locationNotFound": "subtitle1_baseBlack",
+          "unavailable": "subtitle1_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "location": {
+        "buttons": null,
+        "cells": {
+          "primary": "location",
+          "secondary": "mapInformation",
+          "tertiary": "searchResults",
+          "footer": "menuFooter"
+        },
+        "dialogues": {
+          "confirmation": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "primary": "title1_accentBrown",
+          "secondary": "title1_accentBrown",
+          "tertiary": null
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "cart": {
+        "buttons": {
+          "clear": "buttonTertiaryBorderless"
+        },
+        "cells": {
+          "primary": "cartItem",
+          "secondary": "form",
+          "header": "cartHeader",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title2_baseBlack",
+          "secondary": "subtitle2_baseBlack",
+          "emptyCart": "title1_baseBlack",
+          "priceSubtotals": "subtitle1_baseBlack",
+          "priceTotals": "subtitle1_baseBlack",
+          "error": "body1_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "upsells": {
+        "buttons": null,
+        "cells": {
+          "primary": "upsellItem",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title2_accentDark",
+          "error": "body2_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "link": {
+        "buttons": {
+          "link": "buttonTertiaryLink",
+          "clear": "buttonTertiaryBorderless"
+        },
+        "cells": {
+          "link": "form",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title2_baseBlack",
+          "secondary": "title2_baseGray",
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "primary": "primary"
+        },
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "orderDetails": {
+        "buttons": {
+          "radioButton": "buttonRadioAccentDark"
+        },
+        "cells": {
+          "primary": "form",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "formLabel": "body1_baseBlack",
+          "error": "body2_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary",
+          "textarea": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "checkout": {
+        "buttons": {
+          "promo": "buttonTertiaryBorderlessAccent_cap",
+          "tip": "buttonRadioAccentDark",
+          "cash": "buttonTertiaryGray"
+        },
+        "cells": {
+          "primary": "form",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "priceSubtotals": "body3_baseBlack",
+          "priceTotals": "body1_accentDark",
+          "discount": "body1_accentDark",
+          "error": "body1_baseWarning",
+          "disclaimer": "body1_baseGray",
+          "cash": "body1_baseGray"
+        },
+        "inputs": {
+          "standard": "tertiary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "confirm": {
+        "buttons": {
+          "confirm": "buttonUnaryAccentDark",
+          "negConfirm": "buttonUnaryLight",
+          "cancel": "buttonUnaryAccentDark"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "title1_accentBrown"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "itemDetails": {
+        "buttons": null,
+        "cells": {
+          "group": "itemDetailGroup",
+          "header": "itemDetail",
+          "primary": "optionItem",
+          "primarySelected": "optionItemSelected",
+          "quantity": "quantitySelector",
+          "bottom": "footerButtonCellAlt"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": null,
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "baseBackgroundGray"
+        }
+      },
+      "phone": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "email": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "pincode": {
+        "buttons": {
+          "alternate": "buttonUnaryClear"
+        },
+        "cells": {
+          "form": "form",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "password": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "discount": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "scheduledAt": {
+        "buttons": {
+          "alternate": "buttonUnaryClearSmall"
+        },
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "description": "body1_baseGray",
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "confirmation": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title2_accentDark",
+          "secondary": "title3_baseBlack",
+          "tertiary": "title3_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "body": "roundedAccentClearBackground",
+          "title": "base"
+        }
+      },
+      "loyalty": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "title1_baseBlack",
+          "description": "title2_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "progress": "accentDark",
+          "trail": "baseBackgroundGray"
+        }
+      },
+      "signin": {
+        "buttons": {
+          "link": "buttonTertiaryLink"
+        },
+        "cells": {
+          "form": "form",
+          "bottom": "footerButtonCell",
+          "header": "loginHeader"
+        },
+        "dialogues": {
+          "success": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "title": "title3_baseBlack",
+          "terms": "body1_baseGray",
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "signUpConfirmation": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "title3_baseBlack",
+          "subtitle": "body1_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "logout": {
+        "buttons": {
+          "confirm": "buttonUnaryLight",
+          "cancel": "buttonUnaryAccentDark"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "title1_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "address": {
+        "buttons": {
+          "bottom": "buttonUnaryDark",
+          "searchResults": "buttonSecondaryWhite"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "label": "subtitle1_baseBlack",
+          "error": "body1_baseWarning"
+        },
+        "inputs": {
+          "standard": "secondary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "empty": {
+        "buttons": null,
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": {
+          "standard": "primary"
+        },
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "description": "title1_baseBlack"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "profile": {
+        "buttons": null,
+        "cells": {
+          "form": "form",
+          "cards": "cardItem",
+          "header": "profileHeader",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": {
+          "confirm": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "section": "title3_baseBlack",
+          "error": "title1_baseWarning"
+        },
+        "inputs": "primary",
+        "views": {
+          "background": "baseBackgroundGray",
+          "secondary": "base"
+        }
+      },
+      "packingInstructions": {
+        "buttons": null,
+        "cells": {
+          "group": "packingGroup",
+          "item": "packingItem",
+          "bottom": "footerButtonCell"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "title2_baseBlack"
+        },
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      }
+    }
+  }
+}

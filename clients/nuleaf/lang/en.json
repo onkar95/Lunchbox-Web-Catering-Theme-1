@@ -1,0 +1,19 @@
+{
+  "LOCATIONS_STATIC": {
+    "HOME_FOOTER_VIEW_MENU": "Check out our Catering Menu",
+    "SEARCH_DELIVER_LOCATIONS_MESSAGE": "ENTER YOUR ADDRESS TO FIND\nTHE CLOSEST NULEAF NEAR\nYOU!"
+  },
+  "LOCATION_FORM_STATIC": {
+    "SEARCH_PICKUP_LABEL": "Find your closest Nuleaf"
+  },
+  "LOGIN_STATIC": {
+    "LOGIN_SIGN_UP_BUTTON_TEXT": "LOGIN OR SIGN UP"
+  },
+  "HEADER_STATIC": {
+    "START_A_NEW_ORDER_TEXT": "Edit Order Info",
+    "EDIT_ORDER_TEXT": "Edit Order Info "
+  },
+  "CHECKOUT_STATIC": {
+    "CONFIRM_GO_TO_CART_BUTTON_TEXT": "NO"
+  }
+}

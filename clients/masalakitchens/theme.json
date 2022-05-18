@@ -1,0 +1,1854 @@
+{
+  "fonts": {
+    "Gotham32": {
+      "name": "GothamBold",
+      "weight": 700,
+      "size": 32
+    },
+    "Gotham20": {
+      "name": "GothamMedium",
+      "weight": 350,
+      "size": 20
+    },
+    "Gotham20Normal": {
+      "name": "GothamBookRegular",
+      "weight": 325,
+      "size": 20
+    },
+    "Gotham24": {
+      "name": "GothamBookRegular",
+      "weight": 325,
+      "size": 24
+    },
+    "Gotham26": {
+      "name": "GothamMedium",
+      "weight": 350,
+      "size": 26
+    },
+    "Gotham16": {
+      "name": "GothamMedium",
+      "weight": 350,
+      "size": 16
+    },
+    "Gotham16Normal": {
+      "name": "GothamBookRegular",
+      "weight": 325,
+      "size": 16
+    },
+    "Gotham16Bold": {
+      "name": "GothamBold",
+      "weight": 700,
+      "size": 16
+    },
+    "GothamBody": {
+      "name": "GothamBookRegular",
+      "weight": 325,
+      "size": 16
+    },
+    "GothamSmall": {
+      "name": "GothamBookRegular",
+      "weight": 325,
+      "size": 14
+    },
+    "GothamExtraSmall": {
+      "name": "GothamMedium",
+      "weight": 350,
+      "size": 12
+    },
+    "GothamExtraSmallBold": {
+      "name": "GothamBold",
+      "weight": 700,
+      "size": 12
+    }
+  },
+  "colors": {
+    "baseBlack": "000000",
+    "baseWhite": "FFFFFF",
+    "base": "282828",
+    "lightGrey": "F4F4F4",
+    "altLightGrey": "88919A",
+    "altGray": "55595E",
+    "alternateGray": "D9D9D9",
+    "textDefault": "212121",
+    "textSubdued": "55595E",
+    "baseWarning": "FF2A00",
+    "accentLight": "FFFFFF",
+    "accentDark": "212121",
+    "accentRed": "B53317",
+    "accentBlue": "2274AF",
+    "accentPink": "FEB6FB",
+    "accentTeal": "01FFFF",
+    "accentYellow": "F5FB26",
+    "ActionPrimary": "FEB6FB",
+    "ActionPrimary/Disabled": "E3E5E8",
+    "Brand/Decorative 1":"F5FB26",
+    "baseOnSurface": "282828"
+  },
+  "elements": {
+    "labels": {
+      "Gotham32_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham32",
+        "textColor": "baseWhite",
+        "view": ""
+      },
+      "Gotham32_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham32",
+        "textColor": "textDefault",
+        "view": ""
+      },
+      "Gotham26_lightGrey": {
+        "isUppercase": false,
+        "font": "Gotham26",
+        "textColor": "lightGrey",
+        "view": null
+      },
+      "Gotham26_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham26",
+        "textColor": "baseWhite",
+        "view": "base"
+      },
+      "Gotham26_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham26",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham26_accentYellow": {
+        "isUppercase": false,
+        "font": "Gotham26",
+        "textColor": "accentYellow",
+        "view": "base"
+      },
+      "Gotham16Normal_baseWarning": {
+        "isUppercase": false,
+        "font": "Gotham16Normal",
+        "textColor": "baseWarning",
+        "view": null
+      },
+      "GothamBody_baseWhite": {
+        "isUppercase": false,
+        "font": "GothamBody",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham16_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham16",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham20_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham20",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham20_baseWhite_cap": {
+        "isUppercase": true,
+        "font": "Gotham20",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham20Normal_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham20Normal",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham20Normal_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham20Normal",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham24_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham24",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham16_accentPink": {
+        "isUppercase": true,
+        "font": "Gotham16",
+        "textColor": "accentPink",
+        "view": null
+      },
+      "Gotham16_baseWhite_cap": {
+        "isUppercase": true,
+        "font": "Gotham16",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham16_textDefault_cap": {
+        "isUppercase": true,
+        "font": "Gotham16",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham16_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham16",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham16Bold_textSubdued": {
+        "isUppercase": false,
+        "font": "Gotham16Bold",
+        "textColor": "textSubdued",
+        "view": null
+      },
+      "Gotham16Bold_textSubdued_cap": {
+        "isUppercase": true,
+        "font": "Gotham16Bold",
+        "textColor": "textSubdued",
+        "view": null
+      },
+      "Gotham16Bold_textDefault_cap": {
+        "isUppercase": true,
+        "font": "Gotham16Bold",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham20_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham20",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "Gotham16Normal_baseWhite": {
+        "isUppercase": false,
+        "font": "Gotham16Normal",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham16Normal_textSubdued": {
+        "isUppercase": false,
+        "font": "Gotham16Normal",
+        "textColor": "textSubdued",
+        "view": null
+      },
+      "Gotham16Normal_textDefault": {
+        "isUppercase": false,
+        "font": "Gotham16Normal",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "GothamBody_textSubdued": {
+        "isUppercase": false,
+        "font": "GothamBody",
+        "textColor": "textSubdued",
+        "view": null
+      },
+      "Gotham16Bold_baseWhite_cap": {
+        "isUppercase": true,
+        "font": "Gotham16Bold",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "Gotham16Bold_accentPink_cap": {
+        "isUppercase": true,
+        "font": "Gotham16Bold",
+        "textColor": "accentPink",
+        "view": null
+      },
+      "GothamExtraSmallBold_accentBlue_cap": {
+        "isUppercase": true,
+        "font": "GothamExtraSmallBold",
+        "textColor": "accentBlue",
+        "view": null
+      },
+      "GothamExtraSmallBold_accentRed_cap": {
+        "isUppercase": true,
+        "font": "GothamExtraSmallBold",
+        "textColor": "accentRed",
+        "view": null
+      },
+      "GothamExtraSmall_accentBlue_cap": {
+        "isUppercase": true,
+        "font": "GothamExtraSmall",
+        "textColor": "accentBlue",
+        "view": null
+      },
+      "GothamExtraSmall_textDefault_cap": {
+        "isUppercase": true,
+        "font": "GothamExtraSmall",
+        "textColor": "textDefault",
+        "view": null
+      },
+      "GothamExtraSmall_baseWhite_cap": {
+        "isUppercase": true,
+        "font": "GothamExtraSmall",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "GothamSmall_baseWhite": {
+        "isUppercase": false,
+        "font": "GothamSmall",
+        "textColor": "baseWhite",
+        "view": null
+      },
+      "GothamSmall_lightGrey": {
+        "isUppercase": false,
+        "font": "GothamSmall",
+        "textColor": "lightGrey",
+        "view": null
+      },
+      "GothamSmall_textSubdued": {
+        "isUppercase": false,
+        "font": "GothamSmall",
+        "textColor": "textSubdued",
+        "view": null
+      },
+      "GothamSmall_textDefault": {
+        "isUppercase": false,
+        "font": "GothamSmall",
+        "textColor": "textDefault",
+        "view": null
+      }
+    },
+    "cells": {
+      "location": {
+        "labelTextStyles": {
+          "primary": "Gotham20_baseWhite",
+          "secondary": "Gotham16Normal_textDefault",
+          "tertiary": "Gotham16Normal_textDefault",
+          "quaternary": "Gotham16_baseWhite",
+          "quinary": "Gotham16_baseWhite"
+        },
+        "button": "buttonTertiaryBaseBlack",
+        "views": {
+          "background": "base",
+          "secondary": "accentDarkRounded"
+        }
+      },
+      "locationInfo": {
+        "labelTextStyles": {
+          "primary": "Gotham32_textDefault",
+          "secondary": "Gotham16Normal_textDefault",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      },
+      "locationCard": {
+        "labelTextStyles": {
+          "primary": "Gotham20_textDefault",
+          "secondary": "GothamBody_textSubdued"
+        },
+        "button": "buttonPrimaryStandard",
+        "views": {
+          "background": "roundedBaseColored"
+        }
+      },
+      "searchResults": {
+        "labelTextStyles": {
+          "primary": "Gotham26_baseWhite",
+          "secondary": "Gotham20_textDefault",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "mapInformation": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_textDefault",
+          "secondary": "GothamSmall_textSubdued",
+          "tertiary": "GothamSmall_textSubdued"
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "orderHeader": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": null,
+          "tertiary": "Gotham16Normal_baseWarning"
+        },
+        "button": "buttonNavStandard",
+        "views": {
+          "background": "accentLight",
+          "secondary": "accentLight"
+        }
+      },
+      "orderItem": {
+        "labelTextStyles": {
+          "primary": "Gotham20_textDefault",
+          "secondary": "GothamSmall_textSubdued",
+          "tertiary": "GothamSmall_textDefault"
+        },
+        "button": null,
+        "views": {
+          "background": "roundedBase",
+          "secondary": "roundedBase"
+        }
+      },
+      "orderItemMobile": {
+        "labelTextStyles": {
+          "primary": "Gotham16_baseWhite",
+          "secondary": "GothamSmall_textSubdued",
+          "tertiary": "GothamSmall_baseWhite"
+        },
+        "button": null,
+        "views": {
+          "background": "roundedBase",
+          "secondary": null
+        }
+      },
+      "menuGroup": {
+        "labelTextStyles": {
+          "primary": "Gotham26_accentYellow",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "cartItem": {
+        "labelTextStyles": {
+          "primary": "Gotham20_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": "GothamSmall_baseWhite"
+        },
+        "buttons": {
+          "primary": "buttonAccentRed",
+          "secondary": "buttonAccentBlueATB"
+        },
+        "views": {
+          "background": "cartItemView",
+          "secondary": "cartItemViewInternal"
+        }
+      },
+      "optionItem": {
+        "labelTextStyles": {
+          "primary": "Gotham16Bold_textDefault_cap",
+          "secondary": "GothamSmall_textDefault",
+          "tertiary": "GothamSmall_textDefault"
+        },
+        "buttons": {
+          "primary": "buttonUnaryBaseWhiteBordered"
+        },
+        "views": {
+          "primary": "baseWhite",
+          "secondary": "baseBlack",
+          "background": "borderedWhiteWhiteBackground"
+        }
+      },
+      "optionItemSelected": {
+        "labelTextStyles": {
+          "primary": "Gotham16Bold_textDefault_cap",
+          "secondary": "GothamSmall_textDefault",
+          "tertiary": "GothamSmall_textDefault"
+        },
+        "buttons": {
+          "primary": "buttonQuantitySelectorType2"
+        },
+        "views": {
+          "primary": "base",
+          "secondary": "",
+          "background": "roundedAccentDarkWhiteBackground"
+        }
+      },
+      "itemDetail": {
+        "labelTextStyles": {
+          "primary": "Gotham20_baseWhite",
+          "secondary": "GothamSmall_baseWhite",
+          "tertiary": "GothamBody_baseWhite"
+        },
+        "button": "buttonItemDetailsTab",
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "optionHeader": {
+        "labelTextStyles": {
+          "primary": "Gotham20_textDefault",
+          "secondary": "Gotham20_baseWhite",
+          "tertiary": "Gotham16Normal_baseWarning"
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "cartHeader": {
+        "labelTextStyles": {
+          "primary": "GothamSmall_baseWhite",
+          "secondary": "GothamSmall_baseWhite",
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "form": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": "buttonEditField",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "formSignin": {
+        "labelTextStyles": {
+          "primary": "Gotham16_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": "buttonEditField",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "formPincode": {
+        "labelTextStyles": {
+          "primary": "Gotham16_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": "buttonEditField",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "formProfile": {
+        "labelTextStyles": {
+          "primary": "Gotham16_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": "buttonEditField",
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "formCheckout": {
+        "labelTextStyles": {
+          "primary": "Gotham16_baseWhite",
+          "secondary": "Gotham16Normal_baseWhite",
+          "tertiary": null
+        },
+        "button": "buttonEditField",
+        "views": {
+          "background": null,
+          "secondary": null
+        }
+      },
+      "quantitySelector": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonQuantitySelector",
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      },
+      "footerButton": {
+        "labelTextStyles": {
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonRed",
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "footerButtonSecondary": {
+        "labelTextStyles": {
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonUnaryDark",
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "dropdown": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "menuFooter": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "ActionPrimary",
+          "secondary": null
+        }
+      },
+      "notification": {
+        "labelTextStyles": {
+          "primary": "Gotham16Normal_textDefault",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": null,
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "cardItem": {
+        "labelTextStyles": {
+          "primary": "Gotham20_baseWhite",
+          "secondary": "GothamSmall_lightGrey",
+          "tertiary": "Gotham16Normal_baseWarning"
+        },
+        "buttons": {
+          "primary": "buttonProfilePageLogout",
+          "secondary": "buttonSecondaryGray"
+        },
+        "views": {
+          "background": "base",
+          "secondary": null
+        }
+      },
+      "profileHeader": {
+        "labelTextStyles": {
+          "primary": "Gotham32_baseWhite",
+          "secondary": null,
+          "tertiary": null
+        },
+        "button": "buttonProfilePageLogout",
+        "views": {
+          "background": "base",
+          "secondary": ""
+        }
+      },
+      "loginHeader": {
+        "labelTextStyles": {
+          "primary": "Gotham32_baseWhite",
+          "secondary": "Gotham16_textDefault_cap",
+          "tertiary": null
+        },
+        "buttons": null,
+        "views": {
+          "background": "base",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        }
+      }
+    },
+    "buttons": {
+      "buttonPrimaryStandard": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "baseBlack",
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "roundedBaseBlack"
+      },
+      "searchResultsButton": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "base"
+      },
+      "buttonPrimaryRadio": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_baseWhite",
+          "selected": "Gotham16_textDefault",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "base",
+          "selected": "accentPink",
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonSecondaryRadio": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_baseWhite",
+          "selected": "Gotham16_textDefault",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "base",
+          "selected": "accentPink",
+          "disabled": null
+        },
+        "view": "roundedAltGrayClearBackground"
+      },
+      "buttonPrimaryClearBordered": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": "roundedBlackClearBackground"
+      },
+      "buttonNavStandard": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Bold_baseWhite_cap",
+          "selected": "Gotham16Bold_accentPink_cap",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "base",
+          "selected": "base",
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonItemDetailsTab": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Bold_baseWhite_cap",
+          "selected": "Gotham20_textDefault",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentLight",
+          "disabled": null
+        },
+        "view": "roundedClearBackground"
+      },
+      "buttonDropdown": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "base",
+          "selected": "accentPink",
+          "disabled": null
+        },
+        "view": "base"
+      },
+      "buttonSecondaryGray": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentLight",
+          "disabled": null
+        },
+        "view": "circleWhiteBordered"
+      },
+      "buttonSecondaryBorderless": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_accentPink",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonProfilePageLogout": {
+        "stateTextStyles": {
+          "unselected": "GothamExtraSmall_accentBlue_cap",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonUnaryBaseWhiteBordered": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_baseWhite",
+          "selected": "Gotham16_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": "roundedWhiteWhiteBackground"
+      },
+      "buttonUnaryDark": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Bold_textDefault_cap",
+          "selected": "Gotham16Bold_textDefault_cap",
+          "disabled": ""
+        },
+        "stateBackgroundColors": {
+          "unselected": "accentPink",
+          "selected": "accentPink",
+          "disabled": "ActionPrimary/Disabled"
+        },
+        "view": "roundedaccenLightClearBackground"
+      },
+      "buttonCancel": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_textSubdued",
+          "selected": "Gotham16Normal_textSubdued",
+          "disabled": ""
+        },
+        "stateBackgroundColors": {
+          "unselected": "accentLight",
+          "selected": "accentPink",
+          "disabled": "ActionPrimary/Disabled"
+        },
+        "view": "roundedaccenLightClearBackground"
+      },
+      "buttonRed": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_textDefault_cap",
+          "selected": "Gotham16_textDefault_cap",
+          "disabled": "Gotham16Normal_textSubdued"
+        },
+        "stateBackgroundColors": {
+          "unselected": "ActionPrimary",
+          "selected": "ActionPrimary",
+          "disabled": "ActionPrimary/Disabled"
+        },
+        "view": "roundedBase"
+      },
+      "buttonQuantitySelector": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_textDefault",
+          "selected": "Gotham16Normal_baseWhite",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "baseBlack",
+          "disabled": null
+        },
+        "view": "circleWhiteBordered"
+      },
+      "buttonQuantitySelectorType2": {
+        "stateTextStyles": {
+          "unselected": "Gotham16_textDefault",
+          "selected": "Gotham16_textDefault",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "accentLight",
+          "disabled": null
+        },
+        "view": "circleWhiteBordered"
+      },
+      "buttonTertiaryBorderlessAccentDark": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_textDefault",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonEditField": {
+        "stateTextStyles": {
+          "unselected": "GothamSmall_baseWhite",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryLink": {
+        "stateTextStyles": {
+          "unselected": "GothamSmall_baseWhite",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonAccentBlueATB": {
+        "stateTextStyles": {
+          "unselected": "GothamExtraSmallBold_accentBlue_cap",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonAccentRed": {
+        "stateTextStyles": {
+          "unselected": "GothamExtraSmallBold_accentRed_cap",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": null
+      },
+      "buttonTertiaryBaseBlack": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_baseWhite",
+          "selected": null,
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": null,
+          "disabled": null
+        },
+        "view": "roundedBaseBlackClearBackground"
+      }
+    },
+    "views": {
+      "bar": {
+        "cornerRadius": 7,
+        "border": null,
+        "backgroundColor": "accentLight"
+      },
+      "barBackGround": {
+        "cornerRadius": 7,
+        "border": null,
+        "backgroundColor": "Brand/Decorative 1"
+      },
+      "base": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "base"
+      },
+      "accentLight": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "accentLight"
+      },
+      "lightGrey": {
+        "cornerRadius": null,
+        "border": null,
+        "backgroundColor": "lightGrey"
+      },
+      "clear": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": null
+      },
+      "altGray": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "altGray"
+      },
+      "lightGreyBordered": {
+        "cornerRadius": 0,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "lightGrey",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "cartItemView": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "baseWhite",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "base"
+      },
+      "cartItemViewInternal": {
+        "cornerRadius": 0,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "baseWhite",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": "base"
+      },
+      "ActionPrimary": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "ActionPrimary"
+      },
+      "accentDark": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "accentDark"
+      },
+      "baseBlack": {
+        "cornerRadius": 0,
+        "border": null,
+        "backgroundColor": "baseBlack"
+      },
+      "roundedBaseBlack": {
+        "cornerRadius": 3,
+        "border": null,
+        "backgroundColor": "baseBlack"
+      },
+      "roundedBaseColored": {
+        "cornerRadius": 4,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "baseWhite",
+            "selected": "accentTeal",
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "accentDarkRounded": {
+        "cornerRadius": 5,
+        "border": null,
+        "backgroundColor": "accentDark"
+      },
+      "accentBorderedClearBackground": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "altGray",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedAccentDark": {
+        "cornerRadius": 64,
+        "border": null,
+        "backgroundColor": "accentDark"
+      },
+      "roundedClearBackground": {
+        "cornerRadius": 64,
+        "border": {
+          "width": 0,
+          "colors": {
+            "unselected": null,
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedBlackClearBackground": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 2,
+          "colors": {
+            "unselected": "baseWhite",
+            "selected": null,
+            "disabled": "alternateGray"
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedAltGrayClearBackground": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 2,
+          "colors": {
+            "unselected": "accentPink",
+            "selected": null,
+            "disabled": "alternateGray"
+          }
+        },
+        "backgroundColor": "base"
+      },
+      "roundedAccentDarkWhiteBackground": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "altLightGrey",
+            "selected": "altLightGrey",
+            "disabled": "altLightGrey"
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "borderedWhiteWhiteBackground": {
+        "cornerRadius": 3,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "altLightGrey",
+            "selected": "altLightGrey",
+            "disabled": "alternateGray"
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "roundedWhiteWhiteBackground": {
+        "cornerRadius": 100,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "altLightGrey",
+            "selected": "altLightGrey",
+            "disabled": "alternateGray"
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "circleWhiteBordered": {
+        "cornerRadius": 100,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "altLightGrey",
+            "selected": "altLightGrey",
+            "disabled": null
+          }
+        },
+        "backgroundColor": "baseWhite"
+      },
+      "roundedBaseBlackClearBackground": {
+        "cornerRadius": 7,
+        "border": {
+          "width": 3,
+          "colors": {
+            "unselected": "baseBlack",
+            "selected": null,
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedaccenLightClearBackground": {
+        "cornerRadius": 4,
+        "border": {
+          "width": 1,
+          "colors": {
+            "unselected": "accentPink",
+            "selected": "accentPink",
+            "disabled": null
+          }
+        },
+        "backgroundColor": null
+      },
+      "roundedBase": {
+        "cornerRadius": 2,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      },
+      "heavyRoundedBase": {
+        "cornerRadius": 60,
+        "border": null,
+        "backgroundColor": "baseWhite"
+      }
+    },
+    "segmentViews": {
+      "primary": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Bold_baseWhite_cap",
+          "selected": "Gotham16Bold_accentPink_cap",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": null,
+          "selected": "",
+          "disabled": null
+        },
+        "view": ""
+      },
+      "secondary": {
+        "stateTextStyles": {
+          "unselected": "Gotham16Normal_textSubdued",
+          "selected": "Gotham16Normal_textDefault",
+          "disabled": null
+        },
+        "stateBackgroundColors": {
+          "unselected": "alternateGray",
+          "selected": "accentDark",
+          "disabled": null
+        },
+        "view": "base"
+      }
+    },
+    "inputs": {
+      "primary": {
+        "title": "Gotham16_baseWhite",
+        "field": "Gotham16Normal_baseWhite",
+        "placeholder": "Gotham16Normal_baseWhite",
+        "error": "Gotham16Normal_baseWarning"
+      },
+      "secondary": {
+        "title": "Gotham16Normal_baseWhite",
+        "field": "Gotham16Normal_baseWhite",
+        "placeholder": "Gotham16Normal_baseWhite",
+        "error": "Gotham16Normal_baseWarning"
+      },
+      "tertiary": {
+        "title": "Gotham16_baseWhite_cap",
+        "field": "Gotham16Normal_baseWhite",
+        "placeholder": "Gotham16Normal_baseWhite",
+        "error": "Gotham16Normal_baseWarning"
+      },
+      "address": {
+        "title": "Gotham16_baseWhite",
+        "field": "Gotham16Normal_baseWhite",
+        "placeholder": "Gotham16Normal_baseWhite",
+        "error": "Gotham16Normal_baseWarning"
+      }
+    },
+    "dialogues": {
+      "primary": {
+        "labelTextStyles": {
+          "primary": "GothamSmall_baseWhite",
+          "secondary": "Gotham16Normal_baseWarning",
+          "tertiary": null
+        },
+        "buttons": {
+          "deny": "buttonPrimaryStandard",
+          "approve": "buttonPrimaryStandard"
+        },
+        "view": "base"
+      }
+    },
+    "pageControls": null,
+    "navigationViews": null
+  },
+  "styles": {
+    "normal": {
+      "template": "StandardStickysWeb",
+      "version": "1.0.0",
+      "catering": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonSecondary",
+          "locationCard": "locationCard",
+          "footer": "menuFooter"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "primary": "Gotham32_baseWhite",
+          "secondary": "Gotham16_baseWhite",
+          "tertiary": "Gotham16_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "orderDetails": {
+        "buttons": {
+          "radioButton": "buttonPrimaryRadio"
+        },
+        "cells": {
+          "primary": "form",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "formLabel": "Gotham16_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary",
+          "textarea": "tertiary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "main": {
+        "buttons": {
+          "dropdown": "buttonDropdown"
+        },
+        "cells": {
+          "notification": "notification"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "GothamSmall_baseWhite",
+          "secondary": "Gotham20_textDefault",
+          "tertiary": "GothamSmall_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "payment": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButtonSecondary",
+          "cards": "cardItem"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "Gotham16Normal_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "menu": {
+        "buttons": null,
+        "cells": {
+          "group": "menuGroup",
+          "item": "orderItem",
+          "itemMobile": "orderItemMobile",
+          "location": "locationInfo",
+          "nav": "orderHeader",
+          "footer": "menuFooter"
+        },
+        "dialogues": {
+          "addItem": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "unavailable": "Gotham16Normal_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "location": {
+        "buttons": null,
+        "cells": {
+          "primary": "location",
+          "secondary": "mapInformation",
+          "tertiary": "searchResults"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "primary": "Gotham16_textDefault_cap",
+          "secondary": "Gotham16_textDefault_cap",
+          "tertiary": null
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "cart": {
+        "buttons": {
+          "clear": "buttonAccentBlueATB",
+          "promo": "buttonTertiaryBorderlessAccentDark"
+        },
+        "cells": {
+          "primary": "cartItem",
+          "secondary": "form",
+          "header": "cartHeader",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "GothamSmall_baseWhite",
+          "secondary": "Gotham16Normal_textDefault",
+          "emptyCart": "Gotham26_baseWhite",
+          "priceSubtotals": "Gotham16Normal_baseWhite",
+          "priceTotals": "Gotham16Normal_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "upsells": {
+        "buttons": null,
+        "cells": {
+          "primary": "cartItem",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "Gotham16Normal_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "link": {
+        "buttons": {
+          "link": "buttonTertiaryLink",
+          "clear": "buttonSecondaryBorderless"
+        },
+        "cells": {
+          "link": "form",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "Gotham16Normal_baseWhite",
+          "secondary": "Gotham26_lightGrey",
+          "error": "Gotham16_baseWhite"
+        },
+        "inputs": {
+          "primary": "primary"
+        },
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "checkout": {
+        "buttons": {
+          "promo": "buttonAccentBlueATB",
+          "tip": "buttonSecondaryRadio",
+          "cash": "buttonSecondaryGray"
+        },
+        "cells": {
+          "primary": "formCheckout",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "priceSubtotals": "Gotham16Normal_baseWhite",
+          "priceTotals": "Gotham20_baseWhite_cap",
+          "discount": "Gotham16Normal_baseWhite",
+          "error": "Gotham16Normal_baseWarning",
+          "disclaimer": "Gotham16Normal_baseWhite",
+          "cash": "Gotham16Normal_textSubdued"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "confirm": {
+        "buttons": {
+          "confirm": "buttonPrimaryClearBordered",
+          "negConfirm": "buttonPrimaryClearBordered",
+          "cancel": "buttonUnaryDark"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "Gotham20Normal_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "itemDetails": {
+        "buttons": null,
+        "cells": {
+          "header": "itemDetail",
+          "group": "optionHeader",
+          "primary": "optionItem",
+          "primarySelected": "optionItemSelected",
+          "quantity": "quantitySelector",
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "secondary"
+        },
+        "labels": {
+          "warning": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "lightGrey"
+        }
+      },
+      "phone": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "email": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "pincode": {
+        "buttons": {
+          "alternate": "buttonSecondaryBorderless"
+        },
+        "cells": {
+          "bottom": "footerButton",
+          "form": "formPincode"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "password": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "discount": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "scheduledAt": {
+        "buttons": {
+          "alternate": "buttonPrimaryClearBordered"
+        },
+        "cells": {
+          "bottom": "footerButtonSecondary"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "description": "Gotham16Normal_textSubdued",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "confirmation": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "primary": "GothamExtraSmall_baseWhite_cap",
+          "secondary": "Gotham26_baseWhite",
+          "tertiary": "Gotham16Normal_baseWhite",
+          "quaternary": "Gotham20_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base",
+          "body": "accentBorderedClearBackground",
+          "title": "baseBlack",
+          "bar": "bar",
+          "barBackground": "barBackGround",
+          "secondary": "base",
+          "tertiary": "altGray"
+        }
+      },
+      "signin": {
+        "buttons": {
+          "link": "buttonSecondaryBorderless"
+        },
+        "cells": {
+          "form": "formSignin",
+          "bottom": "footerButton",
+          "header": "loginHeader"
+        },
+        "dialogues": {
+          "success": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": {
+          "standard": "primary"
+        },
+        "labels": {
+          "title": "Gotham16Normal_baseWhite",
+          "terms": "GothamSmall_baseWhite",
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base",
+          "header": "base"
+        }
+      },
+      "signUpConfirmation": {
+        "buttons": null,
+        "cells": {
+          "bottom": "footerButton"
+        },
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "Gotham20_textDefault",
+          "subtitle": "Gotham16Normal_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "logout": {
+        "buttons": {
+          "confirm": "buttonPrimaryClearBordered",
+          "cancel": "buttonCancel"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "title": "Gotham24_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "address": {
+        "buttons": {
+          "bottom": "buttonPrimaryStandard",
+          "searchResults": "searchResultsButton"
+        },
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "error": "Gotham16Normal_baseWarning"
+        },
+        "inputs": {
+          "standard": "primary"
+        },
+        "views": {
+          "background": "base"
+        }
+      },
+      "empty": {
+        "buttons": null,
+        "cells": null,
+        "dialogues": null,
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "description": "Gotham16_baseWhite"
+        },
+        "inputs": null,
+        "views": {
+          "background": "base"
+        }
+      },
+      "profile": {
+        "buttons": null,
+        "cells": {
+          "form": "formProfile",
+          "cards": "cardItem",
+          "header": "profileHeader",
+          "bottom": "footerButton"
+        },
+        "dialogues": {
+          "confirm": "primary"
+        },
+        "navigationViews": null,
+        "pageControls": null,
+        "segmentViews": null,
+        "labels": {
+          "section": "Gotham26_baseWhite",
+          "error": "Gotham26_baseWhite"
+        },
+        "inputs": "primary",
+        "views": {
+          "background": "base",
+          "secondary": "base"
+        }
+      }
+    }
+  }
+}

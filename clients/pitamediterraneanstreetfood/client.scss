@@ -1,0 +1,266 @@
+@import "styles/config";
+
+$accentLight: #e42532;
+$accentDark: #262626;
+$baseBlack: #010101;
+$baseWhite: #ffffff;
+$background-gray: #f5f5f5;
+$altGray: #88919A;
+$baseBlue: #00205c;
+$accentPrimary: #ffd100;
+$baseGray: #f4f4f4;
+$alternateGray: #d8d8d8;
+$background: #f2f2f2;
+$darkGray: #343435;
+$lighterGray: #C8CCD0;
+$whiteGray: #F4F5F6;
+
+
+// header
+// location/home page
+.rc-tabs-bar {
+  background-color: $baseWhite;
+}
+
+.select-container::after {
+  color: $accentDark !important;
+}
+.rc-tabs-tab {
+  text-align: center;
+  margin: 0 4.375rem 0 0;
+  right: 0;
+}
+
+// location info card
+.location-info-card {
+  padding-top: 0.625 !important;
+  line-height: 1.7rem !important;
+  display: none Imp !important;
+}
+
+// menu page
+.item-card {
+  box-shadow: 0px 4px 7px 2px #d8d8d8 !important;
+}
+
+.item-image-container > div:first-child {
+  border-radius: 3px !important;
+}
+
+%header-image {
+  background-position: 0 -3.438rem !important;
+}
+
+// item details
+.tab-container {
+  padding: 0 0 !important;
+}
+
+%modifierItem-nav {
+  padding: 0 0 !important;
+}
+
+%modifierItem-item {
+  margin: 0 1.875rem !important;
+}
+
+%option-name {
+  border-radius: 25px;
+  padding: 0.313rem 1.25rem;
+}
+
+
+%modifierItem {
+  .modifierItem {
+    &-quantity-btn {
+      &-plus,
+      &-minus {
+        color: #ffd952 !important;
+        height: 2rem;
+        padding-top: 0.188rem;
+      }
+    }
+  }
+}
+
+%datePicker-option {
+  text-align: left;
+}
+
+%option-list {
+  padding: 0 1.875rem !important;
+  border-bottom-color: #9b9b9b !important;
+}
+
+%quantitySelector {
+  padding-bottom: 0 !important;
+}
+
+.footerButton {
+  background-color: #ffffff !important;
+  & > button {
+    box-shadow: 0px 4px 7px #d8d8d8;
+  }
+}
+
+// cart checkout
+%orderItem {
+  .orderItem-actions {
+    button:nth-of-type(1) > span {
+      color: $accentLight !important;
+    }
+  }
+}
+
+// checkout page
+.tip-group {
+  padding-left: 1.25rem;
+
+  label {
+    padding: 0.313rem 0.938rem;
+  }
+}
+
+// home page
+.cateringHome {
+  background-size: cover !important;
+  background-position: top 0px right -100px !important;
+  @media screen and (min-width: 90rem) {
+    background-size: 80% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: top 0px right -100px !important;
+  }
+  &-content {
+    &-title {
+      padding-left: 3.438rem !important;
+      z-index: 99 !important;
+      @media screen and (min-width: 100rem) {
+        padding-top: 0.625rem !important;
+      }
+    }
+  }
+}
+
+%input-address {
+  padding-left: 0;
+}
+.input {
+  padding-left: 0 !important;
+}
+
+%nav-right {
+  margin-right: 0 !important;
+  > span {
+    > span {
+      vertical-align: auto !important;
+    }
+  }
+}
+
+.nav-item {
+  margin-right: 1.875rem !important;
+  height: 2.5rem !important;
+}
+
+.nav-list {
+  margin: 1.25rem auto !important;
+  @include media-breakpoint-down(md) {
+    margin: 0 auto !important;
+  }
+  @media screen and (min-width: 100rem) {
+    margin: 1.563rem auto !important;
+  }
+}
+
+%dropdown-container {
+  opacity: 0.8 !important;
+  z-index: 101;
+}
+
+.back {
+  background-color: $baseWhite !important;
+  padding-left: 9px !important;
+  padding-top: 9px !important;
+  width: 45px !important;
+  height: 45px !important
+}
+
+%menu-nav-item {
+  margin: 0.625rem !important;
+  border-radius: 20px !important;
+}
+
+//Removing footer logo (Not on figma for client)
+.footer-logo {
+  display: none;
+}
+
+.logo {
+  max-width: 11.875rem !important;
+}
+
+// Adding thicker border below the menu tabs on location page
+.rc-tabs-top .rc-tabs-bar { 
+  border-bottom: 2px solid $altGray !important;
+}
+
+
+//Adding a border below item details
+.itemDetails-header { 
+  border-bottom: 2px solid $lighterGray !important;
+}
+
+.option-module { 
+  display: none !important;
+}
+
+
+//Changing background of Order item section and add corresponding padding to the top
+%option-list { 
+  background-color: $whiteGray !important;
+  padding-top: 1rem !important;
+}
+
+//Allowing the clients' icon to display on the homepage. 
+.cateringHome { 
+  &-misc-image { 
+    display: block !important;
+  }
+ }
+
+//Increase logo on signin drawer
+%loginHeader { 
+  width: 97% !important;
+  margin: 2rem 1rem !important;
+  flex-direction: column !important;
+}
+
+//Modifying the checkicon to match client. 
+%modifierItem {
+  justify-content: stretch !important;
+  
+  .item {
+    font-weight: 400 !important;
+    &-title{
+      font-size: 14px !important;
+    }
+    &-price {
+      font-size: 14px !important;
+    }
+    &-check-icon {
+      circle {
+        fill: $accentLight;
+      }
+      path {
+        fill: $baseWhite;
+        transform: translate(-0.18rem, -0.31rem);
+      }
+    }
+
+    &-qty {
+      &--btn {
+        padding: 0 0.625rem !important;
+      }
+    }
+  }
+}

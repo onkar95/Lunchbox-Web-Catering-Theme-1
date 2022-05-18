@@ -1,0 +1,32 @@
+@import "client";
+
+.nav-item {
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 48em) {
+}
+
+@media screen and (min-width: 60em) {
+  .nav-item {
+    text-align: center;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 84em) {
+}
+
+@media screen and (min-width: 96em) {
+}

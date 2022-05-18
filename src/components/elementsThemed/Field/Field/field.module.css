@@ -1,0 +1,20 @@
+.field {
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.label {
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.value > * {
+  display: inline-block;
+}
